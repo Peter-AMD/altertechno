@@ -2337,6 +2337,14 @@ h1{
     background: rgba(0,0,0,0.50);
 }
 
+#wpcomm .wc-comment-text .wc_held_for_moderate {
+    margin-bottom: 10px;
+    background: rgba(255,255,255,0.01);
+    border: none;
+    color: rgba(255, 255, 255, 0.05);
+    font-style: italic;
+}
+
 
 
 
