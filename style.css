@@ -1518,7 +1518,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .mate .caldera-grid ._tisBound .row div .form-group div .btn:hover{
 	background-color: #947928 !important;
-	color: #fff;
+	color: #fff !important;
 }
 
 #main .content .content-main .social-media ul li .facebook:hover i{

@@ -2,7 +2,7 @@
                             <div class="copyright">
                             	<a href="#home" class="dt-sc-tooltip-top" id="toTop" title="Back To Top"> </a>
                                 <div class="container">
-                                   <p> Copyright © 2014 Minimalize Theme All Rights Reserved | <a href="#"> Design Themes</a> </p>
+                                   <p> Copyright © 2017 AlTech | <a href="#"> Alternate Technology</a> </p>
                                 </div>
                             </div>
 						</footer><!--Footer Ends Here -->
