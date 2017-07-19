@@ -4,7 +4,6 @@
     </div>
 </div>
 <!-- Breadcrumb Ends Here -->
-<button class="btn btn-primary" style="width: 200px; height: 200px">THIS IS A BUTTON</button>
 <div class="content-main">
     <div class="fullwidth-section">
         <div class="container">

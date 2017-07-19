@@ -1374,6 +1374,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
 /* custom css */
+
+#header {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000 !important;
+    z-index: 999999;
+}
+
 .about-us-text
 {
     line-height: 2!important;
@@ -2216,11 +2226,13 @@ h1{
 #wpcomm .wc-field-submit .button{
 	background-color: #cba73c;
 	color: #000;
+	border-radius: 4px !important;
 }
 
 #wpcomm .wc-field-submit .button:hover{
 	background-color: #947928  !important;
 	color:#fff !important;
+	border-radius: 4px;
 }
 
 #wpcomm .wc-cta-active {
@@ -2343,6 +2355,46 @@ h1{
     border: none;
     color: rgba(255, 255, 255, 0.05);
     font-style: italic;
+}
+
+#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a {
+    color: #cba73c !important;
+}
+
+#wpcomm .wc-cta-button-x {
+    background: #947928 !important;
+    border: none !important;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#wpcomm .wc-cta-button-x .fa-ban{
+	color: #000 !important;
+} 
+
+#wpcomm .wc-comment-footer .wc-footer-right {
+    float: right;
+    display: block;
+    margin-top: 0px;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+input[type="submit"], button, input[type="button"] {
+    color: #000 !important;
+    text-transform: capitalize;
+    margin: 10px 0px 0px;
+    font-size: 16px;
+    padding: 11px 20px;
+    float: right;
+    cursor: pointer;
+    background: #cba73c;
+    border-radius: 4px;
+}
+
+.wc_save_wrap .wc_save_edited_comment: hover{
+	background: #947928 !important;
+	color: #fff !important;
 }
 
 
