@@ -1,8 +1,8 @@
-<div class="main-title dark-bg fullwidth-section dt-sc-parallax-section breadcrumb-parallax" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/blog.jpg"'">
+<!-- <div class="main-title dark-bg fullwidth-section dt-sc-parallax-section breadcrumb-parallax" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/blog.jpg"'">
 	<div class="container">
     	<h1>Blog Detail</h1>
     </div>
-</div>
+</div> -->
 <!-- Breadcrumb Ends Here -->
 <div class="content-main">
     <div class="fullwidth-section">
