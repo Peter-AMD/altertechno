@@ -2365,3 +2365,14 @@ h1{
 	display : none;
 }
 
+
+
+/*
+Alcy Section*/
+.container div .wrapper div .column{
+	width: 22.9% !important;
+}
+
+.container div .wrapper div .column .type4{
+	text-align: center;
+}
