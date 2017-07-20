@@ -988,7 +988,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.entry-thumb { width:100%; margin:0px 0px 25px 0px; padding:0px; float:left; overflow: hidden;}
 	.entry-thumb a { display:block; float:left; width:100%; margin:0px; padding:0px; line-height:0; background: cover; overflow: hidden;}
-	.entry-thumb img { max-width:100%;}
+	.entry-thumb img { max-width:100%; max-height: 100%; }
 	
 	.entry-details { float:left; width:100%; margin:0px; padding:; }
 	.entry-details .entry-metadata { display:block; margin:0px 0px 15px; float:left; width:100%; font-weight:400; }
@@ -1374,10 +1374,20 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
 
 /* custom css */
+
+#header {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #000 !important;
+    z-index: 999999;
+}
+
 .about-us-text
 {
     line-height: 2!important;
-    font-size: 1.35rem;
+    font-size: 150%;
     text-indent: 2%;
     text-align: justify;
     background-color: rgba(255,255,255, 0.01);
@@ -1508,7 +1518,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .mate .caldera-grid ._tisBound .row div .form-group div .btn:hover{
 	background-color: #947928 !important;
-	color: #fff;
+	color: #fff !important;
 }
 
 #main .content .content-main .social-media ul li .facebook:hover i{
@@ -1965,6 +1975,11 @@ h1{
 	text-transform: capitalize;
 }
 
+.column img {
+    max-width: 100%;
+    height: 100% !important;
+}
+
 
 
 
@@ -2049,6 +2064,7 @@ h1{
 	background: rgba(255,255,255,0.06);
     border: none;
     border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .content-main div div footer .comments-area #wpcomm .wc-main-form-wrapper form div div img {
@@ -2256,12 +2272,13 @@ h1{
 
 #wpcomm .wc-field-submit .button:hover{
 	background-color: #947928  !important;
-	color:#fff !important;
+	color:#fff !important;.button
+
 }
 
 #wpcomm .wc-cta-active {
     border: 1px solid #00B38F!important;
-    background: #947928 !important !important;
+    background: #947928 !important;
     color: #fff!important;
 }
 
@@ -2381,15 +2398,97 @@ h1{
     font-style: italic;
 }
 
+#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a {
+    color: #cba73c !important;
+}
+
+#wpcomm .wc-cta-button-x {
+    background: #947928 !important;
+    border: none !important;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+#wpcomm .wc-cta-button-x .fa-ban{
+	color: #000 !important;
+} 
+
+#wpcomm .wc-comment-footer .wc-footer-right {
+    float: right;
+    display: block;
+    margin-top: 0px;
+    line-height: 22px;
+    margin-right: 10px;
+}
+
+input[type="submit"], button, input[type="button"] {
+    color: #000 !important;
+    text-transform: capitalize;
+    margin: 10px 0px 0px;
+    font-size: 16px;
+    padding: 11px 20px;
+    float: right;
+    cursor: pointer;
+    background: #cba73c;
+}
+
+.wc_save_wrap .wc_save_edited_comment: hover{
+	background: #947928 !important;
+	color: #fff !important;
+}
+
+
+#main-menu ul > li > a:hover{
+	color: #947928 !important ;
+}
+
+.single-blog .entry-thumb img {
+    display: block;
+    margin: 0 auto;
+    width: 2500px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+#wpcomm span.wc-reply-button.wc-cta-button.wc-cta-active.wpdiscuz-clonned {
+    background: #947928 !important;
+}
+
+.content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right div div i:hover{
+	background-color: #947928  !important;
+	color: #fff !important;
+	border-radius: 2px;
+}
 
 
 
+/*MOBILE VIEW*/
+.mean-container a.meanmenu-reveal span {
+    display: block;
+    background: #cba73c !important;
+    height: 3px;
+    margin-top: 3px;
+}
 
+.mean-container .mean-nav ul li a {
+    display: block;
+    float: left;
+    width: 90%;
+    padding: 1em 5%;
+    margin: 0;
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    border: none !important;
+}
 
-
-
-
-
+.mean-container .mean-nav ul li a:hover {
+    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+}
 
 
 /*Thread Footer Navigation*/
@@ -2409,3 +2508,82 @@ h1{
 	display : none;
 }
 
+
+
+/*Media Queries*/
+/*MOBILE VIEWS */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+			/*NEWS LETTER*/
+			#contact div div .formSub div .es_shortcode_form {
+				display: block;
+			    width: 100%;
+			}
+
+	 		#contact div div .formSub div .es_shortcode_form .es_textbox {
+			    padding-bottom: 10px;
+			    width: 100%;
+			    margin: auto;
+			}
+
+			#contact div div .formSub div .es_shortcode_form .es_lablebox {
+			    padding-bottom: 3px;
+			    width: 100%;
+			    align-items: center;
+			    text-align: center;
+			    margin: auto;
+			}
+
+			/*LOGO*/
+			#header .container{
+				display: inline;
+			}
+
+			#logo a img{
+				 width: 25% !important;
+				 height: 25% !important;
+				 float: right;
+				 margin-right: 20px !important;
+			}
+
+			/*About Paragraph*/
+			#about .content-main div .container{
+				width: 90% !important;
+			}
+
+			.about-us-text {
+			    line-height: 2!important;
+			    font-size: 100%;
+			    text-indent: 2%;
+			    text-align: justify;
+			    background-color: rgba(255,255,255, 0.01);
+			    border-radius: 5px;
+			    padding: 20px;
+			}
+
+			/*Blog Thumbnail*/
+			.entry-thumb {
+			    width: 100% !important;
+			    height: 100% !important;
+			    margin: auto !important;
+			    padding: 0px;
+			    margin-bottom: 10px !important;
+			    float: left;
+			    overflow: hidden;
+			}
+
+			.blog-entry .entry-details .entry-title {
+			    text-transform: capitalize;
+			    text-align: center;
+			}
+
+			.isotope-item .blog-entry .entry-thumb a {
+			    width: 100%;
+			    height: 100%;
+			}
+
+			article.blog-entry .entry-thumb img {
+			    width: 100%;
+			    height: 100% !important;
+			}
+}

@@ -10,7 +10,7 @@
                            <ul> <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/480kb_x1imst.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -25,7 +25,7 @@
                                         data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%);"> <span class="colorize">Alternate Technology</span>
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%);"> <span class="colorize">Beyond the Borders</span>
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -39,7 +39,7 @@
                                         data-splitout="none"
                                         data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
-                                        data-endspeed="300">AlTech
+                                        data-endspeed="300">Expanding your Business
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
@@ -170,7 +170,7 @@
                                 <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/247kb_guofp6.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -795,7 +795,7 @@
                             </div>
                             <div class="dt-sc-hr-invisible-small"></div>
                             <div style="text-align: center">   
-                                <a href="blog-main-dark.html"  class = "cs-btn-lg" > Read All </a>
+                                <a href="2017"  class = "cs-btn-lg" > Read All </a>
                             </div>
 						</div>
                         <!--Blog Posts Ends Here -->
@@ -893,11 +893,11 @@
                                 <div class="contact-info">
                                 	<h2 class="contact-title">Contact Info</h2>
                                     <ul>
-                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Address: No-58 A, East Madison St, Baltimore, MD, USA </li>
+                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> 428/1 Missenden Road </li>
                                         <li><span class="ico"><i class="fa fa-phone"></i></span> <div> </div>Phone: +1 200 258 2145</li>
                                         <li><span class="ico"><i class="fa fa-paperclip"></i></span> <div> </div>Fax: +1 100 458 2345</li>
-                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:yourname@somemail.com">yourname@somemail.com</a></li>
-                                        <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://wedesignthemes.com">http://wedesignthemes.com</a></li>
+                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                        <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
                                     </ul>
                                 </div>
 							</div>
