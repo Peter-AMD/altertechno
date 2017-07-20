@@ -525,7 +525,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	::i-block-chrome, #main-menu ul a { font-weight: 600; }
 	}
 	
-	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-item > a, #main-menu ul li.current-menu-ancestor > a { color:#cba73c;}
+	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#cba73c;}
 	#main-menu ul > li > a:hover { color:#8b8a8a; }
 	
 	#main-menu ul li ul { position:absolute; top:90px; left:auto; display:none; z-index:1; }
