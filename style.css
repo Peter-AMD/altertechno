@@ -1717,7 +1717,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	background-color: rgba(255, 255, 255, 0.80);
 	opacity: 0.5; 
     border: none;
-    border-radius: 0 0 15px 15px;
+    border-radius: 0 0 10px 10px;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont div span{
@@ -1793,7 +1793,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-style: 1.7rem;
 	border: 1px solid #cba73c;
 	padding: 10px;
-	border-radius: 20px 0 20px 20px;
+	border-radius: 10px 0 10px 10px;
 	background-color: #202020;
 	margin-bottom: 5px;
 	opacity: 0.7;
