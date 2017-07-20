@@ -2587,3 +2587,55 @@ input[type="submit"], button, input[type="button"] {
 			    height: 100% !important;
 			}
 }
+
+.ecwd-event{
+	margin-top: 20px;
+	background-color: #202020 !important;
+	padding: 30px !important;
+	border-radius: 5px;
+}
+
+.ecwd-event header h1{
+    font-size: 2em;
+    padding: 20px 10px 20px 10px;
+    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+    color: #000 !important;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bold;
+}
+
+.ecwd-event a{
+	color: #fff;
+	padding: 5px;
+}
+
+.ecwd-event a:hover{
+	color: #cba73c;
+	border: 1px solid #cba73c;
+}
+
+.ecwd-event div.event-detalis-date{
+    font-size: 2em;
+    background: -webkit-linear-gradient(left, #a3a1a1 0%,#777676 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+    color: #000 !important;
+    text-align: left;
+    font-weight: bold;
+    margin: 5px 0 5px 5px;
+    line-height: 5px;
+}
+
+.entry-content p{
+	background-color: rgba(0,0,0,0.40);
+	padding: 15px;
+    line-height: 150%;
+    border-radius: 5px;
+}
+
+.entry-contentp:before { content: "\007C\00a0\00a0"; }
+/*
+.entry-content p::first-line {
+   content: "\007C\00a0\00a0";
+}
+*/
