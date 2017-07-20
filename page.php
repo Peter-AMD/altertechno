@@ -202,7 +202,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">MINIMALIZE - Single Page Multipurpose Theme
+                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Specialist in International Expansion and Investment
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
@@ -793,7 +793,7 @@
                                         
                                
                             </div>
-                            <div class="dt-sc-hr-invisible-small"></div>
+                            <!-- <div class="dt-sc-hr-invisible-small"></div> -->
                             <div style="text-align: center">   
                                 <a href="2017"  class = "cs-btn-lg" > Read All </a>
                             </div>
