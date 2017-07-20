@@ -75,7 +75,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center;">WE HELP TO CREATE WEBSITES
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center;">Sydney | Canada | Germany | Singapore | Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -221,18 +221,7 @@
                                     </div>
                                     
                                     <!-- LAYER NR. 4 -->
-                                    <div class="tp-caption black-button-new sfb tp-resizeme"
-                                        data-x="470"
-                                        data-y="470" 
-                                        data-speed="1000"
-                                        data-start="3500"
-                                        data-easing="Power3.easeInOut"
-                                        data-splitin="none"
-                                        data-splitout="none"
-                                        data-elementdelay="0.1"
-                                        data-endelementdelay="0.1"
-                                        data-endspeed="300"><a href="#" class="dt-sc-button large">Explore Now <span style="margin-left:20px; font-size:20px;" class="fa fa-sign-out"> </span> </a>
-                                    </div>
+                                    
                                 </li>
                             </ul>
 
