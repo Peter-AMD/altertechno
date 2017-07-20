@@ -1552,7 +1552,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar{
 	float: none;
     margin: 0 auto;
-    border-bottom: 1px solid #cba73c;
+    /*border-bottom: 1px solid #cba73c;*/
     max-width: 100%;
 }
 
@@ -1587,6 +1587,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     text-align: center;
 }
 
+.ecwd_theme_calendar .calendar-head .current-month div{
+	color: #fff !important;
+	opacity: 0.7;
+}
+
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .current-month{
 	border: none;
 	padding: 10px;
@@ -1594,10 +1599,23 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .current-month a{
 	color : #cba73c !important;
+	margin: 0 20px;
+}
+
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .current-month a:hover{
+	color : #fff !important;
+	font-weight: bold;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next div a span{
 	color : #cba73c !important;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next div a span:hover{
+	font-size: 50px;
+	color: #fff !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .previous{
@@ -1605,7 +1623,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .previous:hover{
 	border: none;
-	background-color: #cba73c;
+	/*background-color: #cba73c;*/
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .next{
@@ -1615,7 +1633,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .next:hover{
 	border: none;
-	background-color: #cba73c;
+	/*background-color: #cba73c;*/
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .cal_tabs_blue{
@@ -1657,7 +1675,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-weight: bold;
 	font-style: normal;
 	color: #cba73c;
-	padding: 5px;
+	padding: 10px;
+	opacity: 0.7;
+	border: 1px solid #cba73c;
+	border-bottom: 0;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd_list > li{
@@ -1670,6 +1691,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background: transparent;
     border: none;
     border-radius: 0px 0px 20px 20px;
+    padding: 0 !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 {
@@ -1679,20 +1701,27 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    padding: 7px;
+    padding: 10px;
     box-sizing: border-box;
     font-style: normal !important;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: #202020;
+	opacity: 0.7;
+	border: 1px solid #cba73c;
+	border-top: 0;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont {
 	width: 100%;
-    background: rgba(255, 255, 255, 0.80) ;
+	/* background: rgba(255, 255, 255, 0.80) ; */
+	background-color: rgba(255, 255, 255, 0.80);
+	opacity: 0.5; 
     border: none;
+    border-radius: 0 0 15px 15px;
 }
 
-.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont div {
-	padding: 10px;
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont div span{
+	margin: 10px;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont span {
@@ -1716,13 +1745,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 a {
 	font-style: normal;
-	color:#000 !important;
-	font-weight: bold;
+	color:#fff !important;
+	/*font-weight: bold;*/
+	font-size: 20px;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 a:hover {
-	color: #fff !important;;
-	font-size: 18px;
+	color: #cba73c !important;;
+	font-size: 19px;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-content{
@@ -1761,6 +1791,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-indent: 15%;
 	font-weight: 400;
 	font-style: 1.7rem;
+	border: 1px solid #cba73c;
+	padding: 10px;
+	border-radius: 20px 0 20px 20px;
+	background-color: #202020;
+	margin-bottom: 5px;
+	opacity: 0.7;
 }
 
 
