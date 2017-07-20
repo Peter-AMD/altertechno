@@ -1944,6 +1944,22 @@ h1{
     height: 100% !important;
 }
 
+/*Blog Read All*/
+.container .single-blog .entry-metadata div p {
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+
+.single-blog .entry-details .entry-summary{
+	text-indent: 5%;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.single-blog .entry-details .entry-metadata h1 {
+	margin: none !important;
+}
+
 
 
 
