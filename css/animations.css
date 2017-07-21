@@ -1,5 +1,6 @@
 body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
 	/*-webkit-backface-visibility: hidden;*/
+	background-color: #111 !important;
 }
 .animate { visibility:hidden; }
 .animate {
