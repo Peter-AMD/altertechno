@@ -15,7 +15,7 @@
     <![endif]-->
     
     <!-- **Favicon** -->
-    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
+    <link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>">
     
     <!-- **CSS - stylesheets** -->
            

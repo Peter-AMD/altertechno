@@ -2548,7 +2548,7 @@ input[type="submit"], button, input[type="button"] {
 
 /*Media Queries*/
 /*MOBILE VIEWS */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
 
 			/*NEWS LETTER*/
 			#contact div div .formSub div .es_shortcode_form {

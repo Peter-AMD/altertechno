@@ -20,7 +20,7 @@
     <![endif]-->
     
     <!-- **Favicon** -->
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="">
     
     <!-- **CSS - stylesheets** -->
     <link id="default-css" href="style.css" rel="stylesheet" media="all" />
