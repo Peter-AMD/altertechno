@@ -39,11 +39,12 @@
                                         data-splitout="none"
                                         data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
-                                        data-endspeed="300">Expanding your Business
+                                        data-endspeed="300"
+                                        id = "Expand">Expanding your Business
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption double_line tp-fade tp-resizeme"
+                                  <!--   <div class="tp-caption double_line tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="0"
                                         data-y="390" data-voffset="0"
                                         data-speed="2500"
@@ -55,12 +56,12 @@
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">
-                                    </div>
+                                    </div> -->
                                 </li>
                                 <!-- SLIDE  -->
-                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off">
+                                <li id="Align" data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off">
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/384kb_zooucp.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -75,7 +76,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:left;">Sydney | Canada | Germany | Singapore | Hong Kong
+					style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center;">Sydney | Canada | Germany | Singapore | Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -105,7 +106,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; margin-left:20px;">MINIMALIZE
+                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; margin-left:20px;">Al Tech
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -138,7 +139,7 @@
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption white_text_dborder_small lfb tp-resizeme"
+                                    <!-- <div class="tp-caption white_text_dborder_small lfb tp-resizeme"
                                         data-x="255"
                                         data-y="465" 
                                         data-speed="1500"
@@ -150,7 +151,7 @@
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; text-align:center; margin-left:30px;"><span>Minimal Web Design with Awesome Features</span>
-                                    </div>
+                                    </div> -->
                                     
                                      <!-- LAYER NR. 2 -->
                                     <div class="tp-caption double_line tp-fade tp-resizeme"
@@ -202,7 +203,8 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">Specialist in International Expansion and Investment
+                                        id = "international"
+                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; margin-left: 5%">International Expansion and Investment
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
@@ -216,8 +218,9 @@
                                         data-splitout="none"
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
+                                        id = "specialist"
                                         data-endspeed="300"
-                                        style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;">Multiple Headers - Smooth Scroll - Creative Design - Light & Dark Versions
+                                        style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-left: 15%">Specialist in
                                     </div>
                                     
                                     <!-- LAYER NR. 4 -->
@@ -393,15 +396,14 @@
                                             </div>
                                         </div>
                                     </div>   <!--Service Carousel Ends Here --> 
-                                    <div id="carouselnav"></div>
+                                    <div id="carouselnav"> </div>
                                     
-                                    <br> <br>
-
+                                    <br> <br><br>
+                                    <div class="wrapper" id="service">
                                     <div class="border-title">
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
                                     </div>
-                                    <div class="wrapper" id="service">
-                                        <div>
+                                        <div class="column dt-sc-one-fourth first">
                                             <div class="column dt-sc-one-fourth" >
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
@@ -462,7 +464,7 @@
                                                 </ul> 
                                             </div>
                                         </div>
-                                        </div>
+                                        </div>  
                                     </div>
 
 								</div>
@@ -913,9 +915,7 @@
                                 <div class="contact-info">
                                 	<h2 class="contact-title">Contact Info</h2>
                                     <ul>
-                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> 428/1 Missenden Road </li>
-                                        <li><span class="ico"><i class="fa fa-phone"></i></span> <div> </div>Phone: +1 200 258 2145</li>
-                                        <li><span class="ico"><i class="fa fa-paperclip"></i></span> <div> </div>Fax: +1 100 458 2345</li>
+                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
                                         <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
                                         <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
                                     </ul>
