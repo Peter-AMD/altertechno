@@ -1,4 +1,4 @@
-/*
+
 Theme Name: Alternate Technology
 Theme URI: https://github.com/tidythemes/blankslate
 Author: TidyThemes
@@ -3073,7 +3073,7 @@ input[type="submit"], button, input[type="button"] {
 
 
 
-<Merge Conflict>
+/*<Merge Conflict>*/
 /*
 Alcy Section*/
 .container div .wrapper div .column{
@@ -3091,9 +3091,11 @@ Alcy Section*/
     position: relative
 }
 
-
-/*Media Queries*/
 /*MOBILE VIEWS */
+.inner-wrapper  #header-sticky-wrapper{
+	height: 46px !important;
+}
+/*Media Queries*/
 @media only screen and (max-width: 767px) {
 
 			/*NEWS LETTER*/
@@ -3168,6 +3170,28 @@ Alcy Section*/
 			    width: 100%;
 			    height: 100% !important;
 			}
+
+		   	/*Align Main Slider*/
+		   	#Align .white_large_shadow_robo{
+		   		margin-left: -17% !important;
+		   	}
+
+		   	#international{
+				 margin-left: 5% !important;
+		   	}
+
+		    #specialist{
+				 margin-left: 25% !important;
+		   	}
+
+		   	#Expand{
+		   		letter-spacing: 15px;
+		   	}
+
+		   	/*About Section*/
+		   	#service{
+		   		display: none !important;
+		   	}
 }
 
 .ecwd-event{
@@ -3220,4 +3244,3 @@ Alcy Section*/
 .entry-content p::first-line {
    content: "\007C\00a0\00a0";
 }
-*/
