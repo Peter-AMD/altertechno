@@ -406,7 +406,7 @@
                                     <div class="border-title">
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
                                     </div>
-                                        <div class="column dt-sc-one-fourth first">
+                                        <div>
                                             <div class="column dt-sc-one-fourth" >
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
