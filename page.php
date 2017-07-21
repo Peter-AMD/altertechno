@@ -10,7 +10,8 @@
                            <ul> <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
+                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom"> -->
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500259736/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -61,7 +62,8 @@
                                 <!-- SLIDE  -->
                                 <li id="Align" data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off">
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
+                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"> -->
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500613505/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -76,7 +78,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-					style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center;">Sydney | Canada | Germany | Singapore | Hong Kong
+					style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center; margin-left: -11%">Sydney | Canada | Germany | Singapore | Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -171,7 +173,8 @@
                                 <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center"> -->
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500445375/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
