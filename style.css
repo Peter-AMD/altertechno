@@ -3084,6 +3084,13 @@ Alcy Section*/
 	text-align: center;
 }
 
+#service div .column{
+	margin: 0px 0px 0px 1% !important;
+    float: left;
+    min-height: 1px;
+    position: relative
+}
+
 
 /*Media Queries*/
 /*MOBILE VIEWS */

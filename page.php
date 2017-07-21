@@ -395,14 +395,14 @@
                                     </div>   <!--Service Carousel Ends Here --> 
                                     <div id="carouselnav"></div>
                                     
-                                    <br> <br>]
+                                    <br> <br>
 
                                     <div class="border-title">
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
                                     </div>
-                                    <div class="wrapper">
+                                    <div class="wrapper" id="service">
                                         <div>
-                                            <div class="column dt-sc-one-fourth">
+                                            <div class="column dt-sc-one-fourth" >
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
                                                     <span class="fa fa-shopping-cart"> </span> 
