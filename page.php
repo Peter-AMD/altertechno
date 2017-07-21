@@ -10,8 +10,7 @@
                            <ul> <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom"> -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500259736/247kb_guofp6.jpg"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -61,8 +60,7 @@
                                 <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off">
                                     <!-- MAIN IMAGE -->
-                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/384kb_zooucp.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"> -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500259736/384kb_zooucp.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/384kb_zooucp.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
@@ -172,8 +170,7 @@
                                 <!-- SLIDE  -->
                                 <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
-                                    <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center"> -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500445375/montreal_czdxji.jpg"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
