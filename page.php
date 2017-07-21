@@ -279,7 +279,7 @@
 										<div class="column dt-sc-one-fourth first">
 											<div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-semiconductor" > </span> 
+                                                    <span class="fa fa-microchip" > </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> SEMICONDUCTOR </a></h4>
                                                <!--  <ul>
@@ -294,7 +294,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-semiconductor"> </span> 
+                                                      <span class="fa fa-volume-control-phone"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> TELECOMMUNICATION </a></h4>
                                                 <!-- <ul>
@@ -308,7 +308,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-magic"> </span> 
+                                                    <span class="fa fa-truck"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#">  MANUFACTURING </a></h4>
                                                         <!-- <ul>
@@ -322,7 +322,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-fast-forward"> </span> 
+                                                    <span class="fa fa-laptop"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> SOFTWARE DEVELOPMENT </a></h4>
                                                 <!-- <ul>
@@ -336,7 +336,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-renewable"> </span> 
+                                                    <span class="fa fa-refresh"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> RENEWABLE </a></h4>
                                                <!--  <ul>
@@ -350,7 +350,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-plus-square"> </span> 
+                                                    <span class="fa fa-map-marker"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> GEOSPATIAL </a></h4>
                                                 <!-- <ul>
@@ -364,7 +364,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-sort-amount-asc"> </span> 
+                                                    <span class="fa fa-wrench"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> ROBOTICS AND DRONE TECHNOLOGY </a></h4>
                                                 <!-- <ul>
@@ -378,7 +378,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-star-half-full"> </span> 
+                                                    <span class="fa fa-snowflake-o"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#">  NANOTECHNOLOGY </a></h4>
                                                 <!-- <ul>
@@ -392,7 +392,7 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-video-camera"> </span> 
+                                                    <span class="fa fa-gears"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> STARTUP</a></h4>
                                               <!--   <ul>
@@ -416,7 +416,7 @@
                                             <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-signal"> </span> 
+                                                    <span class="fa fa-shopping-cart"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> MARKET DEVELOPMENT</a></h4>
                                                     <ul>
@@ -432,7 +432,7 @@
                                             <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-home"> </span> 
+                                                    <span class=" fa fa-handshake-o"> </span> 
                                                 </div>
                                                 <h4><a target="_blank" href="#"> BUSINESS INCUBATION</a></h4>
                                                 <ul>
