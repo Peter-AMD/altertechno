@@ -1,5 +1,5 @@
 /* This is a compiled file, you should be editing the file in the templates directory */
-.pace {
+/*.pace {
   -webkit-pointer-events: none;
   pointer-events: none;
   z-index: 9999999999;
@@ -14,12 +14,12 @@
   background: url(../images/theLogo.png) center no-repeat transparent;
   background-size: 100px;
 
-  border-radius:50%;  
+  border-radius:50%;  */
 
   /* -webkit-animation: pulse_animation 1s linear infinite;
        -o-animation: pulse_animation 1s linear infinite;
           animation: pulse_animation 1s linear infinite; */
-  transform-origin:50% 50%;
+/*  transform-origin:50% 50%;
   -webkit-animation: change_opacity 1s linear infinite;
   -o-animation: change_opacity 1s linear infinite;
   animation: change_opacity 1s linear infinite;
@@ -30,9 +30,9 @@
   -moz-user-select: none;
   user-select: none;
 
-}
+}*/
 
-.pace:before,
+/*.pace:before,
 .pace:after {
   content: '';
   display: block;
@@ -114,7 +114,7 @@
     transform: scale(1.5);
     opacity: 0;
   }
-}
+}*/
 
 /*.pace .pace-progress {
   position: fixed;
@@ -166,7 +166,7 @@
           animation: spin 1s linear infinite;
 }*/
 
-@-webkit-keyframes pulse_animation {
+/*@-webkit-keyframes pulse_animation {
   0% { transform: scale(1);opacity: .5 }
   30% { transform: scale(1); opacity: .9 }
   40% { transform: scale(1.08); opacity: .7; }
@@ -205,7 +205,7 @@
   70% { transform: scale(1.05); opacity: .7 }
   80% { transform: scale(1); opacity: .5}
   100% { transform: scale(1); opacity: .9;}
-  }
+  }*/
 
 /*
 @-webkit-keyframes spin {
