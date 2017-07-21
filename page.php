@@ -263,6 +263,81 @@
                                 
                                 <div class="circle"></div>
 								<div class="pie"></div>
+
+                                <hr style="color:  #e8cd9b;">
+
+                                <div>
+                                    <div class="about-us-wrapper-2">
+                                        <div class="about-us-content">
+                                            <div class="about-content-header">
+                                                <h1>Develop</h1>
+                                                <h5>Export Markets</h5>
+                                            </div>
+                                            <div class="about-content-body">
+                                                <div class="about-image"><img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/2.png" alt=""></div>
+                                                <div class="about-body">
+                                                    <h1>Market Development</h1>
+                                                    <ul>
+                                                        <li>Global Expansion Strategy</li>
+                                                        <li>Market Entry</li>
+                                                        <li>Business Development</li>
+                                                        <li>Sourcing</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div> <br>
+                                        <div class="about-us-content">
+                                            <div class="about-content-header">
+                                                 <h1>Expand</h1>
+                                                <h5>Presence</h5>
+                                            </div>
+                                            <div class="about-content-body">
+                                                <div class="about-image"><img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/4.png" alt=""></div>
+                                                <h1>Business Incubaton</h1>
+                                                    <ul>
+                                                        <li>Office and Facilities Local Presentation</li>
+                                                        <li>Staff REcruitment and Outsourced Payroll Service</li>
+                                                        <li>Part Time Resources / Local Support</li>
+                                                    </ul>
+                                            </div>
+                                        </div><br>
+                                        <div class="about-us-content">
+                                            <div class="about-content-header">
+                                                <h1>Establish</h1>
+                                                <h5>A local Office</h5>
+                                            </div>
+                                            <div class="about-content-body">
+                                                <div class="about-image"><img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/6.png" alt=""></div>
+                                                 <h1>Subsidiary Management</h1>
+                                                    <ul>
+                                                        <li>Entity Information and Hosting</li>
+                                                        <li>Accounting and Payroll Management</li>
+                                                        <li>HR, Legal and Tax Support</li>
+                                                        <li>Corporate Secretarial</li>
+                                                    </ul>
+                                            </div>
+                                        </div><br>
+                                        <div class="about-us-content">
+                                            <div class="about-content-header">
+                                                 <h1>Invest</h1>
+                                                <h5>Locally</h5>
+                                            </div>
+                                            <div class="about-content-body">
+                                                <div class="about-image"><img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/1.png" alt=""></div>
+                                                <h1>Cross-border Investment</h1>
+                                                    <ul>
+                                                        <li>Investment Strategy</li>
+                                                        <li>Acquisition Advisory</li>
+                                                        <li>Site Selection and Manufacturing Setup</li>
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
                                 
                                 <div class="dt-sc-hr-invisible-small"></div>
                                 <div class="dt-sc-hr-invisible-small"></div>

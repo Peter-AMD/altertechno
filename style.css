@@ -3239,7 +3239,96 @@ Alcy Section*/
 }
 
 .entry-contentp:before { content: "\007C\00a0\00a0"; }
-/*
-.entry-content p::first-line {
-   content: "\007C\00a0\00a0";
+
+
+
+
+
+
+
+
+/*Custom About Us - Joriz*/
+.about-us-wrapper-2, .about-us-content, .about-content-header, .about-content-body{
+	box-sizing: border-box;
 }
+
+.about-us-wrapper-2{
+	width: 100%;
+    height: 650px;
+    background: transparent;
+    margin: auto;
+    margin-top: 20px;
+    display: inline-flex;
+    align-content: center;
+    color: #fff !important;
+}
+
+.about-us-content{
+	width: 25%;
+    background: transparent;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.about-us-content:last-child{
+	margin-right: none !important;
+}
+
+.about-content-header{
+	width: 100%;
+    height: 15%;
+    background: #181818;
+    padding: 10px;
+    text-align: center;
+}
+
+.about-content-header h5{
+	font-style: italic;
+	color: #fff !important;
+}
+
+.about-content-header h1{
+	letter-spacing: 3px;
+}
+
+.about-content-body{
+	width: 100%;
+    height: 85%;
+    background: #181818;
+    box-sizing: border-box;
+    padding: 10%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us-content div img{
+	width: 54%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 18%;
+}
+
+/*Styling*/
+
+.about-us-content .about-image{
+	border: 1px solid #e8cd9b;
+    width: 100%;
+    height: 45%;
+}
+
+.about-content-body ul{
+	text-align: left;
+    line-height: 170%;
+    font-style: italic;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.about-us-wrapper-2 h1{
+	padding: 15px;
+    font-size: 1.04rem;
+    text-transform: uppercase;
+    color: #e8cd9b !important;
+
+}
+
