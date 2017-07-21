@@ -268,175 +268,206 @@
 										<div class="column dt-sc-one-fourth first">
 											<div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-cog"> </span> 
+                                                    <span class="fa fa-microchip" > </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Creative Design  </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> SEMICONDUCTOR </a></h4>
+                                               <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
                                                     <li>Copywriting</li>
                                                     <li>Guerilla marketing</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
+
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-pencil"> </span> 
+                                                      <span class="fa fa-volume-control-phone"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Lots of Features </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> TELECOMMUNICATION </a></h4>
+                                                <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
                                                     <li>App design</li>
                                                     <li>Creative Concepts</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-magic"> </span> 
+                                                    <span class="fa fa-truck"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Special Settings </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#">  MANUFACTURING </a></h4>
+                                                        <!-- <ul>
                                                     <li>Online marketing</li>
                                                     <li>Packaging</li>
                                                     <li>Corporate identity</li>
                                                     <li>Online strategy</li>
-                                                </ul>
+                                                  </ul>  -->
                                             </div>
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-fast-forward"> </span> 
+                                                    <span class="fa fa-laptop"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Faster Deployment </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> SOFTWARE DEVELOPMENT </a></h4>
+                                                <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
                                                     <li>Creative Concepts </li>
                                                     <li>Brochures</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
-                                        <div class="column dt-sc-one-fourth first">
+                                        <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-weixin"> </span> 
+                                                    <span class="fa fa-refresh"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Better Support </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> RENEWABLE </a></h4>
+                                               <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
                                                     <li>Copywriting</li>
                                                     <li>Guerilla marketing</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-tablet"> </span> 
+                                                    <span class="fa fa-map-marker"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> 100% Responsive </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> GEOSPATIAL </a></h4>
+                                                <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
                                                     <li>App design</li>
                                                     <li>Creative Concepts</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-sort-amount-asc"> </span> 
+                                                    <span class="fa fa-wrench"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Parallax Background </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> ROBOTICS AND DRONE TECHNOLOGY </a></h4>
+                                                <!-- <ul>
                                                     <li>Online marketing</li>
                                                     <li>Packaging</li>
                                                     <li>Corporate identity</li>
                                                     <li>Online strategy</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-star-half-full"> </span> 
+                                                    <span class="fa fa-snowflake-o"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Dark and Light Versions </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#">  NANOTECHNOLOGY </a></h4>
+                                                <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
                                                     <li>Creative Concepts </li>
                                                     <li>Brochures</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
-                                        <div class="column dt-sc-one-fourth first">
+                                        <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-video-camera"> </span> 
+                                                    <span class="fa fa-gears"> </span> 
                                                 </div>
-                                                <h4><a target="_blank" href="#"> Video Slider </a></h4>
-                                                <ul>
+                                                <h4><a target="_blank" href="#"> STARTUP</a></h4>
+                                              <!--   <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
                                                     <li>Copywriting</li>
                                                     <li>Guerilla marketing</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="column dt-sc-one-fourth">
-                                            <div class="dt-sc-ico-content type4">
-                                                <div class="icon"> 
-                                                    <span class="fa fa-sort-amount-asc"> </span> 
-                                                </div>
-                                                <h4><a target="_blank" href="#"> Parallax Background </a></h4>
-                                                <ul>
-                                                    <li>Responsive websites </li>
-                                                    <li>Advertising campaigns</li>
-                                                    <li>App design</li>
-                                                    <li>Creative Concepts</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="column dt-sc-one-fourth">
-                                            <div class="dt-sc-ico-content type4">
-                                                <div class="icon"> 
-                                                	<span class="fa fa-weixin"> </span> 
-                                            	</div>
-                                            	<h4><a target="_blank" href="#"> Better Support </a></h4>
-                                            	<ul>
-                                                    <li>Online marketing</li>
-                                                    <li>Packaging</li>
-                                                    <li>Corporate identity</li>
-                                                    <li>Online strategy</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <div class="column dt-sc-one-fourth">
-                                            <div class="dt-sc-ico-content type4">
-                                                <div class="icon"> 
-                                                    <span class="fa fa-magic"> </span> 
-                                                </div>
-                                                <h4><a target="_blank" href="#"> Special Settings </a></h4>
-                                                <ul>
-                                                    <li>Guerilla marketing</li>
-                                                    <li>Typography</li>
-                                                    <li>Creative Concepts </li>
-                                                    <li>Brochures</li>
-                                                </ul>
+                                                </ul> -->
                                             </div>
                                         </div>
                                     </div>   <!--Service Carousel Ends Here --> 
                                     <div id="carouselnav"></div>
+                                    
+                                    <br> <br>]
+
+                                    <div class="border-title">
+                                        <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
+                                    </div>
+                                    <div class="wrapper">
+                                        <div>
+                                            <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-shopping-cart"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> MARKET DEVELOPMENT</a></h4>
+                                                    <ul>
+                                                    <li>Global Expansion Strategy</li>
+                                                    <li>Market Entry</li>
+                                                    <li>Business Development</li>
+                                                    <li>Sourcing</li>
+                                                    </ul>
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class=" fa fa-handshake-o"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> BUSINESS INCUBATION</a></h4>
+                                                <ul>
+                                                    <li>Office Facilities & Local Representation</li>
+                                                    <li>Staff Recruitment & Outsourced Payroll Service</li>
+                                                    <li>Part-Time Resources/Local Support</li>
+                                                </ul> 
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-usd"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> SUBSIDIARY MANAGEMENT</a></h4>
+                                                <ul>
+                                                    <li>Entity Formation $ Hosting</li>
+                                                    <li>Accounting & Payroll Management</li>
+                                                    <li>HR, Legal & Tax Support</li>
+                                                    <li>Corporate Secretarial</li>
+                                                </ul> 
+                                            </div>
+                                        </div>
+                                        </div>
+                                        <div>
+                                            <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
+                                                <div class="icon"> 
+                                                    <span class="fa fa-building"> </span> 
+                                                </div>
+                                                <h4><a target="_blank" href="#"> CROSS-BORDER INVESTMENT</a></h4>
+                                                <ul>
+                                                    <li>Investment Strategy</li>
+                                                    <li>Acquisition Advisory</li>
+                                                    <li>Site Selection & Manufacturing Setup</li>
+                                                </ul> 
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+
 								</div>
                             </div>
+
                             <div class="dt-sc-hr-invisible"></div>
 						</div>
                         <!--About Parallax Starts Here -->
