@@ -1,9 +1,10 @@
 
+
+
+<div id="main">
 <?php get_header(); 
 
 ?>
-
-<div id="main">
                 <section id="home" class="content">
                     <div class="tp-banner-container">
                         <div class="tp-banner" >

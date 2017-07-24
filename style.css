@@ -412,7 +412,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#header { display:block; margin:0; padding:0; width:100%; background-color: rgba(0, 0, 0, 0.6); z-index:999999; }
 	#header.with-navicon { position:absolute;}
-	#header.dt-sticky-menu  { width:100%; }
+	#header.dt-sticky-menu  { width:200%; }
 	
 		/*----*****---- << Without BG >> ----*****----*/
 	
