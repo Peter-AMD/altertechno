@@ -1285,7 +1285,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	#carouselnav a { margin: 0 3px; }
 	#carouselnav a span { display:none; }
 	
-	.dt-sc-service-carousel .column { display: block; float: left; margin-left:20px; text-align: center; padding-bottom:0;}
+	.dt-sc-service-carousel .column { display: block; float: left; margin-left:20px; text-align: center; padding-bottom:0; background-color: #181818;}
 	
 	/*----*****---- << Portfolio >> ----*****----*/
 	
@@ -4128,4 +4128,13 @@ div.tp-splitted{
 
 .tp-caption.double_line{
 	display: none !important;
+}
+
+.dt-sc-ico-content.type4 h4 a{
+	color: #e8cd9b;
+}
+
+div.border-title h3{
+	color: #e8cd9b !important;
+    text-decoration: none !important;
 }

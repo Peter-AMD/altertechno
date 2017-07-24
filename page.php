@@ -78,7 +78,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-					style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -11%">Sydney - Canada - Germany - Singapore - Hong Kong
+                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -11%">Sydney - Canada - Germany - Singapore - Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -232,18 +232,18 @@
                             </ul>
 
                             
-                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>	
+                            <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div> 
                         </div>
                     </div>
                 </section>
                 <section id="about" class="content"> <!--About Section Starts Here -->
-                	<div class="main-title">
-                    	<div class="container">
-                        	<h2 class="animate" data-delay="100" data-animation="pullDown">About us</h2>
+                    <div class="main-title">
+                        <div class="container">
+                            <h2 class="animate" data-delay="100" data-animation="pullDown">About us</h2>
                         </div>
                     </div>
                     <div class="content-main">
-                    	<div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
+                        <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
                             <div class="container">
                                
                                 <div class="about-us-text animate new-about-us" data-animation = "fadeInUp" data-delay = "100"> 
@@ -306,7 +306,7 @@
                                 </div>
                                 
                                 <div class="circle"></div>
-								<div class="pie"></div>
+                                <div class="pie"></div>
 
                                 <hr style="background-color:  #e8cd9b !important;">
 
@@ -380,22 +380,23 @@
                                 </div>
 
 
-
+                                <hr style="background-color:  #e8cd9b !important; margin-top: 100px !important;">
 
                                 
                                 <div class="dt-sc-hr-invisible-small"></div>
-                                <div class="dt-sc-hr-invisible-small"></div>
                                 <div class="dt-sc-service-carousel-wrapper">
                                     <div class="border-title">
+                                        <!-- <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> WE REPRESENT YOUR TECH </h3> -->
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> WE REPRESENT YOUR TECH </h3>
                                     </div>
-                                    <div class="dt-sc-service-carousel aligncenter animate" data-animation="fadeInUp" data-delay="100"><!--Service Carousel Starts Here -->
-										<div class="column dt-sc-one-fourth first">
-											<div class="dt-sc-ico-content type4">
+                                    <div class="dt-sc-service-carousel aligncenter animate" data-animation="fadeInUp" data-delay="100" style="margin-left: -20px;"><!--Service Carousel Starts Here -->
+                                        <div class="column dt-sc-one-fourth">
+                                            <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-microchip" > </span> 
+                                                    <!-- <span class="fa fa-microchip" > </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Semiconductor.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> SEMICONDUCTOR </a></h4>
+                                                <h4><a target="_blank" href="#"> SEMICONDUCTOR <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
@@ -408,9 +409,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                      <span class="fa fa-volume-control-phone"> </span> 
+                                                      <!-- <span class="fa fa-volume-control-phone"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Telecommunication.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> TELECOMMUNICATION </a></h4>
+                                                <h4><a target="_blank" href="#"> TELECOMMUNICATION <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                 <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
@@ -422,9 +424,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-truck"> </span> 
+                                                    <!-- <span class="fa fa-truck"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Manufacturing.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#">  MANUFACTURING </a></h4>
+                                                <h4><a target="_blank" href="#">  MANUFACTURING <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                         <!-- <ul>
                                                     <li>Online marketing</li>
                                                     <li>Packaging</li>
@@ -436,9 +439,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-laptop"> </span> 
+                                                    <!-- <span class="fa fa-laptop"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Software-Development.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> SOFTWARE DEVELOPMENT </a></h4>
+                                                <h4><a target="_blank" href="#"> SOFTWARE <br> DEVELOPMENT </a></h4>
                                                 <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
@@ -450,9 +454,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-refresh"> </span> 
+                                                    <!-- <span class="fa fa-refresh"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Renewable.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> RENEWABLE </a></h4>
+                                                <h4><a target="_blank" href="#"> RENEWABLE <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
@@ -464,9 +469,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-map-marker"> </span> 
+                                                    <!-- <span class="fa fa-map-marker"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Geospatial-01.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> GEOSPATIAL </a></h4>
+                                                <h4><a target="_blank" href="#"> GEOSPATIAL <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                 <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
@@ -478,7 +484,8 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-wrench"> </span> 
+                                                    <!-- <span class="fa fa-wrench"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Robotics-Drone-Tech.svg" alt="" width="80">
                                                 </div>
                                                 <h4><a target="_blank" href="#"> ROBOTICS AND DRONE TECHNOLOGY </a></h4>
                                                 <!-- <ul>
@@ -492,9 +499,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-snowflake-o"> </span> 
+                                                    <!-- <span class="fa fa-snowflake-o"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Nanotechnology.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#">  NANOTECHNOLOGY </a></h4>
+                                                <h4><a target="_blank" href="#">  NANOTECHNOLOGY <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                                 <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
@@ -506,9 +514,10 @@
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
-                                                    <span class="fa fa-gears"> </span> 
+                                                    <!-- <span class="fa fa-gears"> </span>  -->
+                                                      <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Startup.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> STARTUP</a></h4>
+                                                <h4><a target="_blank" href="#"> STARTUP <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
                                               <!--   <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
@@ -521,7 +530,7 @@
                                     <div id="carouselnav"> </div>
                                     
                                     <br> <br><br>
-                                    <div class="wrapper" id="service">
+<!--                                     <div class="wrapper" id="service">
                                     <div class="border-title">
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
                                     </div>
@@ -587,45 +596,45 @@
                                             </div>
                                         </div>
                                         </div>  
-                                    </div>
+                                    </div> -->
 
-								</div>
+                                </div>
                             </div>
 
                             <div class="dt-sc-hr-invisible"></div>
-						</div>
+                        </div>
                         <!--About Parallax Starts Here -->
                        <!--  <div class="fullwidth-section dt-sc-parallax-section about-parallax dark-bg aligncenter">
                             <div class="container">
                                 <div class="dt-sc-one-fourth column first animate" data-animation="fadeInUp" data-delay="100">
                                     <div class="dt-sc-services ">
-                                    	<img src="<?php echo get_template_directory_uri(); ?>/images/services-1.png" alt="" title="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services-1.png" alt="" title="">
                                         <h2 class="dt-sc-num-count" data-value="125"> 125 </h2>
                                         <p> Employees </p>
                                     </div>
                                 </div>
                                 <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
                                     <div class="dt-sc-services">
-                                    	<img src="<?php echo get_template_directory_uri(); ?>/images/services-2.png" alt="" title="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services-2.png" alt="" title="">
                                         <h2 class="dt-sc-num-count" data-value="100"> 100+ </h2>
                                         <p> Projects </p>
                                     </div>
                                 </div>
                                 <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
                                     <div class="dt-sc-services">
-                                    	<img src="<?php echo get_template_directory_uri(); ?>/images/services-3.png" alt="" title="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services-3.png" alt="" title="">
                                         <h2 class="dt-sc-num-count" data-value="15320"> 15320 </h2>                                    
                                         <p> Hours of Creativity </p>
                                     </div>
                                 </div>
                                 <div class="dt-sc-one-fourth column animate" data-animation="fadeInUp" data-delay="100">
                                     <div class="dt-sc-services">
-                                    	<img src="<?php echo get_template_directory_uri(); ?>/images/services-4.png" alt="" title="">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/services-4.png" alt="" title="">
                                         <h2 class="dt-sc-num-count" data-value="252"> 252 </h2>                                    
                                         <p> Clients </p>
                                     </div>
-                        		</div>
-                			</div>
+                                </div>
+                            </div>
                         </div> -->
                         <!--About Parallax Ends Here -->
                    <!--  </div>
@@ -633,9 +642,9 @@
                  <!--About Section Ends Here -->
                 <!--Services Section Starts Here -->
               <!--   <section id="services" class="content"> 
-                	<div class="main-title">
-                    	<div class="container">
-                        	<h2 class="animate" data-delay="100" data-animation="pullDown">Services</h2>
+                    <div class="main-title">
+                        <div class="container">
+                            <h2 class="animate" data-delay="100" data-animation="pullDown">Services</h2>
                         </div>
                     </div>
                     <div class="content-main">
@@ -644,8 +653,8 @@
                                 <div class="dt-sc-hr-invisible-toosmall"></div>
                                 <div class="dt-sc-tabs-vertical-container animate" data-animation="fadeInUp" data-delay="100">
                                     <!--Vertical Tab Starts Here -->
-                                	<!-- <ul class="dt-sc-tabs-vertical-frame dt-sc-one-third column">
-                                    	<li><a href="#" class="current"><i class="fa fa-pencil"></i>Designing</a></li>
+                                    <!-- <ul class="dt-sc-tabs-vertical-frame dt-sc-one-third column">
+                                        <li><a href="#" class="current"><i class="fa fa-pencil"></i>Designing</a></li>
                                         <li><a href="#"><i class="fa fa-tasks"></i>Development</a></li>
                                         <li><a href="#"><i class="fa fa-truck"></i>Marketing</a></li>
                                         <li><a href="#"><i class="fa fa-unlock-alt"></i>Online Security</a></li>
@@ -658,35 +667,35 @@
                                     </div>
                                     <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
                                         <i class="fa fa-tasks"></i>
-                                    	<h4> Development </h4>
+                                        <h4> Development </h4>
                                         <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
                                         <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
                                         <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
                                     </div>
                                     <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
                                         <i class="fa fa-truck"> </i>
-                                    	<h4> Marketing </h4>
+                                        <h4> Marketing </h4>
                                         <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
                                         <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
                                         <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
                                     </div>
                                     <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
                                         <i class="fa fa-unlock-alt"></i>
-                                    	<h4> Online Security </h4>
+                                        <h4> Online Security </h4>
                                          <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
                                          <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
                                         <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
                                     </div>
                                     <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
                                         <i class="fa fa-mobile"></i>
-                                    	<h4> Mobile application </h4>
+                                        <h4> Mobile application </h4>
                                         <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
                                         <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
                                         <p> Lorem Ipsum as their default model text, and publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web still we can induce text to improve the length sites still in their infancy. </p>
                                     </div>
                                     <div class="dt-sc-tabs-vertical-frame-content dt-sc-two-third column last">
                                         <i class="fa fa-apple"></i>
-                                    	<h4> Social Data Form </h4>
+                                        <h4> Social Data Form </h4>
                                          <p>We are Minimalize from Magnitude. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages </p>
                                         <p> Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.  </p>
                                         <p> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words Ipsum comes from sections. Latin professor at Hampden-Sydney College in Virginia, looked up </p>
@@ -698,17 +707,17 @@
                         <!-- <div class="dt-sc-hr-invisible-large"></div> -->
                         <!-- <div class="fullwidth-section dt-sc-parallax-section services-parallax dark-bg"> -->
                         <!--Service Parallax Starts Here -->
-                        	<!-- <ul class="events-ul">
+                            <!-- <ul class="events-ul">
                                     <?php dynamic_sidebar( 'primary-widget-area' ); ?>
                                 </ul>
                         </div> -->
                         <!--Service Parallax Ends Here -->
                  <!--    </div>
-				</section> -->
+                </section> -->
                 <!--Services Section Ends Here -->
 
                 <!--Work Section Starts Here -->
-            	<!-- <section id="work" class="content">
+                <!-- <section id="work" class="content">
                     <div class="main-title">
                         <div class="container">
                             <h2 class="animate" data-delay="100" data-animation="pullDown">Works</h2>
@@ -732,7 +741,7 @@
                                         <figcaption>
                                             <div class="fig-content">
                                                 <h5> <a href="portfolio-detail-dark.html"> Sweet Candy Packaging </a> </h5><br>
-                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a> 
                                             </div>
                                         </figcaption>
                                      </figure>
@@ -743,7 +752,7 @@
                                         <figcaption>
                                             <div class="fig-content">
                                                 <h5> <a href="portfolio-detail-dark.html"> Live and Let Live </a> </h5><br>
-                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a> 
                                             </div>
                                         </figcaption>
                                      </figure>
@@ -754,7 +763,7 @@
                                         <figcaption>
                                             <div class="fig-content">
                                                 <h5> <a href="portfolio-detail-dark.html"> Begin With a Smile </a> </h5><br>
-                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a> 
                                             </div>
                                         </figcaption>
                                      </figure>
@@ -765,7 +774,7 @@
                                         <figcaption>
                                             <div class="fig-content">
                                                 <h5> <a href="portfolio-detail-dark.html"> Love and Life </a> </h5><br>
-                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a>	
+                                                <a href="portfolio-detail-dark.html" class="dt-sc-button">VIEW project<i class="fa fa-thumbs-o-up"></i></a> 
                                             </div>
                                         </figcaption>
                                      </figure>
@@ -792,11 +801,11 @@
                         </div> -->
                         <!--Work Parallax Ends Here -->
                    <!--  </div>
-					</section> -->
+                    </section> -->
                     <!--Work Section Ends Here -->
 
                     <!--Team Section Starts Here -->
-					<section id="events" class="content">
+                    <section id="events" class="content">
                         <div class="main-title">
                             <div class="container">
                                 <h2 class="animate" data-delay="100" data-animation="pullDown">EVENTS</h2>
@@ -816,7 +825,7 @@
                                 
                                 
                                 <!--Progress Bar Ends Here -->
-							</div>
+                            </div>
                             <!-- <div class="dt-sc-hr-invisible"></div>
                             <div class="dt-sc-hr-invisible"></div> -->
                             <!--Testimonial Parallax Starts Here -->
@@ -825,41 +834,41 @@
                                     <div class="dt-sc-test  imonial-carousel-wrapper animate" data-animation="fadeInUp" data-delay="100">
                                         <ul class="dt-sc-testimonial-carousel">
                                             <li class="dt-sc-testimonial">
-                                            	<div class="author">
-                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                <div class="author">
+                                                    <img src="http://placehold.it/100x100/fff" alt="" title="">
                                                 </div>
-                                            	<blockquote><q>Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
+                                                <blockquote><q>Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
                                                 <p> <cite> Roman Reigns </cite> <br/> CEO, ABS Communications </p>
                                             </li>
                                             <li class="dt-sc-testimonial">
-                                            	<div class="author">
-                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                <div class="author">
+                                                    <img src="http://placehold.it/100x100/fff" alt="" title="">
                                                 </div>
-                                            	<blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
+                                                <blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, rutrum sit amet dolor vitae, adipiscing tempus elit. </q></blockquote>
                                                 <p> <cite> Seth Rollins </cite> <br/> Managing Director, King Corporation</p>
                                             </li>
                                             <li class="dt-sc-testimonial">
-                                            	<div class="author">
-                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                <div class="author">
+                                                    <img src="http://placehold.it/100x100/fff" alt="" title="">
                                                 </div>
-                                            	<blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.  </q></blockquote>
+                                                <blockquote><q>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi hendrerit elit turpis, a porttitor tellus sollicitudin at.  </q></blockquote>
                                                 <p> <cite> Dean Ambrose </cite> <br/> Owner, DG Associates </p>
                                             </li>
                                             <li class="dt-sc-testimonial">
-                                            	<div class="author">
-                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                <div class="author">
+                                                    <img src="http://placehold.it/100x100/fff" alt="" title="">
                                                 </div>
-                                            	<blockquote><q>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </q></blockquote>
+                                                <blockquote><q>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </q></blockquote>
                                                 <p> <cite> Jack Swagger </cite> <br/> Marketing Manager, KG Enterprises </p>
                                             </li>
                                             <li class="dt-sc-testimonial">
-                                            	<div class="author">
-                                            		<img src="http://placehold.it/100x100/fff" alt="" title="">
+                                                <div class="author">
+                                                    <img src="http://placehold.it/100x100/fff" alt="" title="">
                                                 </div>
-                                            	<blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, litora torquent per conubia nostra, per inceptos himenaeos. rutrum sit amet dolor, adipiscing tempus elit.</q></blockquote>
+                                                <blockquote><q>Etiam bibendum condimentum diam. Nunc quam neque, litora torquent per conubia nostra, per inceptos himenaeos. rutrum sit amet dolor, adipiscing tempus elit.</q></blockquote>
                                                 <p> <cite> Dolph Zinggler </cite> <br/> Team Leader, Sigmatel </p>
                                             </li>                                        
-										</ul>
+                                        </ul>
                                     </div>
                                     <div id="pager">
                                         <a href=""></a>
@@ -870,7 +879,7 @@
                                  </div>
                             </div> -->
                             <!--Testimonial Parallax Ends Here -->
-						</div>
+                        </div>
                 </section>
                 <!--Team Section Ends Here -->
                 <section id="blog" class="content"><!--Blog Section Starts Here -->
@@ -880,9 +889,9 @@
                             <h2 class="animate" data-delay="100" data-animation="pullDown">Blog</h2>
                         </div>
                     </div>
-					<div class="content-main">
-                    	<div class="container">
-                        	<!--Blog Posts Starts Here -->
+                    <div class="content-main">
+                        <div class="container">
+                            <!--Blog Posts Starts Here -->
                             <div class="blog-items apply-isotope scroll animate" data-animation = "fadeInUp" data-delay = "100">
                                     <!--Blog Posts Starts Here -->
                                 
@@ -941,23 +950,23 @@
                             <div style="text-align: center">   
                                 <a href="2017"  class = "cs-btn-lg" > Read All </a>
                             </div>
-						</div>
+                        </div>
                         <!--Blog Posts Ends Here -->
                         <div class="dt-sc-hr-invisible"></div>
                     </div>
-				</section><!--Blog Section Ends Here -->
+                </section><!--Blog Section Ends Here -->
                 <section id="contact" class="content"><!--Contact Section Starts Here -->
                     <div class="main-title">
                         <div class="container">
                             <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
                         </div>
-					</div>
+                    </div>
                     <div class="content-main">
                         <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
                             <div class="container">
                                 <div class="animate emailForm" data-animation="fadeInUp" data-delay="100">
-                                	<div class="dt-sc-hr-invisible"></div>
-                          			<div id="ajax_contactform_msg"> </div>
+                                    <div class="dt-sc-hr-invisible"></div>
+                                    <div id="ajax_contactform_msg"> </div>
 
                                     <div class="mate">
                                           <?php echo do_shortcode( '[caldera_form id="CF595f1e474b88c"]' ); ?>
@@ -1023,7 +1032,7 @@
                             </div>
                         </div>
 
-                        <div class="social-media type1">
+                        <!-- <div class="social-media type1">
                             <ul class="aligncenter">
                                 <li class="dt-sc-one-fifth column first no-space"><a href="#" class="dt-sc-tooltip-top facebook" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top google" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
@@ -1031,26 +1040,26 @@
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top youtube" title="YouTube"><i class="fa fa-youtube"></i></a></li>
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top linked" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
-                        </div>
+                        </div> -->
                        <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
-                       		<div class="dt-sc-one-half column no-space">
+                            <div class="dt-sc-one-half column no-space">
                                 <div class="contact-info">
-                                	<h2 class="contact-title">Contact Info</h2>
+                                    <h2 class="contact-title">Contact Info</h2>
                                     <ul>
                                         <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
                                         <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
                                         <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
                                     </ul>
                                 </div>
-							</div>
+                            </div>
                             <div class="dt-sc-one-half column no-space">
-								<div id="contact_map"> </div> 
-                        	</div>
+                                <div id="contact_map"> </div> 
+                            </div>
                         </div>
                         
                         <!-- <div class="newsletter"><!--Newsletter Form Starts Here -->
-                        	<div class="dt-sc-hr-invisible-small"> </div>
-                        	<!-- <div  -->
+                            <div class="dt-sc-hr-invisible-small"> </div>
+                            <!-- <div  -->
                                <!--  <form name="frmnewsletter" method="post" class="animate dt-sc-one-half column first" data-animation="stretchLeft" action="php/subscribe.php">
                                     <div id="mailchimp-form">
                                         <p> <span class="fa fa-envelope-o"> </span> <input type="email" placeholder="Enter Email Address" name="mc_email"  required> </p>
@@ -1064,13 +1073,13 @@
                                 
                                 <!-- <p class="newsletter-text animate dt-sc-one-half column" data-animation="stretchRight"> <i class="fa fa-envelope-o colorize"> </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span> </p> -->
                             <!-- </div>Newsletter Form Ends Here  -->
-                        	<!-- <div class="dt-sc-hr-invisible-small"> </div> -->
-                    	</div>  
+                            <!-- <div class="dt-sc-hr-invisible-small"> </div> -->
+                        </div>  
 
 
                         <div class="fullwidth-section dt-sc-parallax-section twitter-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bridge.jpg'">
-                        	<div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
-                               	<div class="formSub">
+                            <div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
+                                <div class="formSub">
                                         <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
                                 </div>
                             </div>
