@@ -26,7 +26,7 @@
                                         data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%);"> <span class="colorize">Beyond the Borders</span>
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%); color: white;"> <span class="colorize">Beyond the Borders</span>
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -69,7 +69,7 @@
                                     <!-- LAYER NR. 1 -->
                                     <div class="tp-caption white_large_shadow_robo tp-fade tp-resizeme"
                                         data-x="277"
-                                        data-y="370" 
+                                        data-y="310" 
                                         data-speed="1500"
                                         data-start="1500"
                                         data-easing="Power3.easeInOut"
@@ -78,7 +78,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-					style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; text-align:center; margin-left: -11%">Sydney | Canada | Germany | Singapore | Hong Kong
+					style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -11%">Sydney - Canada - Germany - Singapore - Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -97,7 +97,7 @@
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption white_text_dborder lft tp-resizeme"
+                                   <!--  <div class="tp-caption white_text_dborder lft tp-resizeme"
                                         data-x="250"
                                         data-y="310" 
                                         data-speed="1500"
@@ -109,7 +109,7 @@
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; margin-left:20px;">Al Tech
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption double_line tp-fade tp-resizeme"
@@ -196,8 +196,8 @@
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption white_big tp-fade tp-resizeme"
-                                        data-x="40"
-                                        data-y="370" 
+                                        data-x="100"
+                                        data-y="300" 
                                         data-speed="300"
                                         data-start="1500"
                                         data-easing="Power3.easeInOut"
@@ -211,7 +211,7 @@
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
-                                    <div class="tp-caption white-top-btm-border sft tp-resizeme"
+                                    <!-- <div class="tp-caption white-top-btm-border sft tp-resizeme"
                                         data-x="230"
                                         data-y="280" 
                                         data-speed="300"
@@ -224,7 +224,7 @@
                                         id = "specialist"
                                         data-endspeed="300"
                                         style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap; margin-left: 15%">Specialist in
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 4 -->
                                     
