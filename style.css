@@ -143,7 +143,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#cba73c; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
@@ -177,7 +177,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	blockquote.alignleft { margin-right:20px; text-align:left; width:30%; float:left; }
 	blockquote.alignright { margin-left:20px; text-align:left; width:30%; float:right; }
-	blockquote.aligncenter { width:100%; text-align:center; color:#e8cd9b;}
+	blockquote.aligncenter { width:100%; text-align:center; color:#cba73c;}
 	
 	blockquote:before, blockquote:after { text-decoration:inherit; font-size:30px; color:#999999; }
 	
@@ -518,7 +518,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#main-menu { float:right; }
 	#main-menu ul { margin: 0 auto; list-style: none; position: relative; z-index:9999; }
-	#main-menu ul li { display: inline-block; padding:0; }
+	#main-menu ul li { display: inline-block; padding:30px 0 !important; }
 	#main-menu ul a { position: relative; z-index: 200; display:block; padding:37px 18px 37px; font-size:13px; font-weight:normal; text-transform:uppercase; color:#fff; }
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) { 	/* Safari only override */
@@ -939,7 +939,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#header { display:block; margin:0; padding:0; width:100%; background-color: rgba(0, 0, 0, 0.6); z-index:999999; }
 	#header.with-navicon { position:absolute;}
-	#header.dt-sticky-menu  { width:100%; }
+	#header.dt-sticky-menu  { width:100%; height: 150px;}
 	
 		/*----*****---- << Without BG >> ----*****----*/
 	
@@ -955,7 +955,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.no-header-bg #header #main-menu ul li.current_page_item > a, #header.no-bg #main-menu ul li.current_page_ancestor > a, .no-header-bg #header #main-menu ul li.current-menu-item > a, 
 	.no-header-bg #header #main-menu ul li.current-menu-ancestor > a { color:#fff;}
 	
-	.no-header-bg #header #main-menu ul a { color:#fff;}	
+	.no-header-bg #header #main-menu ul a { color:#fff;font-size:18px !important;}	
 	.no-header-bg #header-sticky-wrapper.sticky-wrapper  { height:auto !important;}	
 	
 	.no-header-bg .banner .caption { top:35%;}
@@ -1046,13 +1046,13 @@ BlankSlate is distributed under the terms of the GNU GPL
 	#main-menu { float:right; }
 	#main-menu ul { margin: 0 auto; list-style: none; position: relative; z-index:9999; }
 	#main-menu ul li { display: inline-block; padding:0; }
-	#main-menu ul a { position: relative; z-index: 200; display:block; padding:37px 18px 37px; font-size:13px; font-weight:normal; text-transform:uppercase; color:#fff; }
+	#main-menu ul a { position: relative; z-index: 200; display:block; padding:37px 18px 37px; font-size:18px !important; font-weight:normal; text-transform:uppercase; color:#fff; }
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) { 	/* Safari only override */
 	::i-block-chrome, #main-menu ul a { font-weight: 600; }
 	}
 	
-	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#e8cd9b;}
+	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#e8cd9b ; font-size: 18px;}
 	#main-menu ul > li > a:hover { color:#8b8a8a; }
 	
 	#main-menu ul li ul { position:absolute; top:90px; left:auto; display:none; z-index:1; }
@@ -1155,7 +1155,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.content { padding: 0 0 0px; }
 	
 	.main-title { background: #2e2e2e; text-align:center; padding:46px 0px; }
-	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #e8cd9b; color:#e8cd9b; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
+	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #cba73c; color:#cba73c; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
 	
 	.border-title { text-align:center; text-transform:uppercase; margin-bottom:50px; width:100%;  display:inline-block;}
 	.border-title h1 , .border-title h2 , .border-title h3 , .border-title h4 , .border-title h5 , .border-title h6 { display:inline-block; border-bottom:1px solid #2e2e2e; padding-bottom:5px; }	
@@ -1617,16 +1617,16 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#mailchimp-form, .newsletter form , .newsletter p { float:left;}
 	#mailchimp-form { width:100%; }
-	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #e8cd9b; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
-	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#e8cd9b; }
+	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #cba73c; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
+	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#cba73c; }
 	#mailchimp-form p input[type="email"] { width:90%; padding: 15px 0px 16px; margin-right: 1px; color:#000; }
 	#mailchimp-form p.submit { width:auto; margin:0px;}
-	#mailchimp-form p.submit input { background:#e8cd9b; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
+	#mailchimp-form p.submit input { background:#cba73c; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
 	#mailchimp-form p.submit input:hover { background:#947928; color:#fff;}
 	
 	@-moz-document url-prefix() { #mailchimp-form p.submit input { padding: 14px 20px; } }
 
-	.colorize{color: #e8cd9b}
+	.colorize{color: #cba73c}
 	
 	.newsletter .newsletter-text { float:right; line-height:24px; color:#fff; }
 	.newsletter .newsletter-text i { float: left; margin-bottom: 20px; margin-right: 25px; margin-top: 10px;  font-size:24px; }
@@ -1654,7 +1654,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	border-bottom-color:transparent!important;	transform:rotate(270deg);	-moz-transform:rotate(270deg);	-ms-transform:rotate(270deg);	-webkit-transform:rotate(270deg); 	-webkit-transition: all 0.20s;
 	-moz-transition: all 0.20s;	transition: all 0.20s;	transition-delay: 0.1s;	-webkit-transition-delay: 0.1s;	border-color:#fff; }
 
-	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #e8cd9b; }
+	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #cba73c; }
 	.contact-info ul li span.ico i {  font-size: 14px; height: 40px; left: 6px; line-height: 40px; position: absolute; text-align: center; top: 7px; width: 40px; text-align:center; }
 		
 	.dark-box h4, .dark-box label { color:#F1EAD7; }	
@@ -1704,7 +1704,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.dark-bg .social-media.type1 li a:after , .light-bg .social-media.type1 li a:after {  -ms-transform: none;  -webkit-transform: none; transform: none; left:0; bottom:0; content:none; }
 	.dark-bg .social-media.type1 li a:hover:after , .light-bg .social-media.type1 li a:hover:after { border:none; background:none; width:100%; height:100%; color:#fff; }
 	
-	#contact_map { height: 550px; padding-bottom: 4px; width:100%; float:left; }
+	#contact_map { height: 426px; padding-bottom: 4px; width:100%; float:left; }
 	
 	.copyright { background:#2e2e2e; padding:30px 0; color:#fff; text-align:center; margin-top:0px; position:relative; }
 	.copyright p { margin-bottom:0; }
@@ -1772,14 +1772,14 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.dark-bg .dt-sc-tb-header .dt-sc-price p , .light-bg .pricing-table { background:#2e2e2e; }
 	
-	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#e8cd9b;}
+	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#cba73c;}
 	.dark-bg .dt-sc-team-cmt p { color:#353535; }
 	
 	.dark-bg .dt-sc-tabs-vertical-frame-content h4 , .dark-bg .content-main  h1, .dark-bg .content-main  h2, .dark-bg .content-main  h3, .dark-bg .content-main  h4, 
 	.dark-bg .content-main  h5, .dark-bg .content-main  h6 , .dark-bg .content-main a , .dark-bg .content-main .post-nav-container a span , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-left ,
-	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#e8cd9b; }
+	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#cba73c; }
 
-	.dark-bg .social-media li a i {color : #e8cd9b;}
+	.dark-bg .social-media li a i {color : #cba73c;}
 	
 	.dt-sc-parallax-section .border-title h1, .dt-sc-parallax-section .border-title h2 ,.dt-sc-parallax-section .border-title h3, .dt-sc-parallax-section .border-title h4 , .dt-sc-parallax-section .border-title h5, .dt-sc-parallax-section .border-title h6  { color:#fff; border-color:#fff; }
 	
@@ -1925,7 +1925,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 {
 	font-size: 1.6em;
 	text-decoration: none;
-	color: #e8cd9b!important;
+	color: #cba73c!important;
 }
 
 .navigation .nav-previous
@@ -2004,7 +2004,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 .entry-metadata .fa {
-	color: #e8cd9b;
+	color: #cba73c;
 	margin-right: 5px;
 }
 
