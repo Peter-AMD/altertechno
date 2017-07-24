@@ -525,7 +525,7 @@
 	.dt-sc-ico-content.type4 { padding:30px 20px 25px; }
 	.dt-sc-ico-content.type4:hover { background:#fff; }
 	.dt-sc-ico-content.type4 .icon span { font-size: 30px; }
-	.dt-sc-ico-content.type4:hover .icon span { color:#cba73c; }
+	.dt-sc-ico-content.type4:hover .icon span { color:#e8cd9b; }
 	
 	.dt-sc-ico-content.type4 h4 { font-size:20px; text-transform:uppercase; position: relative; margin-bottom:60px; }
 	.dt-sc-ico-content.type4 h4:after { content: ""; height: 3px; left: 0; position: absolute; right: 0; text-align: center; width: 55px; margin: 0px auto; bottom: -30px; }

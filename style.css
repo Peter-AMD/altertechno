@@ -401,7 +401,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#secondary { float:left; width:270px; padding:0px; }
 	
-	.content-main { padding:100px 0px 0px; }
+	.content-main { padding:100px 0px 0px; background: #1b1b1b !important;}
 	#contact .content-main { padding-top:0; }
 	
 	/*----*****---- << Float >> ----*****----*/
@@ -1510,8 +1510,8 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.dt-sc-button.view-all:hover:after { height:634%; }
 	
 	.blog-entry { float:left; clear:both; margin:0px 0px 10px; width:100%; border-bottom:1px solid #878787; padding: 0 0 35px; }
-	.blog-items .blog-entry  {padding: 4%; width: 95%;background:#202020; border:none; min-height: 425px;}
-	.blog-items .blog-entry:hover {-webkit-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); -moz-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); }	
+	.blog-items .blog-entry  { width: 95%;background:#181818; border:none;}
+	/*.blog-items .blog-entry:hover {-webkit-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); -moz-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); }	*/
 	
 	.entry-thumb { width:100%; margin:0px 0px 25px 0px; padding:0px; float:left; overflow: hidden;}
 	.entry-thumb a { display:block; float:left; width:100%; margin:0px; padding:0px; line-height:0; background: cover; overflow: hidden;}
@@ -2005,6 +2005,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .entry-metadata .fa {
 	color: #e8cd9b;
+	margin-right: 5px;
 }
 
 .quote{
@@ -2037,14 +2038,16 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border-radius: 0px;
     width: 28%;
     height: 77px !important;
-    margin-right: 34% !important;
+    margin-right: 36% !important;
     margin-top: 5% !important;
     margin-bottom: 5%;
+    letter-spacing: 3px;
 }
 
-.mate .caldera-grid ._tisBound .row div .form-group div .btn:hover{
-	background-color: #947928 !important;
-	color: #fff !important;
+.mate .caldera-grid ._tisBound .row div .form-group div .btn:hover, #es_txt_button_pg:hover{
+	background-color: transparent !important;
+	color: #e8cd9b !important;
+	border: 1px solid #e8cd9b !important;
 }
 
 #main .content .content-main .social-media ul li .facebook:hover i{
@@ -2096,7 +2099,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     align-items: center;
     margin: 20px;
     padding: 30px;
-    background: rgba(255,255,255,0.06);
+    background: transparent !important;
     border-radius: 5px;
 }
 
@@ -2344,20 +2347,23 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #main .content .main-title{
-	background: #000;
+	background: transparent !important;
     text-align: center;
     padding: 46px 0px;
 }
 
 .cs-btn-lg{
 	color: #000 !important;
-    padding: 1% 6%;
+    padding: 2% 11%;
     background-color: #e8cd9b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .cs-btn-lg:hover {
-	background-color: #947928  !important;
-	color:#fff !important;
+	background-color: transparent  !important;
+	color:#e8cd9b !important;
+	border: 1px solid #e8cd9b;
 }
 
 
@@ -2423,6 +2429,10 @@ h1{
     font-weight: 400;
     text-align: justify;
     text-indent: 30px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 7%;
 }
 
 .blog-entry .entry-details .entry-title{
@@ -2449,7 +2459,7 @@ h1{
 .blog-entry {
     float: left;
     clear: both;
-    margin: 0px 0px 10px;
+    margin: 0px 0px 2px;
     width: 100%;
     border-bottom: none !important;
     padding: 0 0 35px;
@@ -3344,6 +3354,11 @@ Alcy Section*/
 
 .contact-info ul li{
 	font-size: 0.9rem;
+	color: #e8cd9b !important;
+}
+
+.contact-info ul li .ico .fa{
+	color: #e8cd9b !important;
 }
 
 .contact-info div h1{
@@ -3371,6 +3386,8 @@ Alcy Section*/
 .formSub .es_textbox input{
 	width: 100%;
     border: 1px solid #e8cd9b;
+    font-style: italic;
+    color: #e8cd9b;
 }
 
 .es_lablebox{
@@ -3380,7 +3397,56 @@ Alcy Section*/
 .es_submit_button{
 	width: 100% !important;
     border: 1px solid #e8cd9b;
-    text-transform: uppercase;
+    text-transform: uppercase !important;
     letter-spacing: 3px;
     height: 64px;
+}
+
+
+/*Blog modification*/
+#blog-section{
+	background: #1b1b1b !important;
+}
+
+.blog-items .blog-entry {
+    width: 100%;
+    background: #181818;
+    border: none;
+    min-height: none !important; 
+}
+
+.entry-metadata .entry-meta-wrapper{
+    clear: both;
+    background: #181818;
+    height: 49px;
+}
+
+article div .entry-thumb a img{
+	width: 100%;
+}
+
+.entry-detail-wrapper{
+	width: 90%;
+	margin: auto;
+}
+
+.entry-detail-footer{
+	display: inline-flex;
+	margin-top: 4%;
+    margin-left: 5%;
+}
+
+.entry-detail-footer .author, .entry-detail-footer .date{
+	font-size: 0.7rem;
+    padding-right: 13%;
+}
+
+.entry-detail-footer .comment{
+	font-size: 0.7rem;
+}
+
+
+/*Events Modification*/
+.events-section{
+	background: #181818 !important;
 }

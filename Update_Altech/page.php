@@ -863,7 +863,7 @@
                                
                             </div>
                             <div class="dt-sc-hr-invisible-small"></div>
-							<a href="blog-main-dark.html" class="dt-sc-button view-all" style="color: #cba73c"> Read All </a>
+							<a href="blog-main-dark.html" class="dt-sc-button view-all" style="color: #e8cd9b"> Read All </a>
 						</div>
                         <!--Blog Posts Ends Here -->
                         <div class="dt-sc-hr-invisible"></div>
