@@ -251,10 +251,10 @@
                                     <div class="row">
                                         
                                         <div class="col-lg-5" style="float: right;">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/video-poster.jpg" alt="" style="float: right;">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/people-coffee-tea-meeting.jpg" alt="" style="float: right;">
                                         </div>
 
-                                        <div class="col-lg-6" style="float: left; text-align: left; padding-top: 15px;">
+                                        <div class="col-lg-6" style="float: left; text-align: left; padding-top: 20px;">
                                             <!-- <div style="width: 80%;"> -->
                                                 <p>As technology executives well know, running software, hardware and technology service businesses across international boundaries requires long-term vision and adaptability. We have worked with international clients in all technology based sector from computer software and hardware, semiconductors, IT services, storage, components to peripherals sectors. Alternate Technology cross-sector technology expertise and global insights help technology companies compete and thrive in an industry where innovation is both an opportunity and a threat.
                                                 </p> <br>
@@ -270,12 +270,12 @@
                                     <div class="row">
                                         
                                         <div class="col-lg-6">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/video-poster.jpg" alt="" style="float: left;">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/aboutus/space-desk-office-hero-7065.jpg" alt="" style="float: left;">
                                         </div>
 
                                         <!-- <div class="col-lg-1"></div> -->
 
-                                        <div class="col-lg-5" style="text-align: right; float: right; padding-top: 15px;">
+                                        <div class="col-lg-5" style="text-align: right; float: right; padding-top: 20px;">
                                             <div style="float: right;" >
                                                 <p>If you are a Canadian Technology company looking to penetrate the Australian market, we provide you with a 360 solution from developing a customer base to seeking partnership with a local entity through tax and legal services. In addition, if the condition is right, there is possibility of funding and investment.</p> <br>
                                                    
