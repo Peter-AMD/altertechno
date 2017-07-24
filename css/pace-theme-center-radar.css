@@ -165,8 +165,8 @@
        -o-animation: spin 1s linear infinite;
           animation: spin 1s linear infinite;
 }*/
-
-/*@-webkit-keyframes pulse_animation {
+/*
+@-webkit-keyframes pulse_animation {
   0% { transform: scale(1);opacity: .5 }
   30% { transform: scale(1); opacity: .9 }
   40% { transform: scale(1.08); opacity: .7; }
