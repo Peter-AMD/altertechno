@@ -253,7 +253,8 @@
                         </div>
                     </div>
                     <div class="content-main">
-                        <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
+                        <!-- <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'"> -->
+                        <div class="fullwidth-section">
                             <div class="container">
                                
                                 <div class="about-us-text animate new-about-us" data-animation = "fadeInUp" data-delay = "100"> 
@@ -611,7 +612,7 @@
                                 </div>
                             </div>
 
-                            <div class="dt-sc-hr-invisible"></div>
+                            <!-- <div class="dt-sc-hr-invisible"></div> -->
                         </div>
                         <!--About Parallax Starts Here -->
                        <!--  <div class="fullwidth-section dt-sc-parallax-section about-parallax dark-bg aligncenter">
@@ -821,7 +822,8 @@
                                 <h2 class="animate" data-delay="100" data-animation="pullDown">EVENTS</h2>
                             </div>
                         </div>
-                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
+                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg">
+                        <!-- <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;"> -->
                             <div class="container animate" data-animation = "fadeInUp" delay = "120">
 
                                <ul class="events-ul">
@@ -1051,7 +1053,8 @@
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top linked" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div> -->
-                       <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
+                       <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100">
+                       <!-- <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); "> -->
                             <div class="dt-sc-one-half column no-space">
                                 <div class="contact-info">
                                     <h2 class="contact-title">Contact Info</h2>
