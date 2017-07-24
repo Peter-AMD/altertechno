@@ -48,7 +48,7 @@
                 <div class="container">
                     <div id="logo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                            <img title="" alt="" src="http://res.cloudinary.com/altertechno/image/upload/c_scale,w_1031/v1500277497/logotry_hdnmp9.png" style = "width:260px; height:50px">
+                            <img title="" alt="" src="http://res.cloudinary.com/altertechno/image/upload/c_scale,w_1031/v1500277497/logotry_hdnmp9.png" style = "width:260px; height:60px; padding: 25px 0;">
                         </a>
                     </div>
                     <!-- Menu div starts here -->
