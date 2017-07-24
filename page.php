@@ -8,14 +8,14 @@
                     <div class="tp-banner-container">
                         <div class="tp-banner" >
                            <ul> <!-- SLIDE  -->
-                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+                                <li data-transition="random" data-slotamount="3" data-masterspeed="150"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
                                     <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259737/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom"> -->
-                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500259736/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
+                                    <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500259736/247kb_guofp6.jpg" alt="layer-bg3"  data-bgposition="center center" data-kenburns="on" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center bottom">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
-                                    <div class="tp-caption source_white_golden tp-fade tp-resizeme"
+                                    <!-- <div class="tp-caption source_white_golden tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="0"
                                         data-y="420" data-voffset="60"
                                         data-speed="500"
@@ -26,14 +26,24 @@
                                         data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%); color: white;"> <span class="colorize">Beyond the Borders</span>
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%); color: white;"> Beyond the Borders
+                                    </div> -->
+                                    <div class="tp-caption source_white_golden tp-fade tp-resizeme"
+                                        data-x="center" data-hoffset="0"
+                                        data-y="420" data-voffset="60"
+                                        data-speed="300"
+                                        data-start="5000"
+                                        data-easing="Power4.easeIn"
+                                        data-endelementdelay="0.1"
+                                        data-endspeed="300"
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color: white;"> Beyond the Borders
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption source_white_med_shad tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="20"
                                         data-y="320" data-voffset="-60"
-                                        data-speed="300"
+                                        data-speed="200"
                                         data-start="1500"
                                         data-easing="Power4.easeIn"
                                         data-splitin="chars"
@@ -60,7 +70,7 @@
                                     </div> -->
                                 </li>
                                 <!-- SLIDE  -->
-                                <li id="Align" data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off">
+                                <li id="Align" data-transition="random" data-slotamount="1" data-masterspeed="150"  data-saveperformance="off">
                                     <!-- MAIN IMAGE -->
                                     <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center"> -->
                                     <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500613505/Singapore-Night-1920x1200_voupjk.jpg" alt="layer-bg2"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="100" data-bgpositionend="center center">
@@ -78,11 +88,11 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -11%">Sydney - Canada - Germany - Singapore - Hong Kong
+                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -12%">Sydney - Canada - Germany - Singapore - Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption double_line tp-fade tp-resizeme"
+                                    <!-- <div class="tp-caption double_line tp-fade tp-resizeme"
                                         data-x="270"
                                         data-y="325" 
                                         data-speed="1500"
@@ -94,7 +104,7 @@
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         style="z-index: 4;max-width: 200px; max-height: auto; white-space: nowrap;">
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 2 -->
                                    <!--  <div class="tp-caption white_text_dborder lft tp-resizeme"
@@ -112,7 +122,7 @@
                                     </div> -->
                                     
                                     <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption double_line tp-fade tp-resizeme"
+                                    <!-- <div class="tp-caption double_line tp-fade tp-resizeme"
                                         data-x="730"
                                         data-y="325" 
                                         data-speed="1500"
@@ -138,7 +148,7 @@
                                         data-endelementdelay="0.15"
                                         data-endspeed="300"
                                         style="z-index: 4; max-width: 90px; max-height: auto; white-space: nowrap;">
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 3 -->
                                     <!-- <div class="tp-caption white_text_dborder_small lfb tp-resizeme"
@@ -156,7 +166,7 @@
                                     </div> -->
                                     
                                      <!-- LAYER NR. 2 -->
-                                    <div class="tp-caption double_line tp-fade tp-resizeme"
+                                    <!-- <div class="tp-caption double_line tp-fade tp-resizeme"
                                         data-x="270"
                                         data-y="475" 
                                         data-speed="1500"
@@ -168,17 +178,17 @@
                                         data-endelementdelay="0.15"
                                         data-endspeed="300"
                                         style="z-index: 4;max-width: 90px; max-height: auto; white-space: nowrap;">
-                                    </div>
+                                    </div> -->
                                 </li>
                                 <!-- SLIDE  -->
-                                <li data-transition="random" data-slotamount="7" data-masterspeed="300"  data-saveperformance="off" >
+                                <li data-transition="random" data-slotamount="4" data-masterspeed="150"  data-saveperformance="off" >
                                     <!-- MAIN IMAGE -->
                                     <!-- <img src="http://res.cloudinary.com/altertechno/image/upload/v1500259736/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center"> -->
                                     <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500445375/montreal_czdxji.jpg" alt="layer-bg1"  data-bgposition="center top" data-kenburns="on" data-duration="9000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" data-bgpositionend="center center">
                                     <!-- LAYERS -->
                                     
                                     <!-- LAYER NR. 1 -->
-                                    <div class="tp-caption tp-fade tp-resizeme"
+                                    <!-- <div class="tp-caption tp-fade tp-resizeme"
                                         data-x="315"
                                         data-y="390" 
                                         data-speed="300"
@@ -192,7 +202,7 @@
                                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;"><div class="tp-layer-inner-rotation diamond-big " style="display:none; -moz-transform: rotate(315deg); -ms-transform: rotate(315deg); -o-transform: rotate(315deg); -webkit-transform: rotate(315deg); transform: rotate(315deg); -moz-transform-origin: 50% 50%; -ms-transform-origin: 50% 50%; -o-transform-origin: 50% 50%; -webkit-transform-origin: 50% 50%; transform-origin: 50% 50%; ">
                                     
                                     </div>
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption white_big tp-fade tp-resizeme"
@@ -207,7 +217,7 @@
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         id = "international"
-                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap; margin-left: 5%">International Expansion and Investment
+                                        style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">International Expansion and Investment
                                     </div>
                                     
                                     <!-- LAYER NR. 3 -->
