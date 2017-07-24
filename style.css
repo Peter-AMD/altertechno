@@ -10,7 +10,7 @@ License URI: https://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
 Text Domain: blankslate
 
-BlankSlate WordPress Theme Ã‚Â© 2011-2017 TidyThemes
+BlankSlate WordPress Theme Ãƒâ€šÃ‚Â© 2011-2017 TidyThemes
 BlankSlate is distributed under the terms of the GNU GPL
 */
 
@@ -143,7 +143,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#cba73c; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
@@ -177,7 +177,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	blockquote.alignleft { margin-right:20px; text-align:left; width:30%; float:left; }
 	blockquote.alignright { margin-left:20px; text-align:left; width:30%; float:right; }
-	blockquote.aligncenter { width:100%; text-align:center; color:#cba73c;}
+	blockquote.aligncenter { width:100%; text-align:center; color:#e8cd9b;}
 	
 	blockquote:before, blockquote:after { text-decoration:inherit; font-size:30px; color:#999999; }
 	
@@ -401,7 +401,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#secondary { float:left; width:270px; padding:0px; }
 	
-	.content-main { padding:100px 0px 0px; }
+	.content-main { padding:100px 0px 0px; background: #1b1b1b !important;}
 	#contact .content-main { padding-top:0; }
 	
 	/*----*****---- << Float >> ----*****----*/
@@ -537,7 +537,7 @@ License URI: https://www.gnu.org/licenses/gpl.html
 Tags: one-column, two-columns, custom-menu, featured-images, microformats, sticky-post, threaded-comments, translation-ready
 Text Domain: blankslate
 
-BlankSlate WordPress Theme Ã‚Â© 2011-2017 TidyThemes
+BlankSlate WordPress Theme Ãƒâ€šÃ‚Â© 2011-2017 TidyThemes
 BlankSlate is distributed under the terms of the GNU GPL
 */
 
@@ -670,7 +670,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#cba73c; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
@@ -704,7 +704,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	blockquote.alignleft { margin-right:20px; text-align:left; width:30%; float:left; }
 	blockquote.alignright { margin-left:20px; text-align:left; width:30%; float:right; }
-	blockquote.aligncenter { width:100%; text-align:center; color:#cba73c;}
+	blockquote.aligncenter { width:100%; text-align:center; color:#e8cd9b;}
 	
 	blockquote:before, blockquote:after { text-decoration:inherit; font-size:30px; color:#999999; }
 	
@@ -1052,7 +1052,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	::i-block-chrome, #main-menu ul a { font-weight: 600; }
 	}
 	
-	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#cba73c;}
+	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#e8cd9b;}
 	#main-menu ul > li > a:hover { color:#8b8a8a; }
 	
 	#main-menu ul li ul { position:absolute; top:90px; left:auto; display:none; z-index:1; }
@@ -1155,7 +1155,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.content { padding: 0 0 0px; }
 	
 	.main-title { background: #2e2e2e; text-align:center; padding:46px 0px; }
-	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #cba73c; color:#cba73c; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
+	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #e8cd9b; color:#e8cd9b; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
 	
 	.border-title { text-align:center; text-transform:uppercase; margin-bottom:50px; width:100%;  display:inline-block;}
 	.border-title h1 , .border-title h2 , .border-title h3 , .border-title h4 , .border-title h5 , .border-title h6 { display:inline-block; border-bottom:1px solid #2e2e2e; padding-bottom:5px; }	
@@ -1510,8 +1510,8 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.dt-sc-button.view-all:hover:after { height:634%; }
 	
 	.blog-entry { float:left; clear:both; margin:0px 0px 10px; width:100%; border-bottom:1px solid #878787; padding: 0 0 35px; }
-	.blog-items .blog-entry  {padding: 4%; width: 95%;background:#202020; border:none; min-height: 425px;}
-	.blog-items .blog-entry:hover {-webkit-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); -moz-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); }	
+	.blog-items .blog-entry  { width: 95%;background:#181818; border:none;}
+	/*.blog-items .blog-entry:hover {-webkit-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); -moz-box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); box-shadow: inset 0px 0px 0px 1px rgba(203, 167, 60,0.2); }	*/
 	
 	.entry-thumb { width:100%; margin:0px 0px 25px 0px; padding:0px; float:left; overflow: hidden;}
 	.entry-thumb a { display:block; float:left; width:100%; margin:0px; padding:0px; line-height:0; background: cover; overflow: hidden;}
@@ -1617,16 +1617,16 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#mailchimp-form, .newsletter form , .newsletter p { float:left;}
 	#mailchimp-form { width:100%; }
-	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #cba73c; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
-	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#cba73c; }
+	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #e8cd9b; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
+	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#e8cd9b; }
 	#mailchimp-form p input[type="email"] { width:90%; padding: 15px 0px 16px; margin-right: 1px; color:#000; }
 	#mailchimp-form p.submit { width:auto; margin:0px;}
-	#mailchimp-form p.submit input { background:#cba73c; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
+	#mailchimp-form p.submit input { background:#e8cd9b; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
 	#mailchimp-form p.submit input:hover { background:#947928; color:#fff;}
 	
 	@-moz-document url-prefix() { #mailchimp-form p.submit input { padding: 14px 20px; } }
 
-	.colorize{color: #cba73c}
+	.colorize{color: #e8cd9b}
 	
 	.newsletter .newsletter-text { float:right; line-height:24px; color:#fff; }
 	.newsletter .newsletter-text i { float: left; margin-bottom: 20px; margin-right: 25px; margin-top: 10px;  font-size:24px; }
@@ -1654,7 +1654,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	border-bottom-color:transparent!important;	transform:rotate(270deg);	-moz-transform:rotate(270deg);	-ms-transform:rotate(270deg);	-webkit-transform:rotate(270deg); 	-webkit-transition: all 0.20s;
 	-moz-transition: all 0.20s;	transition: all 0.20s;	transition-delay: 0.1s;	-webkit-transition-delay: 0.1s;	border-color:#fff; }
 
-	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #cba73c; }
+	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #e8cd9b; }
 	.contact-info ul li span.ico i {  font-size: 14px; height: 40px; left: 6px; line-height: 40px; position: absolute; text-align: center; top: 7px; width: 40px; text-align:center; }
 		
 	.dark-box h4, .dark-box label { color:#F1EAD7; }	
@@ -1704,7 +1704,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.dark-bg .social-media.type1 li a:after , .light-bg .social-media.type1 li a:after {  -ms-transform: none;  -webkit-transform: none; transform: none; left:0; bottom:0; content:none; }
 	.dark-bg .social-media.type1 li a:hover:after , .light-bg .social-media.type1 li a:hover:after { border:none; background:none; width:100%; height:100%; color:#fff; }
 	
-	#contact_map { height: 426px; padding-bottom: 4px; width:100%; float:left; }
+	#contact_map { height: 550px; padding-bottom: 4px; width:100%; float:left; }
 	
 	.copyright { background:#2e2e2e; padding:30px 0; color:#fff; text-align:center; margin-top:0px; position:relative; }
 	.copyright p { margin-bottom:0; }
@@ -1772,14 +1772,14 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.dark-bg .dt-sc-tb-header .dt-sc-price p , .light-bg .pricing-table { background:#2e2e2e; }
 	
-	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#cba73c;}
+	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#e8cd9b;}
 	.dark-bg .dt-sc-team-cmt p { color:#353535; }
 	
 	.dark-bg .dt-sc-tabs-vertical-frame-content h4 , .dark-bg .content-main  h1, .dark-bg .content-main  h2, .dark-bg .content-main  h3, .dark-bg .content-main  h4, 
 	.dark-bg .content-main  h5, .dark-bg .content-main  h6 , .dark-bg .content-main a , .dark-bg .content-main .post-nav-container a span , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-left ,
-	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#cba73c; }
+	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#e8cd9b; }
 
-	.dark-bg .social-media li a i {color : #cba73c;}
+	.dark-bg .social-media li a i {color : #e8cd9b;}
 	
 	.dt-sc-parallax-section .border-title h1, .dt-sc-parallax-section .border-title h2 ,.dt-sc-parallax-section .border-title h3, .dt-sc-parallax-section .border-title h4 , .dt-sc-parallax-section .border-title h5, .dt-sc-parallax-section .border-title h6  { color:#fff; border-color:#fff; }
 	
@@ -1925,7 +1925,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 {
 	font-size: 1.6em;
 	text-decoration: none;
-	color: #cba73c!important;
+	color: #e8cd9b!important;
 }
 
 .navigation .nav-previous
@@ -2004,7 +2004,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 .entry-metadata .fa {
-	color: #cba73c;
+	color: #e8cd9b;
+	margin-right: 5px;
 }
 
 .quote{
@@ -2012,12 +2013,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	font-size: 1.25rem;
 }
 
-.emailForm{
-	margin-top: 20px;
-	padding: 30px;
-	background-color: rgba(255, 255, 255, 0.06);
-	border-radius: 5px;
-}
 
 
 
@@ -2029,23 +2024,31 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /*Caldera Form Modification*/
 
 .mate .caldera-grid ._tisBound .row div .form-group .control-label .field_required{
-	color: #cba73c !important;
+	color: #e8cd9b !important;
 }
 
 .mate .caldera-grid ._tisBound .row div .form-group div .form-control{
-	background-color: rgba(255, 255, 255, 0.80);
+	background-color: none!important;
 }
 
 .mate .caldera-grid ._tisBound .row div .form-group div .btn{
-	background-color: #cba73c;
-	color: #000;
-	border: none;
-	border-radius: 0px;
+	background-color: #e8cd9b;
+    text-transform: uppercase;
+    color: #000 !important;
+    border: none;
+    border-radius: 0px;
+    width: 28%;
+    height: 77px !important;
+    margin-right: 36% !important;
+    margin-top: 5% !important;
+    margin-bottom: 5%;
+    letter-spacing: 3px;
 }
 
-.mate .caldera-grid ._tisBound .row div .form-group div .btn:hover{
-	background-color: #947928 !important;
-	color: #fff !important;
+.mate .caldera-grid ._tisBound .row div .form-group div .btn:hover, #es_txt_button_pg:hover{
+	background-color: transparent !important;
+	color: #e8cd9b !important;
+	border: 1px solid #e8cd9b !important;
 }
 
 #main .content .content-main .social-media ul li .facebook:hover i{
@@ -2089,7 +2092,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar{
 	float: none;
     margin: 0 auto;
-    /*border-bottom: 1px solid #cba73c;*/
+    /*border-bottom: 1px solid #e8cd9b;*/
     max-width: 100%;
 }
 
@@ -2097,7 +2100,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     align-items: center;
     margin: 20px;
     padding: 30px;
-    background: rgba(255,255,255,0.06);
+    background: transparent !important;
     border-radius: 5px;
 }
 
@@ -2120,7 +2123,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin-bottom: 5px;
     background-color: #000;
     border: none;
-    color: #cba73c;
+    color: #e8cd9b;
     text-align: center;
 }
 
@@ -2135,7 +2138,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .current-month a{
-	color : #cba73c !important;
+	color : #e8cd9b !important;
 	margin: 0 20px;
 }
 
@@ -2145,7 +2148,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next div a span{
-	color : #cba73c !important;
+	color : #e8cd9b !important;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -2160,7 +2163,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .previous:hover{
 	border: none;
-	/*background-color: #cba73c;*/
+	/*background-color: #e8cd9b;*/
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .next{
@@ -2170,7 +2173,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next .next:hover{
 	border: none;
-	/*background-color: #cba73c;*/
+	/*background-color: #e8cd9b;*/
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .cal_tabs_blue{
@@ -2181,7 +2184,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     line-height: 1;
     border: none;
     background: rgba(0, 0, 0, 0.34);
-    color: #cba73c;
+    color: #e8cd9b;
     display: none;
 }
 
@@ -2211,10 +2214,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	background: #000;
 	font-weight: bold;
 	font-style: normal;
-	color: #cba73c;
+	color: #e8cd9b;
 	padding: 10px;
 	opacity: 0.7;
-	border: 1px solid #cba73c;
+	border: 1px solid #e8cd9b;
 	border-bottom: 0;
 }
 
@@ -2244,7 +2247,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     /*background-color: #fff;*/
     background-color: #202020;
 	opacity: 0.7;
-	border: 1px solid #cba73c;
+	border: 1px solid #e8cd9b;
 	border-top: 0;
 }
 
@@ -2288,7 +2291,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 a:hover {
-	color: #cba73c !important;;
+	color: #e8cd9b !important;;
 	font-size: 19px;
 }
 
@@ -2296,7 +2299,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	width: 100%;
     text-align: center;
     font-size: 30px;
-    color: #cba73c;
+    color: #e8cd9b;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content div .event-content p{
@@ -2319,7 +2322,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 .ecwd_calendar .ecwd-widget-76 div .current-month
 {
-	color: #CBA73C;
+	color: #e8cd9b;
 }
 
 .events-calendar .event-main-content .event_dropdown_cont p
@@ -2328,81 +2331,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-indent: 15%;
 	font-weight: 400;
 	font-style: 1.7rem;
-	border: 1px solid #cba73c;
+	border: 1px solid #e8cd9b;
 	padding: 10px;
 	background-color: #202020;
 	margin-bottom: 5px;
 	opacity: 0.7;
-}
-
-
-/*NewsLetter*/
-
-.formSub{
-	margin-top: 20px;
-    background: rgba(255, 255, 255, 0.06);
-    padding: 20px;
-    border-radius: ;
-}
-
-.formSub form div .es_submit_button{
-	color: #000;
-    text-transform: capitalize;
-    margin: 10px 0px 0px;
-    font-size: 16px;
-    float: none;
-    padding: 11px 20px;
-    padding-bottom: 12px;
-    cursor: pointer;
-    background: #cba73c;
-}
-
-.formSub div form div .es_submit_button : hover {
-	color: #fff !important;
-    background: #947928 !important;
-}
-
-.formSub div form div .es_textbox_class{
-	margin-top: 5px;
-	border-radius: 2px;
-	background: rgba(255, 255, 255, 0.80);
-	border: none !important;
-    color: #000;
-    padding: 13px 3%;
-    display: inline-block;
-    font-size: 14px;
-    width: 80%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-.formSub div form div label{
-	color: #cba73c !important;
-	font-weight: bold;
-
-}
-
-#contact div div .formSub div .es_shortcode_form{
-	display: inline-flex;
-    width: 100%;
-    align-items: center;
-    align-content: center;
-}
-
-#contact div div .formSub div .es_shortcode_form .es_button{
-	padding-bottom: 24px !important;
-}
-
-#contact div div .formSub div .es_shortcode_form .es_textbox{
-	padding-bottom: 10px;
-    width: 80%;
-}
-
-#contact div div .formSub div .es_shortcode_form .es_lablebox{
-	padding-bottom: 3px;
-    width: 15%;
 }
 
 
@@ -2416,20 +2349,23 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 #main .content .main-title{
-	background: #000;
+	background: transparent !important;
     text-align: center;
     padding: 46px 0px;
 }
 
 .cs-btn-lg{
 	color: #000 !important;
-    padding: 1% 6%;
-    background-color: #cba73c;
+    padding: 2% 11%;
+    background-color: #e8cd9b;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .cs-btn-lg:hover {
-	background-color: #947928  !important;
-	color:#fff !important;
+	background-color: transparent  !important;
+	color:#e8cd9b !important;
+	border: 1px solid #e8cd9b;
 }
 
 
@@ -2451,7 +2387,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 h1{
-	color : #cba73c !important;
+	color : #e8cd9b !important;
 }
 
 
@@ -2495,6 +2431,10 @@ h1{
     font-weight: 400;
     text-align: justify;
     text-indent: 30px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+    font-style: italic;
+    margin-bottom: 7%;
 }
 
 .blog-entry .entry-details .entry-title{
@@ -2521,7 +2461,7 @@ h1{
 .blog-entry {
     float: left;
     clear: both;
-    margin: 0px 0px 10px;
+    margin: 0px 0px 2px;
     width: 100%;
     border-bottom: none !important;
     padding: 0 0 35px;
@@ -2582,7 +2522,7 @@ h1{
 	background: rgba(255,255,255,0.06);
     border-radius: 5px;
     border: none;
-    color: #cba73c;
+    color: #e8cd9b;
 }
 
 .content-main div div footer .comments-area #wpcomm .wpdiscuz-subscribe-bar form div .wpdiscuz_select{
@@ -2619,7 +2559,7 @@ h1{
     border: none !important	;
     border-radius: 4px;
     background: rgba(0,0,0,0.40) !important;
-    color: #cba73c;
+    color: #e8cd9b;
 }
 
 .content-main div div footer .comments-area #wpcomm .wc-main-form-wrapper{
@@ -2636,7 +2576,7 @@ h1{
     display: inline;
     width: 100%;
     height: auto;
-    border: 3px solid #cba73c;
+    border: 3px solid #e8cd9b;
     border-radius: 50%;
 }
 
@@ -2650,11 +2590,11 @@ h1{
 	clear: both;
     float: none;
     font-weight: normal;
-    color: #cba73c;
+    color: #e8cd9b;
 }
 
 .content-main div div footer #comments #wpcomm #wc-main-form-wrapper-0_0 form div div div div input{
-	background-color: #cba73c;
+	background-color: #e8cd9b;
 	color: #000;
 }
 
@@ -2673,12 +2613,12 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm .wpdiscuz-front-actions div .wpdiscuz-sort-button-active{
-	color: #cba73c!important;
+	color: #e8cd9b!important;
     cursor: default!important;
 }
 
 .wpdiscuz-sort-button:hover {
-	color: #cba73c !important;
+	color: #e8cd9b !important;
     cursor: pointer;
 }
 
@@ -2691,12 +2631,12 @@ h1{
     display: inline;
     width: 100%;
     height: auto;
-    border: 3px solid #cba73c;
+    border: 3px solid #e8cd9b;
     border-radius: 50%;
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div div .wc-comment-label{
-	background: #cba73c;
+	background: #e8cd9b;
     border-radius: 3px;
     color: #000;
 }
@@ -2714,17 +2654,17 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right div .wc-comment-author{
-	color: #cba73c;
+	color: #e8cd9b;
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right div div i{
-	color: #cba73c;
+	color: #e8cd9b;
 	border: none !important;
 }
 
 .wpf-cta : hover {
     color: #fff !important;
-    background: #cba73c !important;
+    background: #e8cd9b !important;
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right .wc-comment-text{
@@ -2735,7 +2675,7 @@ h1{
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right div div .wc-vote-result{
 	border: none !important;
-	color: #cba73c;
+	color: #e8cd9b;
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div div .wc_vote{
@@ -2777,7 +2717,7 @@ h1{
     vertical-align: top;
     margin-right: 2px;
     color: #000;
-    background: #cba73c;
+    background: #e8cd9b;
     border: none !important;
     border-radius: 2px;
 }
@@ -2792,12 +2732,12 @@ h1{
 }
 
 .wc-reply-button{
-	background-color: #cba73c !important;
+	background-color: #e8cd9b !important;
 }
 
 .wc-reply-button:hover, .wc-cta-active, .wc-cta-button:hover
 {
-	background-color: #cba73c!important;
+	background-color: #e8cd9b!important;
 }
 
 #wpcomm{
@@ -2824,11 +2764,11 @@ h1{
 	clear: both;
     float: none;
     font-weight: normal;
-    color: #cba73c;
+    color: #e8cd9b;
 }
 
 #wpcomm .wc-field-submit .button{
-	background-color: #cba73c;
+	background-color: #e8cd9b;
 	color: #000;
 }
 
@@ -2845,10 +2785,10 @@ h1{
 }
 
 .wc_msg_required_fields, .wc_invalid_field, .wc_invalid_captcha, .wc_error_url_text, .wc_error_email_text, .wpdiscuz-sendmail-error, .wc_msg_input_min_length, .wc_msg_input_max_length, .wc_login_to_vote, .wc_deny_voting_from_same_ip, .wc_self_vote, .wc_vote_only_one_time, .wc_voting_error, .wc_comment_edit_not_possible, .wc_comment_not_updated, .wc_comment_not_edited, .msgNotAllowedFiles, .msgMaxFileCount, .msgMaxFileSize, .msgPostMaxSize{
-	background-color: #cba73c !important;
+	background-color: #e8cd9b !important;
     font-size: 14px;
     text-align: center;
-    color: #cba73c !important;
+    color: #e8cd9b !important;
     border: gold 1px solid !important;
     padding: 5px 10px;
     width: 100%;
@@ -2872,7 +2812,7 @@ h1{
     border: none !important;
     border-radius: 4px;
     background: rgba(0,0,0,0.40) !important;
-    color: #cba73c;
+    color: #e8cd9b;
     align-items: center;
     align-content: center;
 }
@@ -2902,7 +2842,7 @@ h1{
     left: 8px;
     width: 20px;
     text-align: left;
-    color: #cba73c !important;
+    color: #e8cd9b !important;
 }
 
 #wpcomm .wpd-form-row .wpdiscuz-item .wc-captcha-input{
@@ -2922,7 +2862,7 @@ h1{
     line-height: 30px;
 }
 .content-main div div footer #comments #wpcomm #wc-main-form-wrapper-0_0 form div div div div .button{
-	background: #cba73c !important;
+	background: #e8cd9b !important;
     border: none !important;
     border-radius: 0px !important;
     color: #000 !important;
@@ -2961,7 +2901,7 @@ h1{
 }
 
 #wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a {
-    color: #cba73c !important;
+    color: #e8cd9b !important;
 }
 
 #wpcomm .wc-cta-button-x {
@@ -2991,7 +2931,7 @@ input[type="submit"], button, input[type="button"] {
     padding: 11px 20px;
     float: right;
     cursor: pointer;
-    background: #cba73c;
+    background: #e8cd9b;
 }
 
 .wc_save_wrap .wc_save_edited_comment: hover{
@@ -3030,7 +2970,7 @@ input[type="submit"], button, input[type="button"] {
 /*MOBILE VIEW*/
 .mean-container a.meanmenu-reveal span {
     display: block;
-    background: #cba73c !important;
+    background: #e8cd9b !important;
     height: 3px;
     margin-top: 3px;
 }
@@ -3062,7 +3002,7 @@ input[type="submit"], button, input[type="button"] {
     text-transform: capitalize;
     margin-bottom: 10px;
     border: 1px solid #947928;
-    color: #cba73c;
+    color: #e8cd9b;
     border-radius: 5px;
 }
 
@@ -3217,8 +3157,8 @@ Alcy Section*/
 }
 
 .ecwd-event a:hover{
-	color: #cba73c;
-	border: 1px solid #cba73c;
+	color: #e8cd9b;
+	border: 1px solid #e8cd9b;
 }
 
 .ecwd-event div.event-detalis-date{
@@ -3332,6 +3272,7 @@ Alcy Section*/
 
 }
 
+<Merge Conflict>
 /*Bootstrap Grid*/
 
 
@@ -3540,14 +3481,6 @@ Alcy Section*/
   }
   .col-sm-1 {
     width: 8.33333333%;
-  }
-<Merge Conflict>
-
-<Merge Conflict>
-
-<Merge Conflict>
-
-<Merge Conflict>
   }
   .col-sm-pull-12 {
     right: 100%;
@@ -4139,3 +4072,183 @@ div.border-title h3{
 	color: #e8cd9b !important;
     text-decoration: none !important;
 }
+
+
+/*Header Modifications*/
+#main section div div h2{
+	color: #e8cd9b !important;
+    border: none !important;
+    letter-spacing: 8px;
+    background: transparent !important;
+    font-size: 1.5rem;
+}
+
+
+/*Contact Remodifications*/
+.emailForm {
+     margin-top: none !important; 
+     padding: none !important;  
+     background-color: none !important; 
+     border-radius: none !important;  
+}
+
+#contact-bg{
+    background: #181818 !important;
+    background-position: 50% 143px;
+}
+
+#main .content .main-title {
+    background: transparent !important;
+    text-align: center;
+    padding: 46px 0px;
+}
+
+#CF595f1e474b88c_1-row-3, #CF595f1e474b88c_1-row-1{
+	display: none !important;
+}
+
+.caldera-grid .form-control {
+	color: #e8cd9b !important;
+    width: 100%;
+    height: 64px !important;
+    padding: 6px 12px;
+    background-color: transparent !important;
+    border: 1px solid #e8cd9b !important;
+    border-radius: none !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+#fld_7683514_1{
+	height: 211px !important;
+}
+
+.caldera-grid .form-control:focus {
+    border-color: none !important;
+    outline: 0;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.form-group label{
+	text-transform: uppercase;
+    margin-bottom: 15px !important;
+    margin-top: 15px;
+    letter-spacing: 4px;
+    color: #e8cd9b !important;
+}
+
+.parsley-required, .parsley-type{
+	color: #e8cd9b !important;
+}
+
+
+
+/*NewsLetter modifications*/
+#newsletter-container{
+	margin-top: 50%;
+}
+
+.contact-info ul li{
+	font-size: 0.9rem;
+	color: #e8cd9b !important;
+}
+
+.contact-info ul li .ico .fa{
+	color: #e8cd9b !important;
+}
+
+.contact-info div h1{
+	text-transform: uppercase;
+    margin: 2%;
+    margin-top: 36%;
+    font-size: 1.25rem;
+}
+
+.contact-info div p{
+	margin: 2%;
+    font-style: italic;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 1.25;
+    margin-bottom: 10%;
+}
+
+.formSub{
+	width: 44% !important;
+    box-sizing: border-box !important;
+    margin-left: 1%;
+}
+
+.formSub .es_textbox input{
+	width: 100%;
+    border: 1px solid #e8cd9b;
+    font-style: italic;
+    color: #e8cd9b;
+}
+
+.es_lablebox{
+	display: none;
+}
+
+.es_submit_button{
+	width: 100% !important;
+    border: 1px solid #e8cd9b;
+    text-transform: uppercase !important;
+    letter-spacing: 3px;
+    height: 64px;
+}
+
+
+/*Blog modification*/
+#blog-section{
+	background: #1b1b1b !important;
+}
+
+.blog-items .blog-entry {
+    width: 100%;
+    background: #181818;
+    border: none;
+    min-height: none !important; 
+}
+
+.entry-metadata .entry-meta-wrapper{
+    clear: both;
+    background: #181818;
+    height: 49px;
+}
+
+article div .entry-thumb a img{
+	width: 100%;
+}
+
+.entry-detail-wrapper{
+	width: 90%;
+	margin: auto;
+}
+
+.entry-detail-footer{
+	display: inline-flex;
+	margin-top: 4%;
+    margin-left: 5%;
+}
+
+.entry-detail-footer .author, .entry-detail-footer .date{
+	font-size: 0.7rem;
+    padding-right: 13%;
+}
+
+.entry-detail-footer .comment{
+	font-size: 0.7rem;
+}
+
+
+/*Events Modification*/
+.events-section{
+	background: #181818 !important;
+}
+
+
