@@ -380,7 +380,7 @@
                                 </div>
 
 
-                                <hr style="background-color:  #e8cd9b !important; margin-top: 100px !important;">
+                                <hr style="background-color:  #e8cd9b !important; margin-top: 65px !important;">
 
                                 
                                 <div class="dt-sc-hr-invisible-small"></div>
