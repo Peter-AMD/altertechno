@@ -246,8 +246,52 @@
                     	<div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
                             <div class="container">
                                
-                                <div class="about-us-text animate" data-animation = "fadeInUp" data-delay = "100"> 
-                                                <p>
+                                <div class="about-us-text animate new-about-us" data-animation = "fadeInUp" data-delay = "100"> 
+                                    
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-5" style="float: right;">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/video-poster.jpg" alt="" style="float: right;">
+                                        </div>
+
+                                        <div class="col-lg-6" style="float: left; text-align: left; padding-top: 15px;">
+                                            <!-- <div style="width: 80%;"> -->
+                                                <p>As technology executives well know, running software, hardware and technology service businesses across international boundaries requires long-term vision and adaptability. We have worked with international clients in all technology based sector from computer software and hardware, semiconductors, IT services, storage, components to peripherals sectors. Alternate Technology cross-sector technology expertise and global insights help technology companies compete and thrive in an industry where innovation is both an opportunity and a threat.
+                                                </p> <br>
+                                             
+                                                <p>We take your business from its existing ecosystem and expand its business reach all over the world.</p> <br>
+                                            <!-- </div> -->
+                                        </div>
+
+                                    </div>
+
+                                    <!-- <hr style="background-color: transparent;"> -->
+
+                                    <div class="row">
+                                        
+                                        <div class="col-lg-6">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/images/video-poster.jpg" alt="" style="float: left;">
+                                        </div>
+
+                                        <!-- <div class="col-lg-1"></div> -->
+
+                                        <div class="col-lg-5" style="text-align: right; float: right; padding-top: 15px;">
+                                            <div style="float: right;" >
+                                                <p>If you are a Canadian Technology company looking to penetrate the Australian market, we provide you with a 360 solution from developing a customer base to seeking partnership with a local entity through tax and legal services. In addition, if the condition is right, there is possibility of funding and investment.</p> <br>
+                                                   
+                                                <p>Our clients include top ten largest technology conglomerates, leading global software manufacturers and many key participants in the semiconductor industry. Our experience extends across the globe.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                            
+
+
+
+
+
+                                                <!-- <p>
                                                 <i class="fa fa-quote-left quote">  </i>
                                                      As technology executives well know, running software, hardware and technology service businesses across international boundaries requires long-term vision and adaptability. We have worked with international clients in all technology based sector from computer software and hardware, semiconductors, IT services, storage, components to peripherals sectors. Alternate Technology cross-sector technology expertise and global insights help technology companies compete and thrive in an industry where innovation is both an opportunity and a threat.
                                                 </p> <br>
@@ -258,13 +302,13 @@
                                                
                                                 <p> Our clients include top ten largest technology conglomerates, leading global software manufacturers and many key participants in the semiconductor industry. Our experience extends across the globe.
                                                 <i class="fa fa-quote-right quote"></i>
-                                                </p> 
+                                                </p>  -->
                                 </div>
                                 
                                 <div class="circle"></div>
 								<div class="pie"></div>
 
-                                <hr style="color:  #e8cd9b;">
+                                <hr style="background-color:  #e8cd9b !important;">
 
                                 <div>
                                     <div class="about-us-wrapper-2">
