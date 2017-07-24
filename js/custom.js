@@ -388,6 +388,9 @@ jQuery(document).ready(function($){
 		// alert();
 	});
 
+	$("#es_txt_name_pg").attr("placeholder", "Enter Name");
+	$("#es_txt_email_pg").attr("placeholder", "Enter Email");
+
 	// Javascript
 
 	

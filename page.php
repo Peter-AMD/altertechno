@@ -817,12 +817,14 @@
 
                     <!--Team Section Starts Here -->
                     <section id="events" class="content">
-                        <div class="main-title">
-                            <div class="container">
-                                <h2 class="animate" data-delay="100" data-animation="pullDown">EVENTS</h2>
+                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg events-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
+                            
+                            <div class="main-title" id="">
+                                <div class="container">
+                                    <h2 class="animate" data-delay="100" data-animation="pullDown">EVENTS</h2>
+                                </div>
                             </div>
-                        </div>
-                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg">
+                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
                         <!-- <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;"> -->
                             <div class="container animate" data-animation = "fadeInUp" delay = "120">
 
@@ -893,6 +895,8 @@
                             <!--Testimonial Parallax Ends Here -->
                         </div>
                 </section>
+
+                
                 <!--Team Section Ends Here -->
                 <section id="blog" class="content"><!--Blog Section Starts Here -->
                     
@@ -901,7 +905,7 @@
                             <h2 class="animate" data-delay="100" data-animation="pullDown">Blog</h2>
                         </div>
                     </div>
-                    <div class="content-main">
+					<div class="content-main" id="blog-section">
                         <div class="container">
                             <!--Blog Posts Starts Here -->
                             <div class="blog-items apply-isotope scroll animate" data-animation = "fadeInUp" data-delay = "100">
@@ -919,27 +923,39 @@
                                             <!-- the loop -->
                                             <?php $counter = 0; while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); $counter++;?>
                                                 <div class="dt-sc-one-third <?php if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item">
-                                                <article class="blog-entry">
-                                                <div class="entry-thumb">
-                                                    <a href="<?php echo get_permalink(); ?>"><img src="<?php 
-                                                    if(has_post_thumbnail()): echo the_post_thumbnail_url('single-post-thumbnail'); endif; 
-                                                    if(!has_post_thumbnail()): echo get_template_directory_uri();?>/images/Background/no.jpg <?php endif; ?>"; alt="" title=""></a>
-                                                </div>
-                                                <div class="entry-details">
-                                                    <div class="entry-title">
-                                                        <h4> <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a> </h4> <br>
-                                                    </div>
-                                                    <div class="entry-metadata">
-                                                         <p class="date"> <i class="fa fa-calendar"></i> <?php echo get_the_date('F d, Y'); ?> </p>
-                                                         <p class="author"> <i class="fa fa-user"></i> Posted By:  <a href="<?php echo get_permalink(); ?>" title="ram"> <?php echo get_the_author(); ?> </a> </p>
-                                                         <p><a href="<?php echo get_permalink(); ?>"><i class="fa fa-comments"></i><?php echo  get_comments_number(); ?></a></p>
-                                                    </div>
-                                                    <div class="entry-body">
-                                                        <?php echo wp_trim_words( get_the_content(), 40, '...' );?>
+                                                    <article class="blog-entry">
+                                                   
+                                                       <div>
+                                                           <div class="entry-thumb">
+                                                                <a href="<?php echo get_permalink(); ?>"><img src="<?php 
+                                                                if(has_post_thumbnail()): echo the_post_thumbnail_url('single-post-thumbnail'); endif; 
+                                                                if(!has_post_thumbnail()): echo get_template_directory_uri();?>/images/Background/no.jpg <?php endif; ?>"; alt="" title=""></a>
+                                                             </div>
 
-                                                    </div>
-                                                </div>
-                                            </article>
+                                                        <div class="entry-details">
+                                                           <div class="entry-detail-wrapper">
+                                                                <div class="entry-title">
+                                                                <h4> <a href="<?php echo get_permalink(); ?>"><?php the_title(); ?></a> </h4> <br>
+                                                                </div>
+                                                                <div class="entry-body">
+                                                                    <?php echo wp_trim_words( get_the_content(), 40, '...' );?>
+                                                                </div> 
+                                                           </div>                                          
+                                                        </div>
+                                                        <div class="entry-detail-wrapper">
+                                                            <h4> <a href="<?php echo get_permalink(); ?>">Read More</a></h4>
+                                                        </div>
+                                                       </div>
+                                                    </article>
+                                                            <div class="entry-metadata">
+                                                                <div class="entry-meta-wrapper">
+                                                                   <div class="entry-detail-wrapper entry-detail-footer">
+                                                                        <p class="date"> <i class="fa fa-calendar"></i> <?php echo get_the_date('F d, Y'); ?> </p>
+                                                                         <p class="author"> <i class="fa fa-user"></i> Posted By:  <a href="<?php echo get_permalink(); ?>" title="ram"> <?php echo get_the_author(); ?> </a> </p>
+                                                                         <p class="comment"><a href="<?php echo get_permalink(); ?>"><i class="fa fa-comments"></i><?php echo  get_comments_number(); ?></a></p>
+                                                                   </div>
+                                                                </div>
+                                                            </div> <br> <br> <br>
                                         </div>
                                             <?php endwhile; ?>
                                             <!-- end of the loop -->
@@ -951,11 +967,6 @@
                                         <?php else : ?>
                                             <p><?php _e( 'Sorry, no posts matched your criteria.' ); ?></p>
                                         <?php endif; ?>
-                                        
-                                  
-                                         
-
-                                        
                                
                             </div>
                             <!-- <div class="dt-sc-hr-invisible-small"></div> -->
@@ -968,16 +979,18 @@
                     </div>
                 </section><!--Blog Section Ends Here -->
                 <section id="contact" class="content"><!--Contact Section Starts Here -->
-                    <div class="main-title">
-                        <div class="container">
-                            <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
-                        </div>
-                    </div>
                     <div class="content-main">
-                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
+                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" id = "contact-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
+
+                                <div class="main-title">
+                                    <div class="container">
+                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
+                                    </div>
+                    </div>
+
                             <div class="container">
                                 <div class="animate emailForm" data-animation="fadeInUp" data-delay="100">
-                                    <div class="dt-sc-hr-invisible"></div>
+                                	<!-- <div class="dt-sc-hr-invisible"></div> -->
                                     <div id="ajax_contactform_msg"> </div>
 
                                     <div class="mate">
@@ -1044,7 +1057,7 @@
                             </div>
                         </div>
 
-                        <!-- <div class="social-media type1">
+                       <!--  <div class="social-media type1">
                             <ul class="aligncenter">
                                 <li class="dt-sc-one-fifth column first no-space"><a href="#" class="dt-sc-tooltip-top facebook" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top google" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
@@ -1053,20 +1066,38 @@
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top linked" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div> -->
-                       <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100">
-                       <!-- <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); "> -->
-                            <div class="dt-sc-one-half column no-space">
-                                <div class="contact-info">
+                       <div id="newsletter-container">
+                           <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
+
+                                    <div class="container">
+                                        <div class="dt-sc-one-half column no-space">
+                                        <div class="contact-info">
                                     <h2 class="contact-title">Contact Info</h2>
-                                    <ul>
-                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
-                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                        <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
-                                    </ul>
+                                            <ul>
+                                                <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
+                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                                <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
+                                            </ul>
+                                                <div>
+                                                    <h1>Subscribe</h1>
+                                                    <p>
+                                                        </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
+                                                    <div class="formSub">
+                                                            <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
+                                                    </div>
+                                                </div>
+
+                                        </div>
+
                                 </div>
-                            </div>
-                            <div class="dt-sc-one-half column no-space">
-                                <div id="contact_map"> </div> 
+                                    <div class="dt-sc-one-half column no-space">
+                                        <div id="contact_map"> </div> 
+                                    </div>
+                                    </div>
                             </div>
                         </div>
                         
@@ -1087,16 +1118,14 @@
                                 <!-- <p class="newsletter-text animate dt-sc-one-half column" data-animation="stretchRight"> <i class="fa fa-envelope-o colorize"> </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span> </p> -->
                             <!-- </div>Newsletter Form Ends Here  -->
                             <!-- <div class="dt-sc-hr-invisible-small"> </div> -->
-                        </div>  
+                        </div> 
 
 
-                        <div class="fullwidth-section dt-sc-parallax-section twitter-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bridge.jpg'">
-                            <div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
-                                <div class="formSub">
-                                        <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
-                                </div>
-                            </div>
-                        </div>
+
+                       </div> 
+
+
+                       
 
                         
 
