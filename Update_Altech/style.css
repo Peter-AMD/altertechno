@@ -143,7 +143,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#cba73c; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
@@ -525,7 +525,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	::i-block-chrome, #main-menu ul a { font-weight: 600; }
 	}
 	
-	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-item > a, #main-menu ul li.current-menu-ancestor > a { color:#cba73c;}
+	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-item > a, #main-menu ul li.current-menu-ancestor > a { color:#e8cd9b;}
 	#main-menu ul > li > a:hover { color:#8b8a8a; }
 	
 	#main-menu ul li ul { position:absolute; top:90px; left:auto; display:none; z-index:1; }
@@ -628,7 +628,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.content { padding: 0 0 0px; }
 	
 	.main-title { background: #2e2e2e; text-align:center; padding:46px 0px; }
-	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #cba73c; color:#cba73c; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
+	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #e8cd9b; color:#e8cd9b; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
 	
 	.border-title { text-align:center; text-transform:uppercase; margin-bottom:50px; width:100%;  display:inline-block;}
 	.border-title h1 , .border-title h2 , .border-title h3 , .border-title h4 , .border-title h5 , .border-title h6 { display:inline-block; border-bottom:1px solid #2e2e2e; padding-bottom:5px; }	
@@ -1124,7 +1124,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	border-bottom-color:transparent!important;	transform:rotate(270deg);	-moz-transform:rotate(270deg);	-ms-transform:rotate(270deg);	-webkit-transform:rotate(270deg); 	-webkit-transition: all 0.20s;
 	-moz-transition: all 0.20s;	transition: all 0.20s;	transition-delay: 0.1s;	-webkit-transition-delay: 0.1s;	border-color:#fff; }
 
-	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #cba73c; }
+	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #e8cd9b; }
 	.contact-info ul li span.ico i {  font-size: 14px; height: 40px; left: 6px; line-height: 40px; position: absolute; text-align: center; top: 7px; width: 40px; text-align:center; }
 		
 	.dark-box h4, .dark-box label { color:#F1EAD7; }	
@@ -1242,7 +1242,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.dark-bg .dt-sc-tb-header .dt-sc-price p , .light-bg .pricing-table { background:#2e2e2e; }
 	
-	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#cba73c;}
+	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#e8cd9b;}
 	.dark-bg .dt-sc-team-cmt p { color:#353535; }
 	
 	.dark-bg .dt-sc-tabs-vertical-frame-content h4 , .dark-bg .content-main  h1, .dark-bg .content-main  h2, .dark-bg .content-main  h3, .dark-bg .content-main  h4, 
@@ -1380,7 +1380,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 {
 	font-size: 1.6em;
 	text-decoration: none;
-	color: #cba73c!important;
+	color: #e8cd9b!important;
 }
 
 .navigation .nav-previous
@@ -1463,7 +1463,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .entry-metadata .fa {
-	color: #cba73c;
+	color: #e8cd9b;
 }
 
 .quote{
@@ -1472,5 +1472,5 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .btn-normal{
-	color: #cba73c;
+	color: #e8cd9b;
 }

@@ -903,13 +903,15 @@
                     </div>
 				</section><!--Blog Section Ends Here -->
                 <section id="contact" class="content"><!--Contact Section Starts Here -->
-                    <div class="main-title">
-                        <div class="container">
-                            <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
-                        </div>
-					</div>
                     <div class="content-main">
-                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
+                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" id = "contact-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
+
+                                <div class="main-title">
+                                    <div class="container">
+                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
+                                    </div>
+                                </div>
+
                             <div class="container">
                                 <div class="animate emailForm" data-animation="fadeInUp" data-delay="100">
                                 	<div class="dt-sc-hr-invisible"></div>
@@ -979,7 +981,7 @@
                             </div>
                         </div>
 
-                        <div class="social-media type1">
+                       <!--  <div class="social-media type1">
                             <ul class="aligncenter">
                                 <li class="dt-sc-one-fifth column first no-space"><a href="#" class="dt-sc-tooltip-top facebook" title="Facebook"> <i class="fa fa-facebook"></i></a></li>
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top google" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
@@ -987,26 +989,44 @@
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top youtube" title="YouTube"><i class="fa fa-youtube"></i></a></li>
                                 <li class="dt-sc-one-fifth column no-space"><a href="#" class="dt-sc-tooltip-top linked" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
-                        </div>
-                       <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
-                       		<div class="dt-sc-one-half column no-space">
-                                <div class="contact-info">
-                                	<h2 class="contact-title">Contact Info</h2>
-                                    <ul>
-                                        <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
-                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                        <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
-                                    </ul>
+                        </div> -->
+                       <div id="newsletter-container">
+                           <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
+
+                                    <div class="container">
+                                        <div class="dt-sc-one-half column no-space">
+                                        <div class="contact-info">
+                                            <ul>
+                                                <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
+                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                                <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
+                                            </ul>
+                                                <div>
+                                                    <h1>Subscribe</h1>
+                                                    <p>
+                                                        </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span>
+                                                    </p>
+                                                </div>
+
+                                                <div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
+                                                    <div class="formSub">
+                                                            <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
+                                                    </div>
+                                                </div>
+
+                                        </div>
+
                                 </div>
-							</div>
-                            <div class="dt-sc-one-half column no-space">
-								<div id="contact_map"> </div> 
-                        	</div>
+                                    <div class="dt-sc-one-half column no-space">
+                                        <div id="contact_map"> </div> 
+                                    </div>
+                                    </div>
+                            </div>
                         </div>
                         
                         <!-- <div class="newsletter"><!--Newsletter Form Starts Here -->
-                        	<div class="dt-sc-hr-invisible-small"> </div>
-                        	<!-- <div  -->
+                            <div class="dt-sc-hr-invisible-small"> </div>
+                            <!-- <div  -->
                                <!--  <form name="frmnewsletter" method="post" class="animate dt-sc-one-half column first" data-animation="stretchLeft" action="php/subscribe.php">
                                     <div id="mailchimp-form">
                                         <p> <span class="fa fa-envelope-o"> </span> <input type="email" placeholder="Enter Email Address" name="mc_email"  required> </p>
@@ -1020,17 +1040,15 @@
                                 
                                 <!-- <p class="newsletter-text animate dt-sc-one-half column" data-animation="stretchRight"> <i class="fa fa-envelope-o colorize"> </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span> </p> -->
                             <!-- </div>Newsletter Form Ends Here  -->
-                        	<!-- <div class="dt-sc-hr-invisible-small"> </div> -->
-                    	</div>  
+                            <!-- <div class="dt-sc-hr-invisible-small"> </div> -->
+                        </div> 
 
 
-                        <div class="fullwidth-section dt-sc-parallax-section twitter-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bridge.jpg'">
-                        	<div class="container aligncenter animate" data-animation = "stretchRight" data-delay = "100">
-                               	<div class="formSub">
-                                        <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
-                                </div>
-                            </div>
-                        </div>
+
+                       </div> 
+
+
+                       
 
                         
 
