@@ -247,14 +247,14 @@
                     </div>
                 </section>
                 <section id="about" class="content"> <!--About Section Starts Here -->
-                    <div class="main-title">
-                        <div class="container">
-                            <h2 class="animate" data-delay="100" data-animation="pullDown">About us</h2>
-                        </div>
-                    </div>
                     <div class="content-main">
                         <!-- <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'"> -->
                         <div class="fullwidth-section">
+                          <div class="main-title " style="background-color: #1b1b1b !important;">
+                                <div class="container">
+                                    <h2 class="animate" data-delay="100" data-animation="pullDown">About us</h2>
+                                </div>
+                            </div>
                             <div class="container">
                                
                                 <div class="about-us-text animate new-about-us" data-animation = "fadeInUp" data-delay = "100"> 
@@ -319,7 +319,7 @@
                                 <div class="circle"></div>
                                 <div class="pie"></div>
 
-                                <hr style="background-color:  #e8cd9b !important;">
+                                <hr>
 
                                 <div>
                                     <div class="about-us-wrapper-2">
@@ -820,14 +820,14 @@
 
                     <!--Team Section Starts Here -->
                     <section id="events" class="content">
-                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg events-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
+                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg events-section" >
                             
-                            <div class="main-title" id="">
+                            <div class="main-title events-section">
                                 <div class="container">
                                     <h2 class="animate" data-delay="100" data-animation="pullDown">EVENTS</h2>
                                 </div>
                             </div>
-                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;">
+                        <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg events-section">
                         <!-- <div class="content-main fullwidth-section dt-sc-parallax-section services-parallax dark-bg" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/party.jpg'); background-repeat: no-repeat; background-size:cover; background-attachment: fixed;"> -->
                             <div class="container animate" data-animation = "fadeInUp" delay = "120">
 
@@ -989,7 +989,7 @@
                                     <div class="container">
                                         <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact Us </h2>
                                     </div>
-                    </div>
+                                 </div>
 
                             <div class="container">
                                 <div class="animate emailForm" data-animation="fadeInUp" data-delay="100">
@@ -1075,7 +1075,6 @@
                                     <div class="container">
                                         <div class="dt-sc-one-half column no-space">
                                         <div class="contact-info">
-                                    <h2 class="contact-title">Contact Info</h2>
                                             <ul>
                                                 <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
                                                 <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
