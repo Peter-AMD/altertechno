@@ -99,7 +99,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 
 	/*----*****---- << Headings >> ----*****----*/
 	
-	h1, h2, h3, h4, h5, h6 { color:#404040; font-weight:normal;}
+	h1, h2, h3, h4, h5, h6 { color:#e8cd9b !important; font-weight:normal;}
 	
 	@media screen and (-webkit-min-device-pixel-ratio:0) { 	/* Safari only override */
 	::i-block-chrome, h1, h2, h3, h4, h5, h6 { font-weight:500;}
@@ -1053,7 +1053,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	}
 	
 	#main-menu ul li.current_page_item > a, #main-menu ul li.current_page_ancestor > a, #main-menu ul li.current-menu-ancestor > a { color:#e8cd9b;}
-	#main-menu ul > li > a:hover { color:#8b8a8a; }
+	#main-menu ul > li > a:hover { color:#e8cd9b; }
 	
 	#main-menu ul li ul { position:absolute; top:90px; left:auto; display:none; z-index:1; }
 	#main-menu ul li:hover ul, #main-menu ul li ul li:hover ul { display:block; }
@@ -1777,7 +1777,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.dark-bg .dt-sc-tabs-vertical-frame-content h4 , .dark-bg .content-main  h1, .dark-bg .content-main  h2, .dark-bg .content-main  h3, .dark-bg .content-main  h4, 
 	.dark-bg .content-main  h5, .dark-bg .content-main  h6 , .dark-bg .content-main a , .dark-bg .content-main .post-nav-container a span , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-left ,
-	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#e8cd9b; }
+	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#e8cd9b}
 
 	.dark-bg .social-media li a i {color : #e8cd9b;}
 	
@@ -1917,7 +1917,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     font-size: 150%;
     text-indent: 2%;
     text-align: justify;
-    background-color: rgba(255,255,255, 0.01);
+    background-color:transparent !important;
     border-radius: 5px;
     padding: 20px;
 }
@@ -2121,7 +2121,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     z-index: 3;
     position: relative;
     margin-bottom: 5px;
-    background-color: #000;
+    background-color: #1b1b1b !important;
     border: none;
     color: #e8cd9b;
     text-align: center;
@@ -2183,21 +2183,33 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 15px 0 0 15px;
     line-height: 1;
     border: none;
-    background: rgba(0, 0, 0, 0.34);
+    background: #1b1b1b !important;
     color: #e8cd9b;
-    display: none;
+    /*display: none;*/
+}
+
+.ecwd_calendar_view_dropdown .ecwd-dropdown-menu{
+	min-width: 152px;
+    padding: 0 4px;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background: #181818 !important;
+    border: none !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .cal_tabs_blue div .type{
-	font-size: 13px;
+	box-sizing: border-box;
+    font-size: 13px;
     padding: 10px 0;
-    padding-left: 7px;
     height: 25px;
     border: none;
-    margin-bottom: 5px;
-    background: rgba(0 ,0 ,0, 0.25);
-    border-radius: 5px;
+    background: #282828;
+    padding: 3%;
     text-decoration: none;
+    width: 100%;
+    color: #fff !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul {
@@ -2394,7 +2406,7 @@ h1{
 .container .single-blog .entry-metadata h1{
 	font-size: 2em;
     padding: 20px 10px 20px 10px;
-    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%);
     margin-bottom: 10px;
     color: #000 !important;
     text-transform: uppercase;
@@ -2512,7 +2524,7 @@ h1{
     color: #000;
     text-align: right;
     padding-bottom: 10px;
-    background: -webkit-linear-gradient(right, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(right, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%);
     font-weight: bold;
     border-bottom: none;
     text-transform: uppercase;
@@ -2604,7 +2616,7 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm .wpdiscuz-front-actions{
-	background: -webkit-linear-gradient(right, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%);
+	background: -webkit-linear-gradient(right, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%);
     border: none;
 }
 
@@ -2941,7 +2953,7 @@ input[type="submit"], button, input[type="button"] {
 
 
 #main-menu ul > li > a:hover{
-	color: #947928 !important ;
+	color: #e8cd9b !important ;
 }
 
 .single-blog .entry-thumb img {
@@ -2989,7 +3001,7 @@ input[type="submit"], button, input[type="button"] {
 }
 
 .mean-container .mean-nav ul li a:hover {
-    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%) !important;
 }
 
 
@@ -3143,7 +3155,7 @@ Alcy Section*/
 .ecwd-event header h1{
     font-size: 2em;
     padding: 20px 10px 20px 10px;
-    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+    background: -webkit-linear-gradient(left, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%) !important;
     color: #000 !important;
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -3163,7 +3175,7 @@ Alcy Section*/
 
 .ecwd-event div.event-detalis-date{
     font-size: 2em;
-    background: -webkit-linear-gradient(left, #a3a1a1 0%,#777676 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%) !important;
+    background: -webkit-linear-gradient(right, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%) !important;
     color: #000 !important;
     text-align: left;
     font-weight: bold;
@@ -3272,7 +3284,11 @@ Alcy Section*/
 
 }
 
-<Merge Conflict>
+hr{
+	color: ##e8cd9b !important;
+}
+
+/*<Merge Conflict>*/
 /*Bootstrap Grid*/
 
 
@@ -3968,14 +3984,20 @@ Alcy Section*/
 }
 
 h1{
-	color : #cba73c !important;
+	color : #e8cd9b !important;
 }
+
+.about-section{
+	background-color: #1b1b1b !important;
+}
+
+
 
 
 .container .single-Aboutus .entry-metadata h1{
 	font-size: 2em;
     padding: 20px 10px 20px 10px;
-    background: -webkit-linear-gradient(left, rgba(203,167,60,0.65) 0%,rgba(180,148,53,0.65) 8%,rgba(0,0,0,0.2) 72%,rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(right, rgba(232,205,155,1) 0%,rgba(126,185,231,0) 99%,rgba(125,185,232,0) 100%);
     margin-bottom: 10px;
     color: #000 !important;
     text-transform: uppercase;
@@ -4081,6 +4103,10 @@ div.border-title h3{
     letter-spacing: 8px;
     background: transparent !important;
     font-size: 1.5rem;
+}
+
+.contact-info div h1 {
+    color: #e8cd9b !important;
 }
 
 
@@ -4247,8 +4273,11 @@ article div .entry-thumb a img{
 
 
 /*Events Modification*/
-.events-section{
-	background: #181818 !important;
+.events-section{	
+	background-color: #181818 !important;
 }
 
+.container hr{
+	background: #e8cd9b !important;
+}
 
