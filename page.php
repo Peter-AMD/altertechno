@@ -340,7 +340,8 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                        </div> <br>
+                                        </div>
+                                <hr class="hr-display" style="background-color:  #e8cd9b !important; display: none;">
                                         <div class="about-us-content">
                                             <div class="about-content-header">
                                                  <h1>Expand</h1>
@@ -355,7 +356,8 @@
                                                         <li>Part Time Resources / Local Support</li>
                                                     </ul>
                                             </div>
-                                        </div><br>
+                                        </div>
+                                <hr class="hr-display" style="background-color:  #e8cd9b !important; display: none;">
                                         <div class="about-us-content">
                                             <div class="about-content-header">
                                                 <h1>Establish</h1>
@@ -371,7 +373,8 @@
                                                         <li>Corporate Secretarial</li>
                                                     </ul>
                                             </div>
-                                        </div><br>
+                                        </div>
+                                <hr class="hr-display" style="background-color:  #e8cd9b !important; display: none;">
                                         <div class="about-us-content">
                                             <div class="about-content-header">
                                                  <h1>Invest</h1>

@@ -2969,7 +2969,10 @@ input[type="submit"], button, input[type="button"] {
 
 /*MOBILE VIEW*/
 .mean-container a.meanmenu-reveal{
-    padding-top: 40px !important;
+    padding-top: 35px !important;
+    padding-left: 5% !important;
+    padding-bottom: 35px !important;
+    padding-right: 5% !important;
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -4258,4 +4261,59 @@ article div .entry-thumb a img{
 
 #events.content .content-main{
 	background-color: #181818 !important;
+}
+
+/*About us 4 div responsive*/
+
+@media (max-width: 1200px) {
+	.about-us-wrapper-2{
+		height: auto;
+	}
+	div.caroufredsel_wrapper{
+		margin-left: 0 !important;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.about-us-wrapper-2{
+	    height: 650px;
+	    background: transparent;
+	    margin: auto;
+	    margin-top: 20px;
+	    display: initial;
+	    align-content: center;
+	    color: #fff !important;
+	}
+
+	.about-us-content{
+		width: 100%;
+	}
+
+	.about-us-content div img{
+		width: 40%;
+	    text-align: center;
+	    padding: 10px;
+	}
+
+	.about-content-body ul{
+	    font-size: 16px;
+	}
+
+	.about-content-header h1{
+		font-size: 20px;
+	}
+
+	.about-content-header h5{
+		font-size: 16px;
+	}
+
+	hr.hr-display{
+		display: block !important;
+	}
+	
+	.blog-items .blog-entry{
+		width: 100% !important;
+	}
+
 }
