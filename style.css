@@ -3074,7 +3074,7 @@ Alcy Section*/
 				 width: 25% !important;
 				 height: 25% !important;
 				 float: right;
-				 margin-right: 20px !important;
+				 margin-right: 5% !important;
 			}
 
 			/*About Paragraph*/
@@ -4177,12 +4177,13 @@ div.border-title h3{
 }
 
 .contact-info div p{
+	margin-top: 5%;
 	margin: 2%;
     font-style: italic;
     word-spacing: 2px;
     text-align: justify;
     line-height: 1.25;
-    margin-bottom: 10%;
+    margin-bottom: 3%;
 }
 
 .formSub{
@@ -4263,14 +4264,40 @@ article div .entry-thumb a img{
 	background-color: #181818 !important;
 }
 
+.contact-info ul li{
+	width: 90% !important;
+}
+
 /*About us 4 div responsive*/
 
+@media only screen and (max-width: 767px) and (min-width: 480px){
+
+	article div .entry-thumb a img{
+		width: 100% !important;
+	}
+
+}
+
 @media (max-width: 1200px) {
+
 	.about-us-wrapper-2{
 		height: auto;
 	}
+
 	div.caroufredsel_wrapper{
 		margin-left: 0 !important;
+	}
+
+}
+
+@media (max-width: 1400px) {
+
+	.blog-items .blog-entry{
+		width: 100% !important;
+	}
+
+	article div .entry-thumb a img{
+		width: 85%;
 	}
 }
 
@@ -4312,7 +4339,12 @@ article div .entry-thumb a img{
 		display: block !important;
 	}
 	
-	.blog-items .blog-entry{
+	.mate .caldera-grid ._tisBound .row div .form-group div .btn{
+		margin-right: 25% !important;
+		width: 50% !important;
+	}
+
+	.formSub{
 		width: 100% !important;
 	}
 
