@@ -16,7 +16,7 @@
                                     
                                     <!-- LAYER NR. 1 -->
                                     <!-- <div class="tp-caption source_white_golden tp-fade tp-resizeme"
-                                        data-x="center" data-hoffset="0"
+                                        data-x="center" data-hoffset="0
                                         data-y="420" data-voffset="60"
                                         data-speed="500"
                                         data-start="3500"
@@ -28,16 +28,16 @@
                                         data-endspeed="300"
                                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%); color: white;"> Beyond the Borders
                                     </div> -->
-                                    <div class="tp-caption source_white_golden tp-fade tp-resizeme"
+                                   <!--  <div class="tp-caption source_white_golden tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="0"
                                         data-y="420" data-voffset="60"
                                         data-speed="300"
                                         data-start="5000"
-                                        data-easing="Power4.easeIn"
+                                        data-easing="Power4.easeIn
                                         data-endelementdelay="0.1"
                                         data-endspeed="300"
                                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color: white;"> Beyond the Borders
-                                    </div>
+                                    </div> -->
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption source_white_med_shad tp-fade tp-resizeme"
@@ -984,7 +984,7 @@
 
                                 <div class="main-title">
                                     <div class="container">
-                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact Us </h2>
+                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact U </h2>
                                     </div>
                     </div>
 
