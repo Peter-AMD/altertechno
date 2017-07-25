@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <section id="content" role="main">
 
-<div class="main-title dark-bg fullwidth-section dt-sc-parallax-section breadcrumb-parallax" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/blog.jpg"'">
+<div class="main-title dark-bg fullwidth-section dt-sc-parallax-section breadcrumb-parallax" style="background: #1b1b1b !important">
 	<div class="container">
     	<h1 class="entry-title"><?php 
 		if ( is_day() ) { printf( __( 'Daily Archives: %s', 'blankslate' ), get_the_time( get_option( 'date_format' ) ) ); }

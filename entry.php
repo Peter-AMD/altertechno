@@ -30,7 +30,6 @@
                         ?>
                     </a>
                 </div>
-				<br />
 				<?php if ( !is_search() ) get_template_part( 'entry', 'meta' ); ?>
     
                 <div class="entry-details">

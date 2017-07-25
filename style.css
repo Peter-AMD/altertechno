@@ -1518,7 +1518,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.entry-thumb img { max-width:100%; max-height: 100%; }
 	
 	.entry-details { float:left; width:100%; margin:0px; padding:; }
-	.entry-details .entry-metadata { display:block; margin:0px 0px 15px; float:left; width:100%; font-weight:400; }
+	.entry-details .entry-metadata { display:block; margin:0px 0px 15px; float:left; width:100%; font-weight:400; margin-top: -7.090%;}
 	.entry-details .entry-metadata i { margin-right:5px; } 
 	.entry-details .entry-metadata p { display:inline-block; float:left; margin-bottom:10px; padding:0 16px 0px 0px; line-height:16px; text-transform:none; font-size:13px; }
 	.entry-details .entry-metadata span, .entry-details .entry-metadata p a { display:inline-block; }
@@ -2380,6 +2380,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	border: 1px solid #e8cd9b;
 }
 
+.entry-title{
+	border: none !important;
+    background: transparent !important;
+    letter-spacing: 3px;
+}
+
 
 
 
@@ -2447,6 +2453,7 @@ h1{
     line-height: 1.2;
     font-style: italic;
     margin-bottom: 7%;
+    color: #fff !important;
 }
 
 .blog-entry .entry-details .entry-title{
@@ -3273,7 +3280,8 @@ Alcy Section*/
     line-height: 170%;
     font-style: italic;
     list-style-type: circle;
-    list-style-position: inside;
+    list-style-position: outside;
+    margin-left: 12%;
 }
 
 .about-us-wrapper-2 h1{
@@ -3285,7 +3293,7 @@ Alcy Section*/
 }
 
 hr{
-	color: ##e8cd9b !important;
+	color: #e8cd9b !important;
 }
 
 /*<Merge Conflict>*/
