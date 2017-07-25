@@ -984,7 +984,7 @@
 
                                 <div class="main-title">
                                     <div class="container">
-                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact</h2>
+                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact Us </h2>
                                     </div>
                     </div>
 
