@@ -390,6 +390,8 @@ jQuery(document).ready(function($){
 
 	$("#es_txt_name_pg").attr("placeholder", "Enter Name");
 	$("#es_txt_email_pg").attr("placeholder", "Enter Email");
+	$("#carouselnav a").attr("title", "");
+	
 
 	// Javascript
 
@@ -514,7 +516,7 @@ function funafterwindowload() {
 					container: "#carouselnav",
 					anchorBuilder: function(nr) {
 							var tooltip = $tt;
-							return '<a href="#'+nr+'" title="'+tooltip[nr-1]+'" class="carouselnav-pager dt-sc-tooltip-top"><span>'+nr+'</span></a>';
+							return '<a href="#'+nr+'" class="carouselnav-pager dt-sc-tooltip-top"><span>'+nr+'</span></a>';
 						},
 				},
 				scroll :$n,
