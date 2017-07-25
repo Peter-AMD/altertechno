@@ -88,7 +88,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -12%">Sydney - Canada - Germany - Singapore - Hong Kong
+                                        style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -12%">Sydney - Canada - Germany - Singapore - Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
