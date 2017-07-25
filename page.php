@@ -28,22 +28,25 @@
                                         data-endspeed="300"
                                         style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; filter: sepia(100%); color: white;"> Beyond the Borders
                                     </div> -->
-                                   <!--  <div class="tp-caption source_white_golden tp-fade tp-resizeme"
+                                    <div class="tp-caption source_white_golden tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="0"
                                         data-y="420" data-voffset="60"
-                                        data-speed="300"
-                                        data-start="5000"
-                                        data-easing="Power4.easeIn
+                                        data-speed="500"
+                                        data-start="4500"
+                                        data-easing="Power4.easeIn"
+                                        data-splitin="chars"
+                                        data-splitout="none"
+                                        data-elementdelay="0.15"
                                         data-endelementdelay="0.1"
-                                        data-endspeed="300"
-                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color: white;"> Beyond the Borders
-                                    </div> -->
+                                        data-endspeed="300"                                       data-endspeed="300"
+                                        style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap; color: white;"> Beyond Borders
+                                    </div>
                                     
                                     <!-- LAYER NR. 2 -->
                                     <div class="tp-caption source_white_med_shad tp-fade tp-resizeme"
                                         data-x="center" data-hoffset="20"
                                         data-y="320" data-voffset="-60"
-                                        data-speed="200"
+                                        data-speed="500"
                                         data-start="1500"
                                         data-easing="Power4.easeIn"
                                         data-splitin="chars"
@@ -88,7 +91,7 @@
                                         data-elementdelay="0.1"
                                         data-endelementdelay="0.1"
                                         data-endspeed="1000"
-                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -12%">Sydney - Canada - Germany - Singapore - Hong Kong
+                    style="z-index: 2; max-width: auto; max-height: auto; text-align:center; margin-left: -12%">Sydney <span class="fa fa-circle"></span> Canada <span class="fa fa-circle"></span> Germany <span class="fa fa-circle"></span> Singapore <span class="fa fa-circle"></span> Hong Kong
                                     </div>
                                     
                                     <!-- LAYER NR. 2 -->
@@ -248,8 +251,8 @@
                 </section>
                 <section id="about" class="content"> <!--About Section Starts Here -->
                     <div class="content-main">
-                        <!-- <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'"> -->
-                        <div class="fullwidth-section">
+                        <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
+                        <!-- <div class="fullwidth-section"> -->
                           <div class="main-title " style="background-color: #1b1b1b !important;">
                                 <div class="container">
                                     <h2 class="animate" data-delay="100" data-animation="pullDown">About us</h2>
@@ -410,7 +413,7 @@
                                                     <!-- <span class="fa fa-microchip" > </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Semiconductor.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> SEMICONDUCTOR <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> SEMICONDUCTOR <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
@@ -426,7 +429,7 @@
                                                       <!-- <span class="fa fa-volume-control-phone"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Telecommunication.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> TELECOMMUNICATION <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> TELECOMMUNICATION <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                 <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
@@ -441,7 +444,7 @@
                                                     <!-- <span class="fa fa-truck"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Manufacturing.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#">  MANUFACTURING <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> -->  MANUFACTURING <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                         <!-- <ul>
                                                     <li>Online marketing</li>
                                                     <li>Packaging</li>
@@ -456,7 +459,7 @@
                                                     <!-- <span class="fa fa-laptop"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Software-Development.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> SOFTWARE <br> DEVELOPMENT </a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> SOFTWARE <br> DEVELOPMENT <!-- </a> --></h4>
                                                 <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
@@ -471,7 +474,7 @@
                                                     <!-- <span class="fa fa-refresh"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Renewable.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> RENEWABLE <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> RENEWABLE <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                <!--  <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
@@ -486,7 +489,7 @@
                                                     <!-- <span class="fa fa-map-marker"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Geospatial-01.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> GEOSPATIAL <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> GEOSPATIAL <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                 <!-- <ul>
                                                     <li>Responsive websites </li>
                                                     <li>Advertising campaigns</li>
@@ -501,7 +504,7 @@
                                                     <!-- <span class="fa fa-wrench"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Robotics-Drone-Tech.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> ROBOTICS AND DRONE TECHNOLOGY </a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> ROBOTICS AND DRONE TECHNOLOGY <!-- </a> --></h4>
                                                 <!-- <ul>
                                                     <li>Online marketing</li>
                                                     <li>Packaging</li>
@@ -516,7 +519,7 @@
                                                     <!-- <span class="fa fa-snowflake-o"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Nanotechnology.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#">  NANOTECHNOLOGY <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> -->  NANOTECHNOLOGY <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                                 <!-- <ul>
                                                     <li>Guerilla marketing</li>
                                                     <li>Typography</li>
@@ -531,7 +534,7 @@
                                                     <!-- <span class="fa fa-gears"> </span>  -->
                                                       <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Startup.svg" alt="" width="80">
                                                 </div>
-                                                <h4><a target="_blank" href="#"> STARTUP <br><span style="color:transparent;">SPACERFORnLINE</span></a></h4>
+                                                <h4><!-- <a target="_blank" href="#"> --> STARTUP <br><span style="color:transparent;">SPACERFORnLINE</span><!-- </a> --></h4>
                                               <!--   <ul>
                                                     <li>Creative Concepts</li>
                                                     <li>Advertising campaigns</li>
