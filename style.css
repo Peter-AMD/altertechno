@@ -670,7 +670,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:yellow; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
