@@ -397,7 +397,7 @@
                                 </div>
 
 
-                                <hr style="background-color:  #e8cd9b !important; margin-top: 65px !important;">
+                                <hr style="background-color:  #fff !important; margin-top: 65px !important;">
 
                                 
                                 <div class="dt-sc-hr-invisible-small"></div>
@@ -990,7 +990,7 @@
 
                                 <div class="main-title">
                                     <div class="container">
-                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact U </h2>
+                                        <h2 class="animate" data-delay="100" data-animation="pullDown"> Contact Us </h2>
                                     </div>
                                  </div>
 
