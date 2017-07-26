@@ -8,9 +8,9 @@
 <div class="entry-metadata">
 	<h1><?php echo get_the_title(); ?></h1>
 	<div>	
-		<p class="date"> <i class="fa fa-calendar"></i> <?php the_time( get_option( 'date_format' ) ); ?> </p>
-		<p class="author"> <i class="fa fa-user"></i> By :  <a href="#" title="Author"> <?php echo get_the_author(); ?> </a> </p>
-		<p><a href="#"><i class="fa fa-comments"></i><?php comments_number(); ?></a></p>
+		<p class="date"> <i class="fa fa-calendar-o"></i> <?php the_time( get_option( 'date_format' ) ); ?> </p>
+		<p class="author"> <i class="fa fa-heart"></i> By : <?php echo get_the_author(); ?> </p>
+		<p><i class="fa fa-comment"></i><?php comments_number(); ?></p>
 	</div>
 	
 </div>
