@@ -404,9 +404,9 @@
                                 <div class="dt-sc-service-carousel-wrapper">
                                     <div class="border-title">
                                         <!-- <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> WE REPRESENT YOUR TECH </h3> -->
-                                        <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> WE REPRESENT YOUR TECH </h3>
+                                        <h3 class="about-us-wereyo"> WE REPRESENT YOUR TECH </h3>
                                     </div>
-                                    <div class="dt-sc-service-carousel aligncenter animate" data-animation="fadeInUp" data-delay="100" style="margin-left: -20px;"><!--Service Carousel Starts Here -->
+                                    <div class="dt-sc-service-carousel aligncenter " style="margin-left: -20px;"><!--Service Carousel Starts Here -->
                                         <div class="column dt-sc-one-fourth">
                                             <div class="dt-sc-ico-content type4">
                                                 <div class="icon"> 
@@ -949,16 +949,16 @@
                                                            </div>                                          
                                                         </div>
                                                         <div class="entry-detail-wrapper">
-                                                            <h4> <a href="<?php echo get_permalink(); ?>">Read More</a></h4>
+                                                            <h4> <a href="<?php echo get_permalink(); ?>"><i class="fa fa-chevron-right"></i>  Read More </a></h4>
                                                         </div>
                                                        </div>
                                                     </article>
                                                             <div class="entry-metadata">
                                                                 <div class="entry-meta-wrapper">
                                                                    <div class="entry-detail-wrapper entry-detail-footer">
-                                                                        <p class="date"> <i class="fa fa-calendar"></i> <?php echo get_the_date('F d, Y'); ?> </p>
-                                                                         <p class="author"> <i class="fa fa-user"></i> Posted By:  <a href="<?php echo get_permalink(); ?>" title="ram"> <?php echo get_the_author(); ?> </a> </p>
-                                                                         <p class="comment"><a href="<?php echo get_permalink(); ?>"><i class="fa fa-comments"></i><?php echo  get_comments_number(); ?></a></p>
+                                                                        <p class="date"> <i class="fa fa-calendar-o"></i> <?php echo get_the_date('F d, Y'); ?> </p>
+                                                                         <p class="author"> <i class="fa fa-heart"></i> Posted By:  <a href="<?php echo get_permalink(); ?>" title="author"> <?php echo get_the_author(); ?> </a> </p>
+                                                                         <p class="comment"><a href="<?php echo get_permalink(); ?>"><i class="fa fa-comment"></i><?php echo  get_comments_number(); ?></a></p>
                                                                    </div>
                                                                 </div>
                                                             </div> <br> <br> <br>
@@ -1079,11 +1079,11 @@
                                         <div class="dt-sc-one-half column no-space">
                                         <div class="contact-info">
                                             <ul>
-                                                <li><span class="ico"><i class="fa fa-map-marker"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
+                                                <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
                                                 <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
                                                 <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
                                             </ul>
-                                                <div>
+                                                <div class="subscribe">
                                                     <h1>Subscribe</h1>
                                                     <p>
                                                         </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span>

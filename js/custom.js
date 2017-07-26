@@ -227,10 +227,10 @@ jQuery(document).ready(function($){
 	var $map = $('#contact_map');
 	if( $map.length ) {
 		$map.gMapResp({
-			address: 'Iamdesigning, 1/52,3/53, Lal Bahadhur Colony,Shringar Nagar Road, Near Gopal Naidu School, Peelamedu, Coimbatore, TN 641004',
+			address: 'Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia.',
 			zoom: 16,
 			markers: [
-				{ 'address' : 'Iamdesigning, 1/52,3/53, Lal Bahadhur Colony,Shringar Nagar Road, Near Gopal Naidu School, Peelamedu, Coimbatore, TN 641004' }
+				{ 'address' : 'Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia.' }
 			],
 			scrollwheel: false,
 			styles: [ { "stylers": [ { "featureType": "all" }, { "saturation": -100 }, { "gamma": 0.50 }, {"lightness": 30 } ] } ]
@@ -390,9 +390,17 @@ jQuery(document).ready(function($){
 
 	$("#es_txt_name_pg").attr("placeholder", "Enter Name");
 	$("#es_txt_email_pg").attr("placeholder", "Enter Email");
-	$("#carouselnav a").attr("title", "");
 	
+	$(".ecwd-event-date-info").attr("id", "blog-label-1");
+	$("#blog-label-1").removeClass("ecwd-event-date-inf0").addClass("fa fa-calendar");
 
+
+	$(".ecwd-event-url-info").attr("id", "label-link");
+	$("#label-link").removeClass("ecwd-event-url-info").addClass("fa fa-link");
+
+
+	$(".ecwd-venue-info").attr("id", "label-venue");
+	$("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
 	// Javascript
 
 	

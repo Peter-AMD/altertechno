@@ -143,7 +143,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	/*----*****---- << Text Elements >> ----*****----*/
 	
 	a{ text-decoration:none; color:#2e2e2e; }
-	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#cba73c; }
+	a:hover ,.dt-sc-contact-info .contact-info ul li a:hover , footer .copyright a:hover { color:#e8cd9b; }
 	a img{ border:none; }
 	
 	strong{ font-weight: bold; }
@@ -177,8 +177,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	blockquote.alignleft { margin-right:20px; text-align:left; width:30%; float:left; }
 	blockquote.alignright { margin-left:20px; text-align:left; width:30%; float:right; }
-	blockquote.aligncenter { width:100%; text-align:center; color:#cba73c;}
-	
+	blockquote.aligncenter { width:100%; text-align:center; color:#e8cd9b;}	
 	blockquote:before, blockquote:after { text-decoration:inherit; font-size:30px; color:#999999; }
 	
 	blockquote.type2 { border-left:5px solid; padding:8px 0 0 20px; font-size:20px; line-height:30px; font-style:normal; font-weight:300; }
@@ -1155,7 +1154,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.content { padding: 0 0 0px; }
 	
 	.main-title { background: #2e2e2e; text-align:center; padding:46px 0px; }
-	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #cba73c; color:#cba73c; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
+	.main-title h1 , .main-title h2 , .main-title h3 , .main-title h4 , .main-title h5 , .main-title h6 { display:inline-block; padding:30px 60px; text-transform:uppercase; margin-bottom:0; border:1px solid #e8cd9b; color:#e8cd9b; font-family: 'Arial'!important; background-color: rgba(0, 0, 0, 0.21)}
 	
 	.border-title { text-align:center; text-transform:uppercase; margin-bottom:50px; width:100%;  display:inline-block;}
 	.border-title h1 , .border-title h2 , .border-title h3 , .border-title h4 , .border-title h5 , .border-title h6 { display:inline-block; border-bottom:1px solid #2e2e2e; padding-bottom:5px; }	
@@ -1526,7 +1525,9 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.entry-details .entry-title h4 { font-size:20px;}
 	
-	.entry-body { display: inline-block; width: 100%; font-weight:400; }
+	.entry-body { display: inline-block; width: 100%; font-weight:400; box-sizing: border-box;
+    padding-left: 6%;
+    padding-right: 6%;}
 	
 	.entry-body blockquote, .entry-body blockquote q { font-size:16px; color:#a8a8a8; font-weight:500; line-height:29px; text-transform:none; font-style:italic; padding:0 }
 	.entry-body blockquote:before, .entry-body blockquote q:after { content:none; }
@@ -1617,16 +1618,16 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	#mailchimp-form, .newsletter form , .newsletter p { float:left;}
 	#mailchimp-form { width:100%; }
-	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #cba73c; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
-	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#cba73c; }
+	#mailchimp-form p { background: none repeat scroll 0 0 #FFFFFF; border:1px none #e8cd9b; font-family: 'Arial',!important; overflow: hidden; padding: 0; float:left; width:80%; }
+	#mailchimp-form p span { margin-left:20px; margin-right:5px; color:#e8cd9b; }
 	#mailchimp-form p input[type="email"] { width:90%; padding: 15px 0px 16px; margin-right: 1px; color:#000; }
 	#mailchimp-form p.submit { width:auto; margin:0px;}
-	#mailchimp-form p.submit input { background:#cba73c; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
-	#mailchimp-form p.submit input:hover { background:#947928; color:#fff;}
+	#mailchimp-form p.submit input { background:#e8cd9b; padding:15px 20px; padding:15px 20px 14px\0/; font-size:16px; margin:0px; color:#000; font-family: 'Lato',!important;}
+	#mailchimp-form p.submit input:hover { background:transparent; color:#fff;}
 	
 	@-moz-document url-prefix() { #mailchimp-form p.submit input { padding: 14px 20px; } }
 
-	.colorize{color: #cba73c}
+	.colorize{color: #e8cd9b}
 	
 	.newsletter .newsletter-text { float:right; line-height:24px; color:#fff; }
 	.newsletter .newsletter-text i { float: left; margin-bottom: 20px; margin-right: 25px; margin-top: 10px;  font-size:24px; }
@@ -1654,7 +1655,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	border-bottom-color:transparent!important;	transform:rotate(270deg);	-moz-transform:rotate(270deg);	-ms-transform:rotate(270deg);	-webkit-transform:rotate(270deg); 	-webkit-transition: all 0.20s;
 	-moz-transition: all 0.20s;	transition: all 0.20s;	transition-delay: 0.1s;	-webkit-transition-delay: 0.1s;	border-color:#fff; }
 
-	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #cba73c; }
+	.contact-info ul li:hover div{	transform:rotate(90deg); -moz-transform:rotate(90deg); -ms-transform:rotate(90deg); -webkit-transform:rotate(90deg); border-color: #e8cd9b; }
 	.contact-info ul li span.ico i {  font-size: 14px; height: 40px; left: 6px; line-height: 40px; position: absolute; text-align: center; top: 7px; width: 40px; text-align:center; }
 		
 	.dark-box h4, .dark-box label { color:#F1EAD7; }	
@@ -1704,7 +1705,7 @@ BlankSlate is distributed under the terms of the GNU GPL
 	.dark-bg .social-media.type1 li a:after , .light-bg .social-media.type1 li a:after {  -ms-transform: none;  -webkit-transform: none; transform: none; left:0; bottom:0; content:none; }
 	.dark-bg .social-media.type1 li a:hover:after , .light-bg .social-media.type1 li a:hover:after { border:none; background:none; width:100%; height:100%; color:#fff; }
 	
-	#contact_map { height: 426px; padding-bottom: 4px; width:100%; float:left; }
+	#contact_map { height: 426px; padding-bottom: 4px; width:100%; float:left; height: 559px;}
 	
 	.copyright { background:#2e2e2e; padding:30px 0; color:#fff; text-align:center; margin-top:0px; position:relative; }
 	.copyright p { margin-bottom:0; }
@@ -1772,14 +1773,14 @@ BlankSlate is distributed under the terms of the GNU GPL
 	
 	.dark-bg .dt-sc-tb-header .dt-sc-price p , .light-bg .pricing-table { background:#2e2e2e; }
 	
-	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#cba73c;}
+	.dark-bg .dt-sc-team-carousel-wrapper .carousel-arrows a i , .dark-bg #fp-nav span, .fp-slidesNav span , .dark-bg .entry-title h4 a { color:#e8cd9b;}
 	.dark-bg .dt-sc-team-cmt p { color:#353535; }
 	
 	.dark-bg .dt-sc-tabs-vertical-frame-content h4 , .dark-bg .content-main  h1, .dark-bg .content-main  h2, .dark-bg .content-main  h3, .dark-bg .content-main  h4, 
 	.dark-bg .content-main  h5, .dark-bg .content-main  h6 , .dark-bg .content-main a , .dark-bg .content-main .post-nav-container a span , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-left ,
 	.inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-right , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-bottom , .inner-page.dark-bg .content-main a.dt-sc-button.dt-sc-tooltip-top , .dark-bg .fig-content a.dt-sc-button:hover { color:#e8cd9b}
 
-	.dark-bg .social-media li a i {color : #cba73c;}
+	.dark-bg .social-media li a i {color : #e8cd9b;}
 	
 	.dt-sc-parallax-section .border-title h1, .dt-sc-parallax-section .border-title h2 ,.dt-sc-parallax-section .border-title h3, .dt-sc-parallax-section .border-title h4 , .dt-sc-parallax-section .border-title h5, .dt-sc-parallax-section .border-title h6  { color:#fff; border-color:#fff; }
 	
@@ -1925,7 +1926,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 {
 	font-size: 1.6em;
 	text-decoration: none;
-	color: #cba73c!important;
+	color: #e8cd9b!important;
 }
 
 .navigation .nav-previous
@@ -2004,7 +2005,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 
 .entry-metadata .fa {
-	color: #cba73c;
+	color: #e8cd9b;
 	margin-right: 5px;
 }
 
@@ -2293,7 +2294,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding: 0 !important;
 }
 
-.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont .metainfo {
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont #metainfo {
 	color: #fff;
 	font-style: normal;
 	font-weight: 400;
@@ -2357,6 +2358,57 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	opacity: 0.7;
 }
 
+#post-77 article{
+	margin-top: 8% !important ;
+}
+
+#ecwd_back_link{
+	float: right;
+    margin: 1%;
+    color: #e8cd9b;
+}
+
+#ecwd_back_link:hover{
+	border: none !important;
+	color: #ceb282 !important;
+}
+
+.event-featured-image{
+	float: left;
+     margin: none !important; 
+}
+
+#blog-label-1 {
+    color: #e8cd9b;
+    margin-left: -1.5%;
+}
+
+.event-detalis-date .ecwd-event-date{
+	box-sizing: border-box;
+    margin-left: 2%;
+    color: #fff;
+    font-style: normal
+}
+
+#blog-label{
+	margin-right: 10px;
+}
+
+.ecwd-url a{
+	margin-left: 15px;
+}
+
+#label-link{
+	margin-right: 10px;
+	color: #e8cd9b;
+}
+
+#label-venue{
+	color: #e8cd9b;
+}
+
+
+
 
 /*Re-Edit */
 #main .content .content-main{
@@ -2391,6 +2443,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	border: none !important;
     background: transparent !important;
     letter-spacing: 3px;
+}
+
+.event-venue{
+	margin-left: 2% !important;
 }
 
 
@@ -2625,8 +2681,9 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm #wc-main-form-wrapper-0_0 form div div div div input:hover{
-	background-color: #947928  !important;
-	color:#fff !important;
+	background-color: transparent  !important;
+	color:#e8cd9b !important;
+	border: 1px solid #e8cd9b;
 }
 
 .content-main div div footer #comments #wpcomm .wpdiscuz-front-actions{
@@ -2639,12 +2696,12 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm .wpdiscuz-front-actions div .wpdiscuz-sort-button-active{
-	color: #e8cd9b!important;
+	color: #fff !important;
     cursor: default!important;
 }
 
 .wpdiscuz-sort-button:hover {
-	color: #e8cd9b !important;
+	color: #fff !important;
     cursor: pointer;
 }
 
@@ -2753,8 +2810,9 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div div div .wc-cta-button:hover{
-	background-color: #947928  !important;
-	color:#fff !important;
+	background-color: #ceb282 !important;
+    color: #000 !important;
+	border: 1px solid #e8cd9b;
 }
 
 .wc-reply-button{
@@ -2796,17 +2854,23 @@ h1{
 #wpcomm .wc-field-submit .button{
 	background-color: #e8cd9b;
 	color: #000;
+	border: none !important;
 }
 
 #wpcomm .wc-field-submit .button:hover{
-	background-color: #947928  !important;
-	color:#fff !important;
+	background-color: transparent;  !important;
+	color:#e8cd9b !important;
+	border: 1px solid #e8cd9b !important;
+}
 
+.wpdiscuz-sort-button{
+	color: #000 !important;
+    cursor: pointer;
 }
 
 #wpcomm .wc-cta-active {
-    border: 1px solid #00B38F!important;
-    background: #947928 !important;
+    border: 1px solid #ceb282!important;
+    background: #ceb282 !important;
     color: #fff!important;
 }
 
@@ -2852,7 +2916,7 @@ h1{
 
 .content-main div div footer #comments #wpcomm #wc-main-form-wrapper-0_0 form div div div div input:hover{
 	background: rgba(0,0,0,0.20) !important;
-	border: 1px solid #947928;
+	border: 1px solid #e8cd9b;
 	color: #000 !important;
 }
 
@@ -2895,10 +2959,9 @@ h1{
 }
 
 .content-main div div footer #comments #wpcomm #wc-main-form-wrapper-0_0 form div div div div .button:hover{
-	background: #947928 !important;
-    border: none !important;
-    border-radius: none !important;
-    color: #fff !important;
+	background: transparent !important;
+    border: 1px solid #e8cd9b !important;
+    color: #e8cd9b!important;
 }
 
 #wpcomm .wpd-form-row .wpd-field{
@@ -2931,7 +2994,7 @@ h1{
 }
 
 #wpcomm .wc-cta-button-x {
-    background: #947928 !important;
+    background: #e8cd9b !important;
     border: none !important;
     color: #ffffff;
     border-radius: 2px;
@@ -2961,8 +3024,9 @@ input[type="submit"], button, input[type="button"] {
 }
 
 .wc_save_wrap .wc_save_edited_comment: hover{
-	background: #947928 !important;
-	color: #fff !important;
+	background: #ceb282 !important;
+	color: #e8cd9b !important;
+	boder: 1px solid #e8cd9b !important;
 }
 
 
@@ -2982,13 +3046,20 @@ input[type="submit"], button, input[type="button"] {
 }
 
 #wpcomm span.wc-reply-button.wc-cta-button.wc-cta-active.wpdiscuz-clonned {
-    background: #947928 !important;
+    background: #ceb282 !important;
 }
 
 .content-main div div footer #comments #wpcomm #wcThreadWrapper div .wc-comment-right div div i:hover{
-	background-color: #947928  !important;
-	color: #fff !important;
-	border-radius: 2px;
+	background-color: transparent !important;
+    color: #ceb282!important;
+}
+
+#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a {
+    color: #e8cd9b !important;
+}
+
+#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author, #wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a {
+    color: #e8cd9b !important;
 }
 
 
@@ -3040,7 +3111,7 @@ input[type="submit"], button, input[type="button"] {
     background: transparent;
     text-transform: capitalize;
     margin-bottom: 10px;
-    border: 1px solid #947928;
+    border: 1px solid #ceb282;
     color: #e8cd9b;
     border-radius: 5px;
 }
@@ -3178,9 +3249,9 @@ Alcy Section*/
 
 .ecwd-event{
 	margin-top: 20px;
-	background-color: #202020 !important;
-	padding: 30px !important;
-	border-radius: 5px;
+    background-color: #1b1b1b !important;
+    padding: 30px !important;
+     border-radius: none !important; 
 }
 
 .ecwd-event header h1{
@@ -3201,7 +3272,6 @@ Alcy Section*/
 
 .ecwd-event a:hover{
 	color: #e8cd9b;
-	border: 1px solid #e8cd9b;
 }
 
 .ecwd-event div.event-detalis-date{
@@ -3212,13 +3282,18 @@ Alcy Section*/
     font-weight: bold;
     margin: 5px 0 5px 5px;
     line-height: 5px;
+    box-sizing: border-box;
+    padding: 1%;
 }
 
 .entry-content p{
-	background-color: rgba(0,0,0,0.40);
-	padding: 15px;
+	background: #181818;
+    padding: 15px;
     line-height: 150%;
-    border-radius: 5px;
+     border-radius: 0; 
+    word-spacing: 3px;
+    text-align: justify;
+    text-indent: 3%;
 }
 
 .entry-contentp:before { content: "\007C\00a0\00a0"; }
@@ -3258,12 +3333,44 @@ Alcy Section*/
 }
 
 .about-content-header{
-	width: 100%;
+	width: 84%;
     height: 15%;
     background: #181818;
     padding: 10px;
     text-align: center;
+    position: relative;
 }
+
+.about-content-header::before {
+    content: "";
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    background: #1b1b1b;
+    transform: scale(0.707) rotate(45deg);
+    /* box-shadow: 2px -3px 0 2px rgba(27, 27, 27, 1), 5px -3px 0 2px rgba(27, 27, 27,1); */
+    right: -105px;
+    z-index: 1;
+}
+
+.about-content-header::after {
+    content: "";
+    width: 95px;
+    height: 95px;
+    position: absolute;
+    top: 0;
+    background: #181818;
+    transform: scale(0.707) rotate(45deg);
+    /* box-shadow: 2px -3px 0 2px rgba(27, 27, 27, 1), 5px -3px 0 2px rgba(27, 27, 27,1); */
+    right: -49px;
+    z-index: 1;
+}
+
+.about-content-header h1,  .about-content-header h5{
+	margin-left: 22%;
+}
+
 
 .about-content-header h5{
 	font-style: italic;
@@ -4023,6 +4130,10 @@ h1{
 	background-color: #1b1b1b !important;
 }
 
+.fa-chevron-right{
+	font-size: 0.6rem !important;
+    padding-right: 1% !important;
+} 
 
 
 
@@ -4172,7 +4283,7 @@ div.border-title h3{
     padding: 6px 12px;
     background-color: transparent !important;
     border: 1px solid #e8cd9b !important;
-    border-radius: none !important;
+    border-radius: 0  !important;
     -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
     -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
@@ -4227,13 +4338,13 @@ div.border-title h3{
 }
 
 .contact-info div p{
-	margin-top: 5%;
-	margin: 2%;
+	margin: 7%;
     font-style: italic;
     word-spacing: 2px;
     text-align: justify;
     line-height: 1.25;
     margin-bottom: 3%;
+    font-size: 0.9rem;
 }
 
 .formSub{
@@ -4297,7 +4408,7 @@ article div .entry-thumb a img{
 
 .entry-detail-footer .author, .entry-detail-footer .date{
 	font-size: 0.7rem;
-    padding-right: 13%;
+    padding-right: 5%;
 }
 
 .entry-detail-footer .comment{
@@ -4426,4 +4537,13 @@ div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
 	background-color: #181818 !important;
 	color: #fff;
 	border: 1px solid #e8cd9b !important;
+}
+
+
+.contact-info .subscribe{
+	margin-top: 47%;
+}
+
+.contact-info{
+	padding-top: 0 !important;
 }
