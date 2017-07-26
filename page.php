@@ -397,7 +397,7 @@
                                 </div>
 
 
-                                <hr style="background-color:  #fff !important; margin-top: 65px !important;">
+                                <hr style="background-color:  #e8cd9b !important; margin-top: 65px !important;">
 
                                 
                                 <div class="dt-sc-hr-invisible-small"></div>
