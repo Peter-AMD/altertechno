@@ -3071,6 +3071,24 @@ input[type="submit"], button, input[type="button"] {
 		padding-top: 13px !important;
 	}
 
+	.container .single-blog .entry-details .entry-body div p{
+		padding-right: 0;
+		padding-left: 0;
+	}
+	
+	.navigation .nav-next{
+		float: none;
+	}
+
+	.navigation .nav-previous, .nav-next{
+		width: 90%;
+		text-align: center;
+	}
+
+	.navigation .nav-next{
+		margin-bottom: 20%;
+	}
+
 }
 
 .mean-container a.meanmenu-reveal{
@@ -3245,6 +3263,13 @@ Alcy Section*/
 				right: 0 !important;
 			}
 
+			.container .single-blog .entry-metadata div p{
+				width: 100%;
+			}
+
+			.container .single-blog .entry-metadata div{
+				display: list-item;
+			}
 }
 
 .ecwd-event{
@@ -4512,6 +4537,11 @@ article div .entry-thumb a img{
 
 	.about-content-header h1,  .about-content-header h5{
 		margin-left: 0;
+	}
+
+	.entry-body{
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 }
