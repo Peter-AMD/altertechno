@@ -3270,6 +3270,7 @@ Alcy Section*/
 			.container .single-blog .entry-metadata div{
 				display: list-item;
 			}
+			
 }
 
 .ecwd-event{
@@ -4465,8 +4466,6 @@ article div .entry-thumb a img{
 		width: 100% !important;
 	}
 
-
-
 }
 
 @media (max-width: 1200px) {
@@ -4486,25 +4485,6 @@ article div .entry-thumb a img{
    	#Expand{
    		letter-spacing: 15px;
    	}
-
-}
-
-@media (max-width: 1400px) {
-
-	.blog-items .blog-entry{
-		width: 100% !important;
-	}
-
-	article div .entry-thumb a img{
-		width: 85%;
-	}
-}
-
-@media (max-width: 767px) {
-	
-	.formSub{
-		width: 100% !important;
-	}
 
 	.about-content-header{
 		width: 100%;
@@ -4537,6 +4517,25 @@ article div .entry-thumb a img{
 
 	.about-content-header h1,  .about-content-header h5{
 		margin-left: 0;
+	}
+
+}
+
+@media (max-width: 1400px) {
+
+	.blog-items .blog-entry{
+		width: 100% !important;
+	}
+
+	article div .entry-thumb a img{
+		width: 85%;
+	}
+}
+
+@media (max-width: 767px) {
+	
+	.formSub{
+		width: 100% !important;
 	}
 
 	.entry-body{
