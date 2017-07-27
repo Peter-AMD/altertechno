@@ -4674,6 +4674,10 @@ span.metainfo {
 	margin: auto;
 }
 
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd_list > li{
+	padding: 15px 0 0 0 !important;
+}
+
 @media (max-width: 1000px) {
 
 	.date-meta{
@@ -4682,10 +4686,6 @@ span.metainfo {
 
 	.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .ecwd-list-date{
 		padding-top: 50px !important;
-	}
-
-	.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd_list > li{
-		padding: 15px 0 0 0 !important;
 	}
 	
 }
