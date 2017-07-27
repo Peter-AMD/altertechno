@@ -401,6 +401,12 @@ jQuery(document).ready(function($){
 
 	$(".ecwd-venue-info").attr("id", "label-venue");
 	$("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
+
+	$(".ecwd-time span").append('<i class = "fa fa-clock-o time-meta"></i>');
+	$(".ecwd-date span").append('<i class = "fa fa-calendar date-meta"></i>');
+
+	$(".events-calendar").addClass("col-extra-small");
+	
 	// Javascript
 
 	

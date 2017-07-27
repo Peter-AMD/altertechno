@@ -2095,6 +2095,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     margin: 0 auto;
     /*border-bottom: 1px solid #e8cd9b;*/
     max-width: 100%;
+    margin-top: -46px !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76{
@@ -2220,24 +2221,28 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 0 !important;
     display: block;
     background: transparent;
-}
+} 
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .ecwd-list-date {
-	width: 10%;
-	background: #000;
-	font-weight: bold;
-	font-style: normal;
-	color: #e8cd9b;
-	padding: 10px;
-	opacity: 0.7;
-	/*border: 1px solid #e8cd9b;*/
-	/*border-bottom: 0;*/
-	position: absolute;
+    width: 13%;
+    height: 76% !important;
+    background: #000;
+    font-weight: bold;
+    font-style: normal;
+    color: #e8cd9b;
+    padding: 10px;
+    position: relative !important;
+    float: left !important;
+    box-shadow: 0px 11px 17px rgba(0,0,0,0.2) !important;
+    padding-top: 5% !important;
+    font-size: 186%;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd_list > li{
 	border: none;
 	padding: 15px !important;
+	height: 168px !important;
+
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content{
@@ -2246,10 +2251,13 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     border: none;
     border-radius: 0px 0px 0px 0px;
     padding: 0 !important;
+    width: 87%;
+    background: #1b1b1b;
+	box-shadow: 0px 11px 17px rgba(0,0,0,0.2) !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 {
-	margin: 0px 0px 0px 0px !important;
+	    margin: 0px 0px 0px 0px !important;
     font-size: 16px !important;
     line-height: 20px !important;
     white-space: nowrap;
@@ -2258,22 +2266,19 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     padding: 10px;
     box-sizing: border-box;
     font-style: normal !important;
-    /*background-color: #fff;*/
-    background-color: #202020;
-	/*opacity: 0.7;*/
-	/*border: 1px solid #e8cd9b;*/
-	/*border-top: 0;*/
-	width: 89%;
-	float: right;
+    background-color: #202020 !important;
+    width: 100%;
+    float: right;
     letter-spacing: 3px;
+    text-align: left;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont {
-	width: 90%;
+	width: 96%;
 	/* background: rgba(255, 255, 255, 0.80) ; */
-	background-color: #202020;
+	background-color: transparent !important;
     border: none;
-    padding-left: 10%;
+    padding-left: 4%;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont div span{
@@ -2294,11 +2299,10 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	padding: 0 !important;
 }
 
-.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont #metainfo {
+.container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content .ecwd-list-date-cont .metainfo {
 	color: #fff;
-	font-style: normal;
 	font-weight: 400;
-	font-style: italic;
+	font-style: normal;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content h3 a {
@@ -2323,10 +2327,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content div .event-content p{
-    text-align: JUSTIFY;
+   text-align: justify;
     text-indent: 30px;
     line-height: 1.3;
-    font-size: 20px !important;
+    font-size: 1rem!important;
+    padding: 4%;
+    word-spacing: 8px;
 }
 
 
@@ -2350,12 +2356,12 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	text-align: justify;
 	text-indent: 15%;
 	font-weight: 400;
-	font-style: 1.7rem;
-	border: 1px solid #e8cd9b;
+	font-style: 0.8rem;
+	border: none !important;
 	padding: 10px;
-	background-color: #202020;
+	background-color: transparent !important;
 	margin-bottom: 5px;
-	opacity: 0.7;
+	border-top: 6px solid #181818 !important;
 }
 
 #post-77 article{
@@ -3602,7 +3608,7 @@ hr{
     float: left;
   }
   .col-sm-12 {
-    width: 100%;
+    width: 100% !important;
   }
   .col-sm-11 {
     width: 91.66666667%;
@@ -4546,4 +4552,47 @@ div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
 
 .contact-info{
 	padding-top: 0 !important;
+}
+
+.caldera-grid .alert-success {
+    background-color: #dff0d8;
+    border-color: none !important;
+    height: 50px;
+    margin-top: 178px;
+    background: -webkit-linear-gradient(left, rgba(232,205,155,0) 0%,rgba(232,205,155,1) 54%,rgba(125,185,232,0) 100%) !important;
+    color: #000 !important;
+}
+
+.caldera-grid .alert-warning{
+	display: none !important;
+}
+
+span.metainfo {
+    background: none !important;
+}
+
+.time-meta{
+	text-align: left;
+    width: 95%;
+    color: #e8cd9b !important;
+    font-size: 1.55rem !important;
+}
+
+.date-meta{
+	text-align: left;
+    width: 95%;
+    color: #e8cd9b !important;
+    font-size: 1.55rem !important;
+    margin-top: 3.5%;
+}
+
+.event_dropdown_cont {
+     border-top: none !important; 
+    display: none;
+    padding-top: 6px;
+}
+
+.col-extra-small{
+	width: 100% !important;
+	margin: auto;
 }
