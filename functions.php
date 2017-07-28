@@ -14,6 +14,9 @@ register_nav_menus(
 array( 'main-menu' => __( 'Main Menu', 'blankslate' ), 'sub-menu' => __( 'Sub Menu', 'blankslate' ) )
 );
 }
+
+
+
 add_action( 'wp_enqueue_scripts', 'blankslate_load_scripts' );
 function blankslate_load_scripts()
 {

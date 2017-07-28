@@ -407,6 +407,12 @@ jQuery(document).ready(function($){
 
 	$(".events-calendar").addClass("col-extra-small");
 	
+
+	$(".ecwd-url a").addClass("url-link");
+	$(".url-link").html("<label class = 'fa fa-link' title = 'Url' id = 'label-link'></label><span>Full Details!</span>")
+
+
+
 	// Javascript
 
 	
