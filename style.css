@@ -4702,31 +4702,12 @@ span.metainfo {
     cursor: pointer;
 }
 
-.logo-canada img {
-    width: 100%;
-}
-
-.logo-canada {
-    width: 36%;
-    margin: auto;
-    margin-top: 25px;
-}
-
 #nav-below{
 	display: none;
 }
 
 .wc-comment-link {
     display: none;
-}
-
-.logo-dev{
-	width: 13%;
-    margin: auto;
-}
-
-.logo-dev img{
-	width: 100%;
 }
 
 .paraphrase{
@@ -4737,4 +4718,26 @@ span.metainfo {
 .dt-sc-ico-content.type4:hover {
     background: transparent !important;
     transform: scale(1.1,1.2) !important;
+}
+
+.logo-line{
+	width: 63%;
+    height: 80px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-left: -8%;
+    margin-left: 28%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#canada{
+	height: 73%;
+    width: 44%;
+}
+
+#dev{
+	width: 10%;
+    margin-left: 9%;
+    height: 100%;
 }

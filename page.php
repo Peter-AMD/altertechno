@@ -550,11 +550,9 @@
                                     <div class="paraphrase">
                                         <h2>Alternate Technology is an SME member of: </h2>
                                     </div>
-                                        <div class="logo-canada">
-                                             <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/unnamed.png" alt="" width="80">
-                                        </div>
-                                        <div  class="logo-dev">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/dev.png" alt="" width="80">
+                                        <div class="logo-line">
+                                             <img id="canada" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/unnamed.png" alt="" width="80">
+                                              <img id="dev" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/dev.png" alt="" width="80">
                                         </div>
                                     </div>
                                     
