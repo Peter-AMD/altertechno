@@ -4702,20 +4702,45 @@ span.metainfo {
     cursor: pointer;
 }
 
-.logo-canada img {
-    width: 50%;
-}
-
-.logo-canada {
-    margin: auto;
-    margin-left: 32%;
-    padding-top: 3%;
-}
-
 #nav-below{
 	display: none;
 }
 
+.wc-comment-link {
+    display: none;
+}
+
+.paraphrase{
+	text-align: center;
+    margin-top: 42px;
+}
+
+.dt-sc-ico-content.type4:hover {
+    background: transparent !important;
+    transform: scale(1.1,1.2) !important;
+}
+
+.logo-line{
+	width: 63%;
+    height: 80px;
+    margin: auto;
+    box-sizing: border-box;
+    padding-left: -8%;
+    margin-left: 28%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#canada{
+	height: 73%;
+    width: 44%;
+}
+
+#dev{
+	width: 10%;
+    margin-left: 9%;
+    height: 100%;
+}
 .apply-isotope .column{
 	position: initial !important;
 	left: auto !important;
