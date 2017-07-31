@@ -929,7 +929,7 @@
                                             <!-- the loop -->
                                             <?php $counter = 0; while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); $counter++;?>
                                             <?php if($counter==4||$counter==1){ 
-                                                echo "<div class='row' style='";
+                                                echo "<div class='row' style='padding-left:13px;";
                                                 // if($counter==1) echo "margin-bottom: 20px;";
                                                 echo "'>";
 
