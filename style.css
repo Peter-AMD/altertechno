@@ -4716,6 +4716,12 @@ span.metainfo {
 	display: none;
 }
 
-.wc-comment-link {
-    display: none;
+.apply-isotope .column{
+	position: initial !important;
+	left: auto !important;
+	top: auto !important;
+}
+
+.first-col{
+	margin-right: 15px !important;
 }

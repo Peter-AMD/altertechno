@@ -355,7 +355,7 @@
                                                 <h1>Business Incubaton</h1>
                                                     <ul>
                                                         <li>Office and Facilities Local Presentation</li>
-                                                        <li>Staff Recruitment and Outsourced Payroll Service</li>
+                                                        <li>Staff REcruitment and Outsourced Payroll Service</li>
                                                         <li>Part Time Resources / Local Support</li>
                                                     </ul>
                                             </div>
@@ -545,12 +545,6 @@
                                         </div>
                                     </div>   <!--Service Carousel Ends Here --> 
                                     <div id="carouselnav"> </div>
-
-                                    <div>
-                                        <div class="logo-canada">
-                                             <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/unnamed.png" alt="" width="80">
-                                        </div>
-                                    </div>
                                     
                                     <br> <br><br>
 <!--                                     <div class="wrapper" id="service">
@@ -934,7 +928,13 @@
 
                                             <!-- the loop -->
                                             <?php $counter = 0; while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); $counter++;?>
-                                                <div class="dt-sc-one-third <?php if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item">
+                                            <?php if($counter==4||$counter==1){ 
+                                                echo "<div class='row' style='";
+                                                // if($counter==1) echo "margin-bottom: 20px;";
+                                                echo "'>";
+
+                                            }?>
+                                                <div class="dt-sc-one-third <?php if($counter!=3||$counter!=6) echo "first-col";//if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item" style="position: initial !important; left: auto !important; top: auto !important;">
                                                     <article class="blog-entry">
                                                    
                                                        <div>
@@ -969,6 +969,8 @@
                                                                 </div>
                                                             </div> <br> <br> <br>
                                         </div>
+                                            <?php if($counter==6||$counter==3) echo "</div>"; ?>
+
                                             <?php endwhile; ?>
                                             <!-- end of the loop -->
 
@@ -1086,10 +1088,8 @@
                                         <div class="contact-info">
                                             <ul>
                                                 <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
-                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div><a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                                <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>
-
-                                                
+                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                                <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
                                             </ul>
                                                 <div class="subscribe">
                                                     <h1>Subscribe</h1>
