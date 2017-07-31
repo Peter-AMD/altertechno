@@ -4703,13 +4703,13 @@ span.metainfo {
 }
 
 .logo-canada img {
-    width: 50%;
+    width: 100%;
 }
 
 .logo-canada {
+    width: 36%;
     margin: auto;
-    margin-left: 32%;
-    padding-top: 3%;
+    margin-top: 25px;
 }
 
 #nav-below{
@@ -4718,4 +4718,23 @@ span.metainfo {
 
 .wc-comment-link {
     display: none;
+}
+
+.logo-dev{
+	width: 13%;
+    margin: auto;
+}
+
+.logo-dev img{
+	width: 100%;
+}
+
+.paraphrase{
+	text-align: center;
+    margin-top: 42px;
+}
+
+.dt-sc-ico-content.type4:hover {
+    background: transparent !important;
+    transform: scale(1.1,1.2) !important;
 }

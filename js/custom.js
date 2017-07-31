@@ -17,7 +17,7 @@ jQuery(document).ready(function($){
 	if($('.menu-light').length == 0) {
 		$('#main-menu').onePageNav({
 			currentClass : 'current_page_item',
-			filter		 : ':not(.external)',
+			// filter		 : ':not(.external)',
 			scrollSpeed  : 750,
 			scrollOffset : 86
 		});
@@ -389,18 +389,19 @@ jQuery(document).ready(function($){
 	});
 
 	$("#es_txt_name_pg").attr("placeholder", "Enter Name");
+	
 	$("#es_txt_email_pg").attr("placeholder", "Enter Email");
 	
 	$(".ecwd-event-date-info").attr("id", "blog-label-1");
 	$("#blog-label-1").removeClass("ecwd-event-date-inf0").addClass("fa fa-calendar");
 
 
-	$(".ecwd-event-url-info").attr("id", "label-link");
-	$("#label-link").removeClass("ecwd-event-url-info").addClass("fa fa-link");
+	// $(".ecwd-event-url-info").attr("id", "label-link");
+	// $("#label-link").removeClass("ecwd-event-url-info").addClass("fa fa-link");
 
 
-	$(".ecwd-venue-info").attr("id", "label-venue");
-	$("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
+	// $(".ecwd-venue-info").attr("id", "label-venue");
+	// $("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
 
 	$(".ecwd-time span").append('<i class = "fa fa-clock-o time-meta"></i>');
 	$(".ecwd-date span").append('<i class = "fa fa-calendar date-meta"></i>');
