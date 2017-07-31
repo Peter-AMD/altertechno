@@ -524,7 +524,7 @@ function funafterwindowload() {
 		
 		var $l = jQuery(window).width();
 		var $tt = '';
-		if($l < 767) { $n = 1; $tt = ["PHP","PHP","PHP","PHP","HTML","HTML","HTML","HTML","CSS","CSS","CSS","CSS"]; } else { $n = 4; $tt = ["PHP","HTML","CSS"]; }
+		if($l < 767) { $n = 1; } else { $n = 4;}
 		
 		jQuery('.dt-sc-service-carousel').each(function(){
 			jQuery(this).carouFredSel({
@@ -535,8 +535,7 @@ function funafterwindowload() {
 				pagination: {
 					container: "#carouselnav",
 					anchorBuilder: function(nr) {
-							var tooltip = $tt;
-							return '<a href="#'+nr+'" class="carouselnav-pager dt-sc-tooltip-top"><span>'+nr+'</span></a>';
+							return '<a href="#'+nr+'" class="carouselnav-pager"><span>'+nr+'</span></a>';
 						},
 				},
 				scroll :$n,

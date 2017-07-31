@@ -4701,3 +4701,21 @@ span.metainfo {
     display: none !important;
     cursor: pointer;
 }
+
+.logo-canada img {
+    width: 50%;
+}
+
+.logo-canada {
+    margin: auto;
+    margin-left: 32%;
+    padding-top: 3%;
+}
+
+#nav-below{
+	display: none;
+}
+
+.wc-comment-link {
+    display: none;
+}

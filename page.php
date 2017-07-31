@@ -355,7 +355,7 @@
                                                 <h1>Business Incubaton</h1>
                                                     <ul>
                                                         <li>Office and Facilities Local Presentation</li>
-                                                        <li>Staff REcruitment and Outsourced Payroll Service</li>
+                                                        <li>Staff Recruitment and Outsourced Payroll Service</li>
                                                         <li>Part Time Resources / Local Support</li>
                                                     </ul>
                                             </div>
@@ -545,6 +545,12 @@
                                         </div>
                                     </div>   <!--Service Carousel Ends Here --> 
                                     <div id="carouselnav"> </div>
+
+                                    <div>
+                                        <div class="logo-canada">
+                                             <img src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/unnamed.png" alt="" width="80">
+                                        </div>
+                                    </div>
                                     
                                     <br> <br><br>
 <!--                                     <div class="wrapper" id="service">
@@ -1080,8 +1086,10 @@
                                         <div class="contact-info">
                                             <ul>
                                                 <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
-                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div>Email: <a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                                <li><span class="ico"><i class="fa fa-globe"></i></span><div> </div> Web: <a href="http://AlterTechno.com">AlterTechno.com</a></li>
+                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div><a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                                <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>
+
+                                                
                                             </ul>
                                                 <div class="subscribe">
                                                     <h1>Subscribe</h1>
