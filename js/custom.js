@@ -396,12 +396,12 @@ jQuery(document).ready(function($){
 	$("#blog-label-1").removeClass("ecwd-event-date-inf0").addClass("fa fa-calendar");
 
 
-	// $(".ecwd-event-url-info").attr("id", "label-link");
-	// $("#label-link").removeClass("ecwd-event-url-info").addClass("fa fa-link");
+	$(".ecwd-event-url-info").attr("id", "label-link");
+	$("#label-link").removeClass("ecwd-event-url-info").addClass("fa fa-link");
 
 
-	// $(".ecwd-venue-info").attr("id", "label-venue");
-	// $("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
+	$(".ecwd-venue-info").attr("id", "label-venue");
+	$("#label-venue").removeClass("ecwd-venue-info").addClass("fa fa-map-signs");
 
 	$(".ecwd-time span").append('<i class = "fa fa-clock-o time-meta"></i>');
 	$(".ecwd-date span").append('<i class = "fa fa-calendar date-meta"></i>');
@@ -414,13 +414,21 @@ jQuery(document).ready(function($){
 
 
 
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#about'>About Us</a></li>");
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#events'>Events</a></li>");
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#blog'>Blog</a></li>");
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#contact'>Contact Us</a></li>");
+
+
+
+
 	// Javascript
 
 	
 
 });
 
-  jQuery(window).load(function() {
+  jQuery(window).load(function() {//
 
   	   if (navigator.userAgent.match(/(Android|iPod|iPhone|iPad|IEMobile|Opera Mini)/)) {
   	   	 jQuery(".dt-sc-fullwidth-video-section").each(function(){

@@ -1088,13 +1088,20 @@
                                     <div class="container">
                                         <div class="dt-sc-one-half column no-space">
                                         <div class="contact-info">
-                                            <ul>
-                                                <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
-                                                <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div><a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                                <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>
+                                            <div class="contact-wrapper">
+                                                <div class="contact-picture">
+                                                     <img src="<?php echo get_template_directory_uri(); ?>/images/Background/icons/prof.jpg" alt="" style="float: right;">
+                                                </div>
+                                                <div class="contact-details">
+                                                    <ul>
+                                                        <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
+                                                        <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div><a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
+                                                        <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
 
-                                                
-                                            </ul>
+                                            
                                                 <div class="subscribe">
                                                     <h1>Subscribe</h1>
                                                     <p>

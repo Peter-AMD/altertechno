@@ -64,21 +64,21 @@
                             
                             // wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
 
-                            wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+                            // wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
                             
-                            // if($after_base_url_string == '')
-                            //     {
-                            //         wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
-                            //         // echo "<script>alert('this is empty " . $after_base_url . "');</script>";
+                            if($after_base_url_string == '')
+                                {
+                                    wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+                                    // echo "<script>alert('this is empty " . $after_base_url . "');</script>";
                                     
-                            //     } 
+                                } 
 
-                            // else
-                            //     {
-                            //         // echo "<a href = 'http://localhost/alt_tech_v2'>Test</a>";
-                            //         // wp_nav_menu( array( 'theme_location' => 'sub-menu' ) );
-                            //         // echo "<script>alert('" . $after_base_url . "');</script>";
-                            //     } 
+                            else
+                                {
+                                    // echo "<a href = 'http://localhost/alt_tech_v2'>Test</a>";
+                                    wp_nav_menu( array( 'theme_location' => 'sub-menu' ) );
+                                    // echo "<script>alert('" . $after_base_url . "');</script>";
+                                } 
 
                             
                             ?>

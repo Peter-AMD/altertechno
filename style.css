@@ -2328,6 +2328,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     text-align: center;
     font-size: 30px;
     color: #e8cd9b;
+    padding: 0 !important;
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76 .list ul li .event-main-content div .event-content p{
@@ -4635,17 +4636,15 @@ div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
 	color: #fff !important;
 }
 
-.caldera-grid .alert-success {
+.caldera-grid .alert-success , .caldera-grid .alert-error{
     background-color: #dff0d8;
     border-color: none !important;
     height: 50px;
     margin-top: 178px;
     background: -webkit-linear-gradient(left, rgba(232,205,155,0) 0%,rgba(232,205,155,1) 54%,rgba(125,185,232,0) 100%) !important;
     color: #000 !important;
-}
-
-.caldera-grid .alert-warning{
-	display: none !important;
+    text-align: center;
+    text-shadow: none !important;
 }
 
 span.metainfo {
@@ -4740,4 +4739,57 @@ span.metainfo {
 	width: 10%;
     margin-left: 9%;
     height: 100%;
+}
+
+.menu-to-home-menu #menu-item-91 a{
+	display: none;
+}
+
+.contact-wrapper {
+	width: 100%;
+    height: 271px;
+}
+
+.contact-picture{
+	float: left;
+    width: 48%;
+    height: 90%;
+}
+
+.contact-picture img{
+	float: right;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    padding: 6px;
+    border-left: transparent;
+    border-top: transparent;
+}
+
+.contact-details{
+	float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.contact-info .subscribe{
+	margin-top: 6% !important;
+}
+
+.contact-info div h1 {
+    text-transform: uppercase;
+    margin: 2% !important;
+    margin-top: 4% !important;
+    font-size: 1.25rem;
+}
+
+#contact_map {
+    padding-bottom: 4px;
+    width: 100%;
+    float: left;
+    height: 613px;
+}
+
+#content div div h1{
+	margin-top: 5%;
+    font-size: 176%;
 }
