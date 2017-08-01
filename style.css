@@ -4793,3 +4793,9 @@ span.metainfo {
 	margin-top: 5%;
     font-size: 176%;
 }
+
+.es_msg {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #e8cd9b;
+}
