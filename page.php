@@ -940,7 +940,7 @@
                                                 echo "'>";
 
                                             }?>
-                                                <div class="dt-sc-one-third <?php if($counter!=3||$counter!=6) echo "first-col";//if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item" style="position: initial !important; left: auto !important; top: auto !important;">
+                                                <div class="dt-sc-one-third <?php if($counter==1||$counter==2||$counter==4||$counter==5) echo "first-col";//if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item" style="position: initial !important; left: auto !important; top: auto !important;">
                                                     <article class="blog-entry">
                                                    
                                                        <div>
