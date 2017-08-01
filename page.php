@@ -355,7 +355,7 @@
                                                 <h1>Business Incubaton</h1>
                                                     <ul>
                                                         <li>Office and Facilities Local Presentation</li>
-                                                        <li>Staff Recruitment and Outsourced Payroll Service</li>
+                                                        <li>Staff REcruitment and Outsourced Payroll Service</li>
                                                         <li>Part Time Resources / Local Support</li>
                                                     </ul>
                                             </div>
@@ -545,18 +545,18 @@
                                         </div>
                                     </div>   <!--Service Carousel Ends Here --> 
                                     <div id="carouselnav"> </div>
-
-                                    <div>
-                                    <div class="paraphrase">
+                                    
+                                    <div class="paraphrase" style="margin-top: 42px;">
                                         <h2>Alternate Technology is an SME member of: </h2>
                                     </div>
                                         <div class="logo-line">
-                                             <img id="canada" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/unnamed.png" alt="" width="80">
-                                              <img id="dev" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/dev.png" alt="" width="80">
+                                             <a href="http://www.cacc.com.au/" target="_blank"><img id="canada" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Canadian.png" alt="" width="80"></a>
                                         </div>
+                                    <div class="paraphrase">
+                                        <h2>and Partnership with: </h2>
                                     </div>
-                                    
-                                    <br> <br><br>
+                                        <div class="logo-line">
+                                              <a href="https://devpartners.co/" target="_blank"><img id="dev" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/logoo.png" alt="" width="80"></a>
 <!--                                     <div class="wrapper" id="service">
                                     <div class="border-title">
                                         <h3 class="about-us-wereyo animate" data-animation = "fadeInUp" data-delay = "100"> MORE EXPERTISE, MORE OPPORTUNITIES </h3>
@@ -626,6 +626,7 @@
                                     </div> -->
 
                                 </div>
+                                <div style="padding: 10px;"></div>
                             </div>
 
                             <!-- <div class="dt-sc-hr-invisible"></div> -->
@@ -938,7 +939,13 @@
 
                                             <!-- the loop -->
                                             <?php $counter = 0; while ( $wpb_all_query->have_posts() ) : $wpb_all_query->the_post(); $counter++;?>
-                                                <div class="dt-sc-one-third <?php if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item">
+                                            <?php if($counter==4||$counter==1){ 
+                                                echo "<div class='row' style='padding-left:13px;";
+                                                // if($counter==1) echo "margin-bottom: 20px;";
+                                                echo "'>";
+
+                                            }?>
+                                                <div class="dt-sc-one-third <?php if($counter==1||$counter==2||$counter==4||$counter==5) echo "first-col";//if($counter % 3 == 0 || $counter == 1) echo "first"; ?> column isotope-item" style="position: initial !important; left: auto !important; top: auto !important;">
                                                     <article class="blog-entry">
                                                    
                                                        <div>
@@ -973,6 +980,8 @@
                                                                 </div>
                                                             </div> <br> <br> <br>
                                         </div>
+                                            <?php if($counter==6||$counter==3) echo "</div>"; ?>
+
                                             <?php endwhile; ?>
                                             <!-- end of the loop -->
 
@@ -1100,7 +1109,6 @@
                                                     </ul>
                                                 </div>
                                             </div>
-
                                             
                                                 <div class="subscribe">
                                                     <h1>Subscribe</h1>

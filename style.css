@@ -2160,7 +2160,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 }
 
 .container .events-ul .events-calendar .calendar_main .ecwd_calendar .ecwd-widget-76  .ecwd_calendar_prev_next div a span:hover{
-	font-size: 50px;
+	font-size: 35px;
 	color: #fff !important;
 }
 
@@ -2567,7 +2567,7 @@ h1{
 .content-main .container .blog-items{
 	position: relative;
     overflow: hidden;
-    height: 930px;
+    height: auto !important;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
 }
@@ -3080,6 +3080,7 @@ input[type="submit"], button, input[type="button"] {
 
 	.mean-container a.meanmenu-reveal{
 		padding-top: 13px !important;
+		top: 7px !important;
 	}
 
 	.container .single-blog .entry-details .entry-body div p{
@@ -3174,7 +3175,7 @@ Alcy Section*/
 	height: 46px !important;
 }
 /*Media Queries*/
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
 
 			/*NEWS LETTER*/
 			#contact div div .formSub div .es_shortcode_form {
@@ -3202,8 +3203,8 @@ Alcy Section*/
 			}
 
 			#logo a img{
-				 width: 25% !important;
-				 height: 25% !important;
+				 width: auto !important;
+				 height: 100% !important;
 				 float: left;
 				 margin-right: 5% !important;
 				 margin-left:13px !important;
@@ -3280,6 +3281,10 @@ Alcy Section*/
 
 			.container .single-blog .entry-metadata div{
 				display: list-item;
+			}
+
+			.mean-container a.meanmenu-reveal{
+				top: 5px !important;
 			}
 			
 }
@@ -4471,7 +4476,7 @@ article div .entry-thumb a img{
 
 /*About us 4 div responsive*/
 
-@media only screen and (max-width: 767px) and (min-width: 480px){
+@media (max-width: 767px) and (min-width: 480px){
 
 	article div .entry-thumb a img{
 		width: 100% !important;
@@ -4556,6 +4561,24 @@ article div .entry-thumb a img{
 
 }
 
+@media (max-width: 959px){
+
+	#canada {
+	    height: auto;
+	    width: 30% !important;
+	    margin-left: 17% !important;
+	    /*margin-bottom: 15px;*/
+	}
+
+	#dev {
+	    width: 21% !important;
+	    margin-left: 22% !important;
+	    /*margin-left: 5%;*/
+	    height: auto;
+	}
+
+}
+
 @media (max-width: 1000px) {
 
 	.about-us-wrapper-2{
@@ -4607,10 +4630,65 @@ article div .entry-thumb a img{
 		letter-spacing: 0px;
 	}
 
+	.logo-line {
+	    /* width: 100%; */
+	    height: auto;
+	    margin: auto;
+	    padding-left: -8%;
+	    margin-left: 26%;
+	    margin-top: 2%;
+	    margin-bottom: 2%;
+	}
+
+	/*blog*/
+
+	article div .entry-thumb a img{
+		width: 100% !important;
+	}
+
+	.entry-thumb {
+	    width: 100% !important;
+	    height: 100% !important;
+	    margin: auto !important;
+	    padding: 0px;
+	    margin-bottom: 10px !important;
+	    float: left;
+	    overflow: hidden;
+	}
+
+	.blog-entry .entry-details .entry-title {
+	    text-transform: capitalize;
+	    text-align: center;
+	}
+
+	.isotope-item .blog-entry .entry-thumb a {
+	    width: 100%;
+	    height: 100%;
+	}
+
+	article.blog-entry .entry-thumb img {
+	    width: 100%;
+	    height: 100% !important;
+	}
+
+}
+
+@media (max-width: 1400px){
+
+	#logo {
+		margin-top: 5px !important;
+	}
+
+}
+
+@media only screen and (max-width: 959px) and (min-width: 768px){
+	#logo img{
+		max-width: none !important;
+	}
 }
 
 #logo {
-	margin-top: 5px;
+	margin-top: 8px;
 }
 
 div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
@@ -4689,6 +4767,20 @@ span.metainfo {
 	
 }
 
+@media only screen and (max-width: 479px){
+    #logo{
+    	margin-top: 11px !important;
+    }
+    #logo img{
+    	max-height: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px){
+	#logo img{
+	    max-height: 50px !important;
+	}
+}
 
 .event-featured-image{
 	float: left;
@@ -4711,7 +4803,7 @@ span.metainfo {
 
 .paraphrase{
 	text-align: center;
-    margin-top: 42px;
+    margin-top: 0;
 }
 
 .dt-sc-ico-content.type4:hover {
@@ -4719,26 +4811,47 @@ span.metainfo {
     transform: scale(1.1,1.2) !important;
 }
 
-.logo-line{
-	width: 63%;
-    height: 80px;
+.logo-line {
+    /* width: 100%; */
+    height: auto;
     margin: auto;
     box-sizing: border-box;
     padding-left: -8%;
-    margin-left: 28%;
+    margin-left: 26%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
 
-#canada{
-	height: 73%;
-    width: 44%;
+#canada {
+    height: auto;
+    width: 17%;
+    margin-left: 24%;
+    /*margin-bottom: 8px;*/
 }
 
-#dev{
-	width: 10%;
-    margin-left: 9%;
-    height: 100%;
+#canada:hover {
+    transform: scale(1.1,1.1) !important;
+}
+
+#dev {
+    width: 12%;
+    margin-left: 27%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+#dev:hover {
+    transform: scale(1.1,1.1) !important;
+}
+
+.apply-isotope .column{
+	position: initial !important;
+	left: auto !important;
+	top: auto !important;
+}
+
+.first-col{
+	margin-right: 15px !important;
 }
 
 .menu-to-home-menu #menu-item-91 a{
@@ -4754,6 +4867,14 @@ span.metainfo {
 	float: left;
     width: 48%;
     height: 90%;
+}
+
+.ecwd_theme_calendar_grey .calendar-head .current-month div{
+	font-size: 25px !important;
+}
+
+.mean-bar{
+	max-height: none !important;
 }
 
 .contact-picture img{

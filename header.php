@@ -7,8 +7,12 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <title>Alternate Technology </title>
-    
-    <meta name="description" content="" />
+
+    <meta name="google-site-verification" content="wktY98ZvoqEe9J5kGaADAJAqh-sb_Hm9JG2dJZpe-TY" />
+<meta property="og:url" content="http://www.altertechno.com/"/>
+<meta property="og:title" content="Alternate Technology"/>
+<meta property="og:description" content="As technology executives well know, running software, hardware and technology service businesses across international boundaries requires long-term vision and adaptability. We have worked with international clients in all technology based sector from computer software and hardware, semiconductors, IT services, storage, components to peripherals sectors. Alternate Technology cross-sector technology expertise and global insights help technology companies compete and thrive in an industry where innovation is both an opportunity and a threat." />
+    <meta name="description" content="As technology executives well know, running software, hardware and technology service businesses across international boundaries requires long-term vision and adaptability. We have worked with international clients in all technology based sector from computer software and hardware, semiconductors, IT services, storage, components to peripherals sectors. Alternate Technology cross-sector technology expertise and global insights help technology companies compete and thrive in an industry where innovation is both an opportunity and a threat." />
 	<meta name="author" content="" />
     
     <!--[if lt IE 9]>
@@ -49,7 +53,7 @@
                 <div class="container">
                     <div id="logo">
                         <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                            <img title="" alt="" src="http://res.cloudinary.com/altertechno/image/upload/v1500949430/Logo_ii_kqn0lm.png" style = "width:360px; height:80px;">
+                            <img title="" alt="" src="http://res.cloudinary.com/altertechno/image/upload/v1500949430/Logo_ii_kqn0lm.png" style = "width:auto; height:75px;">
                         </a>
                     </div>
                     <!-- Menu div starts here -->
