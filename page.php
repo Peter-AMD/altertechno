@@ -553,7 +553,7 @@
                                              <a href="http://www.cacc.com.au/" target="_blank"><img id="canada" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Canadian.png" alt="" width="80"></a>
                                         </div>
                                     <div class="paraphrase">
-                                        <h2>and Partnership with: </h2>
+                                        <h2>and in Partnership with: </h2>
                                     </div>
                                         <div class="logo-line">
                                               <a href="https://devpartners.co/" target="_blank"><img id="dev" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/logoo.png" alt="" width="80"></a>

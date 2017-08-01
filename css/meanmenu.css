@@ -16,7 +16,7 @@ a.meanmenu-reveal {
 /* when under viewport size, .mean-container is added to body */
 .mean-container .mean-bar {
 	padding: 0;
-	min-height: 46px;
+	/*min-height: 46px;*/
 	z-index: 999999;
 }
 
