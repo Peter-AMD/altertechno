@@ -251,7 +251,7 @@
                 </section>
                 <section id="about" class="content"> <!--About Section Starts Here -->
                     <div class="content-main">
-                        <div class="fullwidth-section" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/bub.jpg"'">
+                        <div class="fullwidth-section">
                         <!-- <div class="fullwidth-section"> -->
                           <div class="main-title " style="background-color: #1b1b1b !important;">
                                 <div class="container">
@@ -355,7 +355,7 @@
                                                 <h1>Business Incubaton</h1>
                                                     <ul>
                                                         <li>Office and Facilities Local Presentation</li>
-                                                        <li>Staff REcruitment and Outsourced Payroll Service</li>
+                                                        <li>Staff Recruitment and Outsourced Payroll Service</li>
                                                         <li>Part Time Resources / Local Support</li>
                                                     </ul>
                                             </div>
@@ -553,7 +553,7 @@
                                              <a href="http://www.cacc.com.au/" target="_blank"><img id="canada" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/Canadian.png" alt="" width="80"></a>
                                         </div>
                                     <div class="paraphrase">
-                                        <h2>and in Partnership with: </h2>
+                                        <h2>In Partnership with: </h2>
                                     </div>
                                         <div class="logo-line">
                                               <a href="https://devpartners.co/" target="_blank"><img id="dev" src="<?php echo get_template_directory_uri(); ?>/images/Background/Icons/logoo.png" alt="" width="80"></a>
@@ -1005,7 +1005,7 @@
                 </section><!--Blog Section Ends Here -->
                 <section id="contact" class="content"><!--Contact Section Starts Here -->
                     <div class="content-main">
-                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" id = "contact-bg" style="background-position: 50% -9px; background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/autria.jpg"'">
+                        <div class="fullwidth-section dt-sc-parallax-section contact-parallax dark-bg" id = "contact-bg" style="background-position: 50% -9px;">
 
                                 <div class="main-title">
                                     <div class="container">
@@ -1092,20 +1092,21 @@
                             </ul>
                         </div> -->
                        <div id="newsletter-container">
-                           <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" style="background-image: url('<?php echo get_template_directory_uri(); ?>/images/Background/crowd.jpg"'); ">
+                           <div class="fullwidth-section dark-bg dt-sc-contact-info animate" data-animation = "fadeInUp" data-delay="100" >
 
                                     <div class="container">
                                         <div class="dt-sc-one-half column no-space">
                                         <div class="contact-info">
                                             <div class="contact-wrapper">
                                                 <div class="contact-picture">
-                                                     <img src="<?php echo get_template_directory_uri(); ?>/images/Background/icons/prof.jpg" alt="" style="float: right;">
+                                                     <img src="http://res.cloudinary.com/altertechno/image/upload/dn_72/v1500445375/prof_yzhhww.jpg" alt="" style="float: right;">
                                                 </div>
                                                 <div class="contact-details">
                                                     <ul>
                                                         <li><span class="ico"><i class="fa fa-map-signs"></i></span><div> </div> Unit 428, 1 Missenden Road, Camperdown, 2050, New South Wales, Australia. </li>
                                                         <li><span class="ico"><i class="fa fa-envelope"></i></span> <div> </div><a href="mailto:peter@altertechno.com">peter@altertechno.com</a></li>
-                                                        <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>                                                        
+                                                        <li><span class="ico"><i class="fa fa-linkedin-square"></i></span><div> </div><a href="http://linkedin.com/in/peter-chan-51a5877 ">Peter Chan</a></li>
+
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1113,7 +1114,7 @@
                                                 <div class="subscribe">
                                                     <h1>Subscribe</h1>
                                                     <p>
-                                                        </i> Feel <span class="colorize">free</span> to place your Mail_ID and <span class="colorize"> Subscribe</span> to our Newsletter here. So that, you can receive our exiting Updates and Offers with <span class="colorize">NO WAIT!</span>
+                                                        </i> Enter you email address and name and <span class="colorize">subscribe</span> and <span class="colorize">receive </span>related  articles about latest <span class="colorize">technology and development</span>. You will not receive any <span class="colorize">spam</span>, just great content once a month. </i>
                                                     </p>
                                                 </div>
 

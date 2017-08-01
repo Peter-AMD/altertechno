@@ -413,7 +413,9 @@ jQuery(document).ready(function($){
 	$(".url-link").html("<label class = 'fa fa-link' title = 'Url' id = 'label-link'></label><span>Full Details!</span>")
 
 
+	$("#menu-to-home-menu li").first().css("display", "none");
 
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2'>Home</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#about'>About Us</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#events'>Events</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#blog'>Blog</a></li>");

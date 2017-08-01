@@ -4725,6 +4725,10 @@ div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
     text-shadow: none !important;
 }
 
+.caldera-grid .alert-warning{
+	display: none !important;
+}
+
 span.metainfo {
     background: none !important;
 }
@@ -4870,7 +4874,7 @@ span.metainfo {
 }
 
 .ecwd_theme_calendar_grey .calendar-head .current-month div{
-	font-size: 25px !important;
+	font-size: 3rem !important;
 }
 
 .mean-bar{
@@ -4907,7 +4911,7 @@ span.metainfo {
     padding-bottom: 4px;
     width: 100%;
     float: left;
-    height: 613px;
+    height: 631px;
 }
 
 #content div div h1{
@@ -4919,4 +4923,22 @@ span.metainfo {
     padding-top: 5px;
     padding-bottom: 5px;
     color: #e8cd9b;
+}
+
+#content .content-main .container .entry-footer{
+	margin-bottom: 4% !important;
+}
+
+.subscribe p{
+	line-height: 2;
+}
+
+.contact-info div p{
+	margin: 4%;
+    font-style: italic;
+    word-spacing: 2px;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 3%;
+    font-size: 0.9rem;
 }
