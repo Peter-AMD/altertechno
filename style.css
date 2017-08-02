@@ -4874,7 +4874,12 @@ span.metainfo {
 }
 
 .ecwd_theme_calendar_grey .calendar-head .current-month div{
-	font-size: 3rem !important;
+	font-size: 2rem !important;
+    box-sizing: border-box;
+    line-height: 16px;
+    height: 100px !important;
+    padding-top: 7% !important;
+    color: #e8cd9b !important;
 }
 
 .mean-bar{
@@ -4941,4 +4946,12 @@ span.metainfo {
     line-height: 2;
     margin-bottom: 3%;
     font-size: 0.9rem;
+}
+
+.contact-details ul li:first-child{
+	line-height: 2 !important;
+}
+
+.contact-details ul li{
+	margin-top: 8%;
 }
