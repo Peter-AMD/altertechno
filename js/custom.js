@@ -415,13 +415,15 @@ jQuery(document).ready(function($){
 
 	$("#menu-to-home-menu li").first().css("display", "none");
 
-	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2'>Home</a></li>");
+	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#home'>Home</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#about'>About Us</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#events'>Events</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#blog'>Blog</a></li>");
 	$("#menu-to-home-menu").append("<li id='menu-item-171' class='menu-item menu-item-type-post_type menu-item-object-page menu-item-171'><a href='//localhost/alt_tech_v2#contact'>Contact Us</a></li>");
 
-
+	$(".event-venue span a").on("click", function(e){
+			e.preventDefault();
+	})
 
 
 	// Javascript
