@@ -4676,7 +4676,7 @@ article div .entry-thumb a img{
 @media (max-width: 1400px){
 
 	#logo {
-		margin-top: 5px !important;
+		margin-top: 12px !important;
 	}
 
 }
@@ -4684,11 +4684,12 @@ article div .entry-thumb a img{
 @media only screen and (max-width: 959px) and (min-width: 768px){
 	#logo img{
 		max-width: none !important;
+		margin-top: 0px !important;
 	}
 }
 
 #logo {
-	margin-top: 8px;
+	margin-top: 12px;
 }
 
 div.white_large_shadow_robo.tp-caption.tp-fade.tp-resizeme span{
