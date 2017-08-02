@@ -72,8 +72,20 @@
                             
                             if($after_base_url_string == '')
                                 {
-                                    wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
+                                    // wp_nav_menu( array( 'theme_location' => 'main-menu' ) );
                                     // echo "<script>alert('this is empty " . $after_base_url . "');</script>";
+
+                                    echo '<div class="menu-to-home-menu-container">
+                                <ul id="menu-to-home-menu" class="menu">
+                                    <li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205" style="display: none;"><a href="http://www.altertechno.com">Home</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171">
+                                    <a href="//www.altertechno.com#home">Home</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#about">About Us</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#events">Events</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#blog">Blog</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#contact">Contact Us</a></li>
+                                </ul>
+                            </div>';
                                     
                                 } 
 
@@ -82,10 +94,22 @@
                                     // echo "<a href = 'http://localhost/alt_tech_v2'>Test</a>";
                                     wp_nav_menu( array( 'theme_location' => 'sub-menu' ) );
                                     // echo "<script>alert('" . $after_base_url . "');</script>";
+                                     echo '<div class="menu-to-home-menu-container">
+                                     <ul id="menu-to-home-menu" class="menu">
+                                    <li id="menu-item-205" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-205" style="display: none;"><a href="http://www.altertechno.com">Home</a></li>
+                                    <li id="menu-item-91" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91">
+                                    <a href="//www.altertechno.com#home">Home</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#about">About Us</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#events">Events</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#blog">Blog</a></li>
+                                    <li id="menu-item-171" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-171"><a href="//www.altertechno.com#contact">Contact Us</a></li>
+                                </ul>
+                            </div>';
                                 } 
 
                             
                             ?>
+
                         </nav>
                         
                     </div>
